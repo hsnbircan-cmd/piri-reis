@@ -1,0 +1,19 @@
+{
+  "name": "Piri Reis Dijital Tasarım Atölyesi",
+  "short_name": "Piri Reis Atölye",
+  "description": "Etimesgut BİLSEM Teknoloji ve Tasarım (ÖYG ve Proje) 36 haftalık çevrimdışı ders sitesi",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#b4532a",
+  "lang": "tr",
+  "icons": [
+    {
+      "src": "varlik/simge.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

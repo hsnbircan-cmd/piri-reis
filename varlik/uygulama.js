@@ -1165,4 +1165,19 @@
   window.addEventListener("online", function () { setTimeout(kuyrukDene, 800); });
   ciz();
   setTimeout(kuyrukDene, 1200);
+
+  // Cevrimdisi onbellek (yalnizca https veya localhost uzerinde; file:// uyarisi uretmez)
+  var guvenli = location.protocol === "https:" ||
+    location.hostname === "localhost" ||
+    location.hostname === "127.0.0.1";
+  if (guvenli) {
+    if (!document.querySelector('link[rel="manifest"]')) {
+      document.head.appendChild(el("link", { rel: "manifest", href: "manifest.webmanifest" }));
+    }
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", function () {
+        navigator.serviceWorker.register("./sw.js").catch(function () { /* yoksay */ });
+      });
+    }
+  }
 })();
