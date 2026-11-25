@@ -2285,19 +2285,19 @@ window.DERSLER['oyg'] = {
      "soru": "İmalat yöntemini gözlemlerken aşağıdakilerden hangisi ölçülebilir bir gözlem ölçütüdür?",
      "secenekler": [
       {
-       "metin": "Parça çok havalı çıktı",
-       "dogru": false,
-       "aciklama": "Öznel beğeni bir gözlem ölçütü değildir."
-      },
-      {
-       "metin": "Tasarım ölçüsü ile üretilen parça arasındaki sapma (mm) ve oluşan atık/destek kütlesi (g)",
+       "metin": "Tasarım ölçüsü ile parça arasındaki sapma (mm)",
        "dogru": true,
-       "aciklama": "Doğru. Birimiyle kaydedilebilir ve başka baskılarla karşılaştırılabilir."
+       "aciklama": "Doğru. Birimiyle kaydedilebilir ve başka baskılarla karşılaştırılabilir. Atık ya da destek kütlesi (g) de aynı nitelikte bir ölçüttür."
       },
       {
-       "metin": "Makine güzel ses çıkarıyor",
+       "metin": "Baskı yüzeyinin ne kadar pürüzsüz göründüğü",
        "dogru": false,
-       "aciklama": "Ölçülebilir bir kalite verisi vermez."
+       "aciklama": "Göze dayalı yargı kişiden kişiye değişir. Ölçüt olması için bir ölçeğe ya da alete bağlanması gerekir."
+      },
+      {
+       "metin": "Parçanın elde sağlam hissettirip hissettirmediği",
+       "dogru": false,
+       "aciklama": "His özneldir. Ölçüt olması için kuvvet ya da kütle gibi birimli bir büyüklüğe bağlanmalıdır."
       }
      ]
     }
@@ -3103,19 +3103,19 @@ window.DERSLER['oyg'] = {
      "soru": "Yapay zekâ uygulamalarını ayrıştırırken \"ücretli / ücretsiz\" yerine hangi tür değişkenler daha öğreticidir?",
      "secenekler": [
       {
-       "metin": "Girdi türü, çıktı türü, fiziksel kısıt hesabı yapıp yapmaması ve sonradan düzenlenebilirlik",
+       "metin": "Girdi türü, çıktı türü ve düzenlenebilirlik",
        "dogru": true,
-       "aciklama": "Doğru. Fiyat değişebilir ama teknik işlev ve çıktı özellikleri kalıcı ayrıştırma değişkenleridir."
+       "aciklama": "Doğru. Fiyat değişebilir ama teknik işlev ve çıktı özellikleri kalıcı ayrıştırma değişkenleridir. Fiziksel kısıt hesabı yapıp yapmaması da bu kümeye girer."
       },
       {
-       "metin": "Şirketin logosunun rengi",
+       "metin": "Uygulamanın kullanıcı sayısı ve mağaza puanı",
        "dogru": false,
-       "aciklama": "Tasarım işleviyle ilgisiz bir özelliktir."
+       "aciklama": "Popülerlik ölçüsüdür, teknik işlevi anlatmaz. Bambaşka iş yapan iki araç aynı puanı alabilir."
       },
       {
-       "metin": "Uygulamanın alfabetik sırası",
+       "metin": "Arayüz dili ve ekran tasarımının sadeliği",
        "dogru": false,
-       "aciklama": "Alfabetik sıra teknik özellikleri ayrıştırmaz."
+       "aciklama": "Kullanım kolaylığıyla ilgilidir; çıktının niteliğini ayrıştırmaz."
       }
      ]
     }
@@ -3306,19 +3306,19 @@ window.DERSLER['oyg'] = {
      "soru": "Duvara vidayla bağlanan bir braket için üretken tasarımda vida geçiş yolunu Engel (Obstacle — kırmızı) tanımlamayı unutursan ne olur?",
      "secenekler": [
       {
-       "metin": "Yazılım vida başının ve tornavidanın gireceği boşluğu malzemeyle kapatabilir; parçayı duvara vidalayamazsın",
+       "metin": "Vidanın ve tornavidanın geçeceği boşluk dolabilir",
        "dogru": true,
-       "aciklama": "Doğru. Engel geometriler yalnızca duvarı değil, montaj aletlerinin ve vidaların geçiş yolunu da korur."
+       "aciklama": "Doğru. Yasak alan söylenmedikçe yazılım o hacmi malzemeyle doldurmakta serbesttir; parçayı duvara vidalayamazsın. Engel geometriler montaj aletlerinin yolunu da korur."
       },
       {
-       "metin": "Yazılım vidayı kendisi çizer",
+       "metin": "Yazılım hiç çözüm üretemez ve hata verir",
        "dogru": false,
-       "aciklama": "Yazılım yasak alan söylenmedikçe o hacmi kullanmakta serbesttir."
+       "aciklama": "Yazılım çözüm üretir. Sorun çözümün üretilememesi değil, montaj edilemez çıkmasıdır."
       },
       {
-       "metin": "Hiçbir şey olmaz",
+       "metin": "Sonuç parçanın kütlesi hedefin altına iner",
        "dogru": false,
-       "aciklama": "Montaj edilemeyen bir parça sahada kullanılamaz."
+       "aciklama": "Engel tanımlamamak genelde daha fazla malzeme kullanılmasına yol açar, kütleyi düşürmez."
       }
      ]
     },
@@ -3656,19 +3656,19 @@ window.DERSLER['oyg'] = {
      "soru": "Modül E özgün ürünü için 31. haftada gerçek ortamdan kumpasla ölçü almadan hemen Fusion'da çizime başlarsan ne risk doğar?",
      "secenekler": [
       {
-       "metin": "Basılan ürün gerçek masaya, kabloya veya kapağa oturmaz; baştan yeniden ölçüp basman gerekir",
+       "metin": "Basılan ürün gerçek ortama oturmaz",
        "dogru": true,
-       "aciklama": "Doğru. Gerçek ortam ölçümleri ve tolerans payı özgün ürünün temel girdisidir."
+       "aciklama": "Doğru. Masaya, kabloya ya da kapağa oturmayan parçayı baştan ölçüp yeniden basman gerekir. Gerçek ortam ölçüleri ve tolerans payı özgün ürünün temel girdisidir."
       },
       {
-       "metin": "Fusion 360 dosyayı açmaz",
+       "metin": "Model dosyası daha sonra ölçeklenemez",
        "dogru": false,
-       "aciklama": "Yazılım açılır ama gerçek dünyayla uyumsuz bir parça üretirsin."
+       "aciklama": "Model her zaman ölçeklenebilir. Asıl sorun, hangi ölçüye ölçekleyeceğini bilmemen."
       },
       {
-       "metin": "Render alınamaz",
+       "metin": "Kullanıcı parametreleri sonradan tanımlanamaz",
        "dogru": false,
-       "aciklama": "Sorun render değil fiziksel uyumdur."
+       "aciklama": "Parametreleri sonradan da tanımlayabilirsin. Eksik olan sayının kendisi, kurgunun olanağı değil."
       }
      ]
     },
@@ -3791,19 +3791,19 @@ window.DERSLER['oyg'] = {
      "soru": "Özgün ürününün duvar kalınlığını 0,6 mm çizdiysen 3B baskıda hangi sorunla karşılaşman olasıdır?",
      "secenekler": [
       {
-       "metin": "Duvar tek geçişlik çok ince ve kırılgan çıkar; işlevsel parçalarda genelde en az 1,6–2,0 mm duvar kalınlığı gerekir",
+       "metin": "Duvar tek geçişlik çıkar, parça kolay kırılır",
        "dogru": true,
-       "aciklama": "Doğru. 0,4 mm nozulla 0,6 mm duvar yeterli dayanım vermez."
+       "aciklama": "Doğru. 0,4 mm nozulla 0,6 mm duvar tek geçişe denk gelir ve yeterli dayanım vermez; işlevsel parçalarda genelde en az 1,6-2,0 mm duvar kullanılır."
       },
       {
-       "metin": "Parça aşırı ağırlaşır",
+       "metin": "Dilimleyici o duvarı hiç basmayabilir",
        "dogru": false,
-       "aciklama": "Aksine yetersiz malzeme nedeniyle kolay kırılır."
+       "aciklama": "Bu, duvar nozul genişliğinin (0,4 mm) altına inerse olur. 0,6 mm basılır, ama tek geçiş olduğu için dayanımı düşüktür."
       },
       {
-       "metin": "Fillet komutu hiç çalışmaz",
+       "metin": "Baskı süresi belirgin biçimde uzar",
        "dogru": false,
-       "aciklama": "Sorun fiziksel üretim dayanımıdır."
+       "aciklama": "İnce duvar daha az malzeme ve daha kısa süre demektir. Buradaki risk süre değil dayanımdır."
       }
      ]
     }
@@ -4121,19 +4121,19 @@ window.DERSLER['oyg'] = {
      "soru": "Test sırasında çıkan bir sorunu teşhis ederken \"üretim sapması\" ile \"tasarım hatası\" ayrımını nasıl yaparsın?",
      "secenekler": [
       {
-       "metin": "Parça kumpasla tasarım ölçüsünden farklı çıktıysa üretim sapması; tasarım ölçüsüyle birebir aynı çıktığı hâlde işe yaramıyorsa tasarım hatasıdır",
+       "metin": "Ölçü tutmuyorsa üretim, tutuyorsa tasarım sorunudur",
        "dogru": true,
-       "aciklama": "Doğru. Bu ayrım, yazıcı ayarını mı yoksa CAD modelini mi düzelteceğini netleştirir."
+       "aciklama": "Doğru. Parça kumpasla tasarım ölçüsünden farklı çıktıysa üretim sapması; ölçü birebir aynı olduğu hâlde işe yaramıyorsa tasarım hatası. Bu ayrım yazıcı ayarını mı CAD modelini mi düzelteceğini belirler."
       },
       {
-       "metin": "İkisi arasında fark yoktur",
+       "metin": "Hata tekrarlıyorsa tasarım, tek seferlikse üretim",
        "dogru": false,
-       "aciklama": "İkisinin çözümü farklı yerdedir."
+       "aciklama": "Tekrar etmek ipucu verir ama ölçüt değildir; aynı yazıcı ayarı her baskıda aynı sapmayı üretir."
       },
       {
-       "metin": "Filament rengi soluksa tasarım hatasıdır",
+       "metin": "Yüzey kalitesine bakarak ayırt edilir",
        "dogru": false,
-       "aciklama": "Renk geometrik işlevle ilgisizdir."
+       "aciklama": "Yüzey kalitesi baskı ayarıyla ilgilidir, işlevin tutup tutmadığını söylemez."
       }
      ]
     }

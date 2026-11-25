@@ -105,19 +105,19 @@ window.DERSLER['puy'] = {
      "soru": "\"Bu tablo çok etkileyici\" ifadesi neden bilimsel bilgi sınıfına girmez?",
      "secenekler": [
       {
-       "metin": "Yanlış olduğu gözlem veya deneyle herkeste aynı biçimde gösterilemeyeceği (kişisel beğeni olduğu) için",
+       "metin": "Yanlışlığı gözlem ya da deneyle gösterilemez",
        "dogru": true,
-       "aciklama": "Doğru. Değerli bir estetik yargıdır ama bilimsel bilgi ölçütüne (sınanabilirlik) girmez."
+       "aciklama": "Doğru. Kişisel beğeni ifadeleri sınanamaz. Değerli bir estetik yargıdır ama bilimsel bilgi ölçütüne girmez."
       },
       {
-       "metin": "Sanat önemsiz olduğu için",
+       "metin": "Bir uzman tarafından söylenmemiştir",
        "dogru": false,
-       "aciklama": "Bilimsel olmamak değersiz olmak değildir; yalnızca farklı bir bilgi türüdür."
+       "aciklama": "Bilimselliği söyleyenin unvanı değil, ifadenin sınanabilirliği belirler."
       },
       {
-       "metin": "İçinde sayı geçmediği için",
+       "metin": "Ölçüm aracıyla sayıya dökülmemiştir",
        "dogru": false,
-       "aciklama": "Nitel bilimsel bilgi de vardır; asıl ölçüt yöntemsel sınanabilirliktir."
+       "aciklama": "Nitel bilimsel bilgi de vardır. Ölçüt sayı değil, yöntemle sınanabilirliktir."
       }
      ]
     }
@@ -794,19 +794,19 @@ window.DERSLER['puy'] = {
      "soru": "Temel araştırma ile uygulamalı araştırma arasındaki ana fark nedir?",
      "secenekler": [
       {
-       "metin": "Temel araştırma doğayı ve ilkeleri anlamaya, uygulamalı araştırma ise somut bir günlük/endüstriyel sorunu çözmeye odaklanır",
+       "metin": "Biri ilkeyi anlar, diğeri somut soruna çözüm arar",
        "dogru": true,
-       "aciklama": "Doğru. İkisi de bilimsel yöntem kullanır ama amaç odağı farklıdır."
+       "aciklama": "Doğru. İkisi de bilimsel yöntem kullanır, veri toplar ve kanıta dayanır; fark amaç odağındadır."
       },
       {
-       "metin": "Temel araştırmada veri toplanmaz",
+       "metin": "Biri laboratuvarda, diğeri sahada yürütülür",
        "dogru": false,
-       "aciklama": "Her iki araştırma türü de sistematik veri ve kanıta dayanır."
+       "aciklama": "Ortam değişebilir. Temel araştırma sahada, uygulamalı araştırma laboratuvarda da yapılabilir."
       },
       {
-       "metin": "Uygulamalı araştırma bilimsel sayılmaz",
+       "metin": "Biri nicel, diğeri nitel yöntem kullanır",
        "dogru": false,
-       "aciklama": "Uygulamalı araştırma bilimsel araştırma projelerinin en yaygın sınıflarındandır."
+       "aciklama": "Yöntem seçimi araştırma sorusuna bağlıdır; her iki tür de nicel ya da nitel olabilir."
       }
      ]
     },
@@ -1266,19 +1266,19 @@ window.DERSLER['puy'] = {
      "soru": "Aşağıdaki sorun tanımlamalarından hangisi PÜY projesi için daha somut ve işlenebilir bir başlangıçtır?",
      "secenekler": [
       {
-       "metin": "Okul kütüphanesinde masa aydınlatmalarının düzensiz olması nedeniyle akşam etütlerinde göz yorgunluğu yaşanması",
+       "metin": "Okul kütüphanesinde akşam etütlerinde göz yorgunluğu",
        "dogru": true,
-       "aciklama": "Doğru. Yer, kullanıcı ve ölçülebilir etken (lüks aydınlatma düzeyi) açıktır."
+       "aciklama": "Doğru. Yer, kullanıcı ve ölçülebilir etken (aydınlatma düzeyi) açık; bir öğretim yılında ölçülebilir."
       },
       {
-       "metin": "Dünyadaki tüm enerji sorunları",
+       "metin": "Okullarda aydınlatma kalitesinin yetersiz olması",
        "dogru": false,
-       "aciklama": "Bir öğretim yılında ölçülemeyecek kadar geniştir."
+       "aciklama": "Doğru yöne bakıyor ama yer ve kullanıcı belirsiz: hangi okul, hangi mekân, hangi ölçüt? Ölçmeye başlayamazsın."
       },
       {
-       "metin": "Teknoloji bazen kötüdür",
+       "metin": "Öğrencilerin verimli ders çalışamaması sorunu",
        "dogru": false,
-       "aciklama": "Belirsiz bir yargıdır, somut problem değildir."
+       "aciklama": "Çok geniş. Verim pek çok etkene bağlı; tek bir projede ölçülebilir bir değişkene indirgenmemiş."
       }
      ]
     }
@@ -1361,19 +1361,19 @@ window.DERSLER['puy'] = {
      "soru": "Veriye dayalı bir gelecek projeksiyonunda \"varsayımını\" açıkça yazmak neden bilimsel olgunluk göstergesidir?",
      "secenekler": [
       {
-       "metin": "Gelecek her zaman doğrusal ilerlemez; yeni bir yasa veya teknoloji eğriyi kırabileceğinden tahminin hangi koşulda geçerli olduğu bilinmelidir",
+       "metin": "Tahminin hangi koşulda geçerli olduğunu gösterir",
        "dogru": true,
-       "aciklama": "Doğru. Koşulsuz kesin kehanet bilim dışıdır; koşullu projeksiyon denetlenebilir ve tartışılabilirdir."
+       "aciklama": "Doğru. Gelecek doğrusal ilerlemez; yeni bir yasa ya da teknoloji eğriyi kırabilir. Koşulsuz kehanet sınanamaz, koşullu projeksiyon tartışılabilir."
       },
       {
-       "metin": "Yanılırsan bahanen hazır olsun diye",
+       "metin": "Tahmini daha kesin ve güvenilir hale getirir",
        "dogru": false,
-       "aciklama": "Amaç mazeret değil, modelin sınırlarını saydam biçimde göstermektir."
+       "aciklama": "Varsayım yazmak kesinliği artırmaz, belirsizliği görünür kılar. Değeri de buradadır."
       },
       {
-       "metin": "Hesap makinesi kullanmamak için",
+       "metin": "Okuyucunun hesabı kendisinin yapmasını sağlar",
        "dogru": false,
-       "aciklama": "Projeksiyon hem sayısal hesap hem de varsayım bilinci gerektirir."
+       "aciklama": "Varsayım, hesabı devretmek için değil hesabın sınırlarını bildirmek için yazılır."
       }
      ]
     },
@@ -1591,19 +1591,19 @@ window.DERSLER['puy'] = {
      "soru": "Aşağıdakilerden hangisi bilimsel olarak güçlü bir \"özgünlük gerekçesi\" cümlesidir?",
      "secenekler": [
       {
-       "metin": "\"Literatürde X (2023) bu yalıtımı yalnızca kurak ortamda test etmiş; bu projede nemli ortam değişkeni eklenerek yerel atık malzemeyle karşılaştırılacaktır.\"",
+       "metin": "X (2023) bunu kurak ortamda test etti; biz nemi ekliyoruz",
        "dogru": true,
-       "aciklama": "Doğru. Önceki literatüre atıf yapıp tam olarak hangi yeni değişken veya bağlamı eklediğini netleştirir."
+       "aciklama": "Doğru. Önceki çalışmaya atıf yapıp tam olarak hangi yeni değişkeni ya da bağlamı eklediğini söylüyor."
       },
       {
-       "metin": "\"Dünyada bunu daha önce kimse düşünmemiştir.\"",
+       "metin": "Bu konuda ülkemizde yeterli çalışma bulunmamaktadır",
        "dogru": false,
-       "aciklama": "Kanıtlanamaz ve genelde yüzeysel literatür taramasının işaretidir."
+       "aciklama": "Sık kullanılan ama zayıf bir gerekçe: hangi çalışmalara bakıldığı ve tam olarak neyin eksik olduğu belirtilmemiş."
       },
       {
-       "metin": "\"Konuyu çok sevdiğim için özgündür.\"",
+       "metin": "Bu çalışma literatüre önemli katkı sağlayacaktır",
        "dogru": false,
-       "aciklama": "Kişisel ilgi önemlidir ama özgünlük ölçütü değildir."
+       "aciklama": "Katkı iddiası gerekçe değil sonuçtur. Hangi boşluğu doldurduğunu göstermeden savunulamaz."
       }
      ]
     },
@@ -1611,19 +1611,19 @@ window.DERSLER['puy'] = {
      "soru": "Ara Teslim 1 (Konu Onayı) tamamlanmadan neden iş takvimi ve giriş yazımına geçilmez?",
      "secenekler": [
       {
-       "metin": "Konu ve araştırma sorusu bulanık kalırsa sonraki tüm haftalarda (yöntem, veri, rapor) sürekli başa dönmek zorunda kalırsın",
+       "metin": "Konu bulanıksa sonraki aşamalarda başa dönmek gerekir",
        "dogru": true,
-       "aciklama": "Doğru. Her ara teslim bir sonraki aşamanın sağlam temelidir."
+       "aciklama": "Doğru. Yöntem, veri ve rapor konuya dayanır; konu değişirse hepsi değişir. Her ara teslim bir sonraki aşamanın temelidir."
       },
       {
-       "metin": "15. hafta tatil olduğu için",
+       "metin": "İş takvimi yalnızca onaydan sonra yazılabilir",
        "dogru": false,
-       "aciklama": "Bu pedagojik ve proje yönetimi kaynaklı bir ön koşuldur."
+       "aciklama": "Teknik bir yasak yok, taslak çıkarabilirsin. Sorun, konu değişince takvimin de geçersiz kalması."
       },
       {
-       "metin": "Onay formu raporun tamamı olduğu için",
+       "metin": "Giriş bölümü onay formunun bir parçasıdır",
        "dogru": false,
-       "aciklama": "Onay formu yalnızca yönü kesinleştiren ilk duraktır."
+       "aciklama": "Onay formu yalnızca yönü kesinleştiren ilk duraktır; giriş bölümü 17. haftada yazılır."
       }
      ]
     }
@@ -3097,19 +3097,19 @@ window.DERSLER['puy'] = {
      "soru": "Elektronik tabloda bir sütundaki sayıların hücrenin sol tarafına yaslandığını ve ortalama formülünün hata verdiğini gördün. En olası neden nedir?",
      "secenekler": [
       {
-       "metin": "Hücrelerin içine sayıyla birlikte birim (\"20 mm\") yazıldığı veya yanlış ondalık ayıracı kullanıldığı için yazılım onları metin sanıyordur",
+       "metin": "Hücredeki değer sayı değil metin olarak algılanıyordur",
        "dogru": true,
-       "aciklama": "Doğru. Birimi sütun başlığına yaz, hücreye yalnızca saf sayı gir."
+       "aciklama": "Doğru. Genellikle sayının yanına birim yazılmıştır (20 mm) ya da ondalık ayıracı yanlıştır. Birimi sütun başlığına yaz, hücreye yalnızca saf sayı gir."
       },
       {
-       "metin": "Sayılar çok büyük olduğu için",
+       "metin": "Sütun genişliği sayıları göstermeye yetmiyordur",
        "dogru": false,
-       "aciklama": "Sayılar normalde sağa yaslanır; sola yaslanmaları metin olarak algılandıklarının işaretidir."
+       "aciklama": "Genişlik yetmediğinde hücrede ### görünür; yaslama değişmez."
       },
       {
-       "metin": "Yazılım ortalama hesaplayamadığı için",
+       "metin": "Ortalama formülünün aralığı yanlış seçilmiştir",
        "dogru": false,
-       "aciklama": "Tüm elektronik tablolar saf sayı sütunlarında ortalamayı anında hesaplar."
+       "aciklama": "Yanlış aralık hata değil yanlış sonuç verir. Sola yaslanma ise veri türünün işaretidir."
       }
      ]
     }
@@ -4118,19 +4118,19 @@ window.DERSLER['puy'] = {
      "soru": "Tamamlanan projen yeni bir eğitim yöntemi, veri analizi raporu veya açık kaynak bir yazılım aracıysa en bilinçli koruma kararı hangisi olabilir?",
      "secenekler": [
       {
-       "metin": "5846 sayılı FSEK telif hakları veya açık kaynak / Creative Commons lisansı (ve istenirse proje adı için marka)",
+       "metin": "Telif hakları ya da açık kaynak lisansı",
        "dogru": true,
-       "aciklama": "Doğru. Her çıktıya zorla patent aramak yerine çıktının niteliğine uygun koruma ya da açık paylaşım lisansı seçilir."
+       "aciklama": "Doğru. Yöntem, rapor ve yazılım 5846 sayılı FSEK kapsamında eser olarak korunur; istersen Creative Commons gibi açık bir lisans seçebilir, proje adı için marka başvurusu yapabilirsin."
       },
       {
-       "metin": "Mutlaka patent başvurusu yapmak",
+       "metin": "Patent başvurusu, çünkü en güçlü korumadır",
        "dogru": false,
-       "aciklama": "Saf yazılımlar, bilimsel kuramlar ve eğitim yöntemleri tek başına patent konusu değildir."
+       "aciklama": "Saf yazılımlar, bilimsel kuramlar ve eğitim yöntemleri tek başına patent konusu değildir. Güçlü olan değil, çıktının niteliğine uyan koruma seçilir."
       },
       {
-       "metin": "Hiçbir hak türü yoktur",
+       "metin": "Faydalı model, çünkü başvurusu daha hızlıdır",
        "dogru": false,
-       "aciklama": "Eserler oluştuğu anda FSEK kapsamında korunur; açık paylaşmak istersen de lisansını belirlemek önemlidir."
+       "aciklama": "Faydalı model de teknik bir ürün ya da yöntem ister. Hız, koruma türünü seçme ölçütü olamaz."
       }
      ]
     },
