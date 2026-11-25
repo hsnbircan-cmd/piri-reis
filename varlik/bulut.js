@@ -269,6 +269,10 @@ window.BULUT = (function () {
     }
 
     var simdi = zamanMetni(new Date());
+    // Bu tarayicinin buluttan aldigi en son surumun tarihi. Sunucu bunu
+    // karsilastirip arada baska bir cihazin kaydedip kaydetmedigini anlar.
+    var temel = "";
+    try { temel = window.localStorage.getItem(SON_KAYIT_ANAHTAR) || ""; } catch (e) { /* yoksay */ }
     var yuk = {
       islem: "taslak_kaydet",
       anahtar: AYAR.sinifAnahtari || "",
@@ -277,6 +281,7 @@ window.BULUT = (function () {
       sifre: oturum.sifre,
       zorlaYeni: !!oturum.zorlaYeni,
       tarih: simdi,
+      temelTarih: temel,
       kayitlar: calismaTopla().kayitlar
     };
 
@@ -285,11 +290,19 @@ window.BULUT = (function () {
     bulutIstek(yuk, function (sonuc) {
       kaydediliyor = false;
       if (sonuc.ok) {
+        var birlesti = !!(sonuc.veri && sonuc.veri.birlesti);
+        if (birlesti && sonuc.veri.kayitlar) {
+          // Arada baska bir cihaz kaydetmis. Sunucu iki kaydi birlestirdi;
+          // birlesik sonucu bu tarayiciya da uyguluyoruz ki ikisi ayni olsun.
+          calismaUygula(sonuc.veri.kayitlar, oturum);
+        }
         try {
           window.localStorage.setItem(SON_KAYIT_ANAHTAR, sonuc.veri.tarih || simdi);
           window.localStorage.setItem(KIRLI_ANAHTAR, "0");
         } catch (e) { /* yoksay */ }
-        durumBildir("Buluta kaydedildi · " + saatMetni(new Date()));
+        durumBildir(birlesti
+          ? "Başka cihazdaki çalışmanla birleştirildi · sayfayı yenileyince görünür"
+          : "Buluta kaydedildi · " + saatMetni(new Date()));
         if (cb) cb(true, sonuc);
       } else {
         try { window.localStorage.setItem(KIRLI_ANAHTAR, "1"); } catch (e) { /* yoksay */ }
@@ -310,7 +323,11 @@ window.BULUT = (function () {
     yerelZamanlayici = setTimeout(function () { yerelProfilYaz(oturumAl()); }, 600);
 
     clearTimeout(bulutZamanlayici);
-    bulutZamanlayici = setTimeout(function () { bulutKaydet(); }, 4000);
+    // 25 saniye: sunucuya her istek ~2-3 saniye surdugu icin sik kayit ayni
+    // derste calisan ogrencileri kuyruga sokuyordu. Sayfa/sekme degisimi,
+    // internete baglanma ve "Simdi kaydet" aninda zorla kaydettigi icin
+    // bu bekleme veri kaybina yol acmaz.
+    bulutZamanlayici = setTimeout(function () { bulutKaydet(); }, 25000);
     durumBildir("Kaydedilecek değişiklik var...");
   }
 

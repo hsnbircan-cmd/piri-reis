@@ -3,7 +3,7 @@
 // sonraki acilislarda internet olmasa bile GitHub Pages adresinden calisir.
 // Internet varken once agdan guncel surumu ceker ve onbellegi tazeler.
 
-var ONBELLEK = "prdta-v4";
+var ONBELLEK = "prdta-v5";
 var DOSYALAR = [
   "./",
   "./index.html",
