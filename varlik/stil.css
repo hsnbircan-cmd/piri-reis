@@ -420,10 +420,54 @@ details.ders-katla{border:1px solid var(--cizgi);border-radius:10px;padding:12px
 .rapor-gonder-kart{background:var(--panel)}
 .rapor-baski-alani{display:none}
 
+/* ---------- ogrenci oturumu ve bulut esitleme ---------- */
+.ogrenci-cubuk{
+  background:var(--panel);border-bottom:1px solid var(--cizgi);
+  padding:8px 24px;
+}
+.ogrenci-cubuk-ic{
+  max-width:960px;margin:0 auto;display:flex;align-items:center;
+  justify-content:space-between;gap:12px;flex-wrap:wrap;
+}
+.ogrenci-kimlik-bilgi{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:15px}
+.ogrenci-cubuk-dugmeler{display:flex;gap:8px;flex-wrap:wrap}
+.ogrenci-acilir-panel{max-width:960px;margin:10px auto 4px;padding-top:10px;border-top:1px solid var(--cizgi)}
+
+.oturum-kart{
+  background:#fff;border:1px solid var(--cizgi);border-left:4px solid var(--vurgu);
+  border-radius:12px;padding:18px 20px;margin:0 0 22px;
+}
+.oturum-kart-bas h2{font-size:19px;margin:0 0 4px;color:var(--metin)}
+.oturum-kart-bas p{margin:0 0 12px}
+.oturum-form .oturum-alanlar{
+  display:flex;gap:8px;flex-wrap:wrap;align-items:stretch;
+}
+.oturum-girdi{
+  flex:1 1 180px;border:1px solid var(--cizgi);border-radius:8px;
+  padding:9px 12px;font-family:inherit;font-size:15.5px;color:var(--metin);background:#fff;
+}
+.oturum-girdi:focus{outline:2px solid var(--vurgu);outline-offset:1px}
+.oturum-sifre{flex:0 1 190px}
+.oturum-grup{flex:0 1 150px}
+.oturum-ipucu-satir{
+  display:flex;justify-content:space-between;align-items:center;gap:10px;
+  flex-wrap:wrap;margin-top:8px;
+}
+.oturum-sifre-not{color:var(--vurgu);font-weight:600}
+.oturum-durum{margin-top:8px;font-size:14.5px;font-weight:600}
+.oturum-durum.tamam{color:var(--yesil)}
+.oturum-durum.hata{color:#a82c1a}
+.oturum-durum.bekliyor{color:var(--vurgu)}
+.oturum-ek{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+input.kilitli-ad{background:var(--panel);color:var(--soluk);cursor:not-allowed}
+
 @media (max-width:720px){
   .ders-kart-liste,.ikili,.karsilastir-ikili,.sozluk-liste{grid-template-columns:1fr}
   body{font-size:16px}
   main{padding:20px 16px 50px}
+  .ogrenci-cubuk{padding:8px 16px}
+  .oturum-form .oturum-alanlar{flex-direction:column}
+  .oturum-sifre,.oturum-grup{flex:1 1 auto}
 }
 
 /* ---------- yazdirma ---------- */
@@ -434,7 +478,8 @@ details.ders-katla{border:1px solid var(--cizgi);border-radius:10px;padding:12px
   .yazdir-dugme,.giris-bas,.ders-kart-liste,.bu-hafta,.gelemedim,.taslak-uyari,
   .kimlik,.gonder-satir,.gonderim-durum,.kip-cubuk,.ogrenme-destek,.arac-kutu,
   .sina-kutu,.ozdenetim-kutu,.ilgili-kavramlar,.devam-kutu,.yedek-kutu,
-  .yoklama-katla,.tekrar-kutu,.onbilgi-kutu,.hafta-ust-gezinti{display:none !important}
+  .yoklama-katla,.tekrar-kutu,.onbilgi-kutu,.hafta-ust-gezinti,
+  .ogrenci-cubuk,.oturum-kart{display:none !important}
   main{max-width:none;padding:0}
   .hafta-bas h1{font-size:19pt}
   .ad-satir{display:block;margin:10px 0 16px;font-size:11pt;color:#000}

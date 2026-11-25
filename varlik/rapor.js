@@ -403,10 +403,17 @@ window.RAPOR = (function () {
 
     // 1. Ogrenci kimligi & Proje Kunyesi
     var km = kimlikAl();
+    var oturumAktif = !!(window.BULUT && window.BULUT.oturumAl());
     var adAlan = el("input", { type: "text", placeholder: "Ad Soyad (gönderim için zorunlu)", value: km.ad });
     var grupAlan = el("input", { type: "text", placeholder: "Grup (ör. PÜY-1)", value: km.grup });
     var takimAlan = el("input", { type: "text", placeholder: "Takım arkadaşları (varsa)", value: v.takim });
-    adAlan.addEventListener("input", function () { depoYaz("prdta.ogrenci.ad", adAlan.value); kaydet(); });
+    if (oturumAktif) {
+      adAlan.readOnly = true;
+      adAlan.className = "kilitli-ad";
+      adAlan.title = "Öğrenci değiştirmek için üst çubuktan Çıkış / Değiştir düğmesini kullan.";
+    } else {
+      adAlan.addEventListener("input", function () { depoYaz("prdta.ogrenci.ad", adAlan.value); kaydet(); });
+    }
     grupAlan.addEventListener("input", function () { depoYaz("prdta.ogrenci.grup", grupAlan.value); kaydet(); });
     takimAlan.addEventListener("input", function () { v.takim = takimAlan.value; kaydet(); });
 

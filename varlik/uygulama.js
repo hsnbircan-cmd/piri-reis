@@ -6,7 +6,9 @@
   var SOZLUK = window.SOZLUK || [];
   var GORSELLER = window.GORSELLER || {};
   var ARACLAR = window.ARACLAR || {};
+  var BULUT = window.BULUT || null;
   var icerik = document.getElementById("icerik");
+  var ogrenciCubuk = document.getElementById("ogrenci-cubuk");
 
   // ---------- kucuk yardimcilar ----------
   function el(etiket, ozellik, cocuk) {
@@ -34,6 +36,7 @@
 
   function depoYaz(anahtar, deger) {
     try { window.localStorage.setItem(anahtar, deger); } catch (e) { /* yoksay */ }
+    if (BULUT) BULUT.degisiklikBildir(anahtar);
   }
 
   function trKucuk(s) {
@@ -80,7 +83,7 @@
     try {
       for (var i = 0; i < window.localStorage.length; i++) {
         var k = window.localStorage.key(i);
-        if (k && k.indexOf("prdta.") === 0) {
+        if (k && k.indexOf("prdta.") === 0 && k.indexOf("prdta.bulut.") !== 0 && k !== "prdta.kuyruk") {
           veri[k] = window.localStorage.getItem(k);
           adet++;
         }
@@ -269,6 +272,11 @@
       })
     ]));
 
+    // Ogrenci bulut giris karti (oturum acik degilse)
+    if (BULUT && !BULUT.oturumAl()) {
+      p.appendChild(BULUT.girisKarti({ el: el, yenile: ciz }));
+    }
+
     // Kaldigin yerden devam et
     var sonYol = depoAl("prdta.son.yol", "");
     if (sonYol) {
@@ -347,8 +355,8 @@
     yukleDugme.addEventListener("click", function () { dosyaGirdi.click(); });
 
     p.appendChild(el("div", { class: "yedek-kutu" }, [
-      el("h3", { metin: "Başka bir bilgisayarda devam etmek ister misin?" }),
-      el("p", { class: "kucuk", metin: "Cevapların yalnızca bu tarayıcıda saklanır. Atölyede başlayıp evde devam etmek için dosyanı indirip diğer bilgisayarda geri yükleyebilirsin." }),
+      el("h3", { metin: "Dosya yedeği ve hızlı araçlar" }),
+      el("p", { class: "kucuk", metin: "Ad Soyad ve öğrenci numaranın son 4 hanesiyle giriş yaptığında çalışmaların bulutta kendiliğinden saklanır. İnternetsiz ortamda taşımak istersen dosya (.json) yedeği de alabilirsin." }),
       el("div", { class: "yedek-dugmeler" }, [
         indirDugme,
         yukleDugme,
@@ -1027,10 +1035,17 @@
       ]));
 
       var km = kimlikAl();
+      var oturumAktif = !!(BULUT && BULUT.oturumAl());
       var adAlan = el("input", { type: "text", placeholder: "Ad Soyad" });
       var grupAlan = el("input", { type: "text", placeholder: "Grup" });
       adAlan.value = km.ad; grupAlan.value = km.grup;
-      adAlan.addEventListener("input", function () { depoYaz("prdta.ogrenci.ad", adAlan.value); adSatiriYaz(); });
+      if (oturumAktif) {
+        adAlan.readOnly = true;
+        adAlan.className = "kilitli-ad";
+        adAlan.title = "Öğrenci değiştirmek için üst çubuktan Çıkış / Değiştir düğmesini kullan.";
+      } else {
+        adAlan.addEventListener("input", function () { depoYaz("prdta.ogrenci.ad", adAlan.value); adSatiriYaz(); });
+      }
       grupAlan.addEventListener("input", function () { depoYaz("prdta.ogrenci.grup", grupAlan.value); adSatiriYaz(); });
       yaprak.appendChild(el("div", { class: "kimlik" }, [adAlan, grupAlan]));
 
@@ -1057,7 +1072,7 @@
         }
       });
 
-      yaprak.appendChild(el("p", { class: "kayit-notu", metin: "Yazdıkların bu tarayıcıda kendiliğinden saklanır. Başka bilgisayara taşımak için ana sayfadan yedek alabilirsin." }));
+      yaprak.appendChild(el("p", { class: "kayit-notu", metin: oturumAktif ? "Yazdıkların bu tarayıcıda ve bulut hesabında kendiliğinden saklanır." : "Yazdıkların bu tarayıcıda kendiliğinden saklanır. Başka bilgisayardan devam etmek için yukarıdan Ad Soyad ve öğrenci numaranın son 4 hanesiyle giriş yapabilirsin." }));
 
       // gonderim
       var durum = el("div", { class: "gonderim-durum" });
@@ -1182,9 +1197,16 @@
     });
   }
 
+  function cubuguGuncelle() {
+    if (BULUT && ogrenciCubuk) {
+      BULUT.cubukCiz(ogrenciCubuk, { el: el, yenile: ciz });
+    }
+  }
+
   function ciz() {
     var yol = (location.hash || "#/").replace(/^#\/?/, "").split("/").filter(Boolean);
     ustNavGuncelle(yol);
+    cubuguGuncelle();
     var raporMu = yol[0] === "rapor";
     document.body.classList.toggle("rapor-mod", raporMu);
     var sayfa;
@@ -1205,7 +1227,11 @@
     window.scrollTo(0, 0);
   }
 
-  window.addEventListener("hashchange", ciz);
+  if (BULUT) BULUT.durumDinle(cubuguGuncelle);
+  window.addEventListener("hashchange", function () {
+    if (BULUT) BULUT.degisiklikVarsaKaydet();
+    ciz();
+  });
   window.addEventListener("online", function () { setTimeout(kuyrukDene, 800); });
   ciz();
   setTimeout(kuyrukDene, 1200);
