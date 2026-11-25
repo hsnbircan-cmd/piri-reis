@@ -3,7 +3,7 @@
 // sonraki acilislarda internet olmasa bile GitHub Pages adresinden calisir.
 // Internet varken once agdan guncel surumu ceker ve onbellegi tazeler.
 
-var ONBELLEK = "prdta-v2";
+var ONBELLEK = "prdta-v3";
 var DOSYALAR = [
   "./",
   "./index.html",
@@ -12,6 +12,7 @@ var DOSYALAR = [
   "./varlik/uygulama.js",
   "./varlik/gorseller.js",
   "./varlik/araclar.js",
+  "./varlik/rapor.js",
   "./varlik/simge.svg",
   "./veri/ayar.js",
   "./veri/oyg.js",

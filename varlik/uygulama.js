@@ -286,6 +286,18 @@
       }
     }
 
+    // Proje Raporu taslagi varsa ana sayfada kisayol goster
+    if (window.RAPOR && window.RAPOR.taslakVarMi(depoAl)) {
+      var sonRapor = depoAl("prdta.rapor.sonKayit", "");
+      p.appendChild(el("div", { class: "devam-kutu rapor-devam-kutu" }, [
+        el("div", {}, [
+          el("span", { class: "kucuk", metin: "Proje Raporu taslağın kaydedildi" + (sonRapor ? " · " + sonRapor : "") }),
+          el("div", { class: "devam-baslik", metin: "Kaldığın yerden proje raporuna devam et" })
+        ]),
+        el("a", { class: "dugme", href: "#/rapor", metin: "Raporu aç →" })
+      ]));
+    }
+
     var kartlar = el("div", { class: "ders-kart-liste" });
     ["oyg", "puy"].forEach(function (ders) {
       if (!DERSLER[ders]) return;
@@ -337,7 +349,13 @@
     p.appendChild(el("div", { class: "yedek-kutu" }, [
       el("h3", { metin: "Başka bir bilgisayarda devam etmek ister misin?" }),
       el("p", { class: "kucuk", metin: "Cevapların yalnızca bu tarayıcıda saklanır. Atölyede başlayıp evde devam etmek için dosyanı indirip diğer bilgisayarda geri yükleyebilirsin." }),
-      el("div", { class: "yedek-dugmeler" }, [indirDugme, yukleDugme, dosyaGirdi, el("a", { class: "dugme ikincil", href: "#/sozluk", metin: "Kavram Sözlüğü (" + SOZLUK.length + ")" })]),
+      el("div", { class: "yedek-dugmeler" }, [
+        indirDugme,
+        yukleDugme,
+        dosyaGirdi,
+        el("a", { class: "dugme ikincil", href: "#/rapor", metin: "Proje Raporu Yaz" }),
+        el("a", { class: "dugme ikincil", href: "#/sozluk", metin: "Kavram Sözlüğü (" + SOZLUK.length + ")" })
+      ]),
       yedekDurum
     ]));
 
@@ -1167,9 +1185,19 @@
   function ciz() {
     var yol = (location.hash || "#/").replace(/^#\/?/, "").split("/").filter(Boolean);
     ustNavGuncelle(yol);
+    var raporMu = yol[0] === "rapor";
+    document.body.classList.toggle("rapor-mod", raporMu);
     var sayfa;
     if (!yol.length) sayfa = giris();
     else if (yol[0] === "sozluk") sayfa = sozlukSayfasi(yol[1] ? decodeURIComponent(yol[1]) : "");
+    else if (raporMu && window.RAPOR) {
+      sayfa = window.RAPOR.sayfa({
+        el: el, depoAl: depoAl, depoYaz: depoYaz, kimlikAl: kimlikAl,
+        zamanMetni: zamanMetni, gonder: gonder, kuyrukAl: kuyrukAl,
+        kuyrugaEkle: kuyrugaEkle, kuyruktanCikar: kuyruktanCikar,
+        AYAR: AYAR, yenile: ciz
+      });
+    }
     else if (yol.length === 1) sayfa = dersSayfasi(yol[0]);
     else sayfa = haftaSayfasi(yol[0], parseInt(yol[1], 10));
     icerik.innerHTML = "";

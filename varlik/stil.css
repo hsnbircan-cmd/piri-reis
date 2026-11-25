@@ -355,6 +355,71 @@ details.ders-katla{border:1px solid var(--cizgi);border-radius:10px;padding:12px
 .alt p{margin:0}
 .alt .kucuk{margin-top:4px}
 
+/* ---------- proje raporu calisma alani ---------- */
+.rapor-devam-kutu{background:var(--yesil-acik);border-color:#c9dcd5}
+.rapor-arac-cubuk{
+  background:var(--panel);border:1px solid var(--cizgi);border-radius:12px;
+  padding:14px 16px;margin:14px 0;
+}
+.rapor-rozetler{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.rapor-islem-dugmeler{display:flex;gap:8px;flex-wrap:wrap}
+.rapor-islem-durum{margin-top:8px;color:var(--yesil);font-weight:600}
+.rapor-kurallar{margin:12px 0 14px}
+.rapor-icindekiler{
+  display:flex;gap:6px;flex-wrap:wrap;margin:12px 0 18px;
+  padding:10px 12px;background:var(--panel);border-radius:10px;
+}
+.rapor-icindekiler-bag{
+  border:1px solid var(--cizgi);background:#fff;color:var(--metin);
+  border-radius:999px;padding:5px 12px;font-size:13.5px;font-weight:600;
+  cursor:pointer;font-family:inherit;
+}
+.rapor-icindekiler-bag:hover{border-color:var(--vurgu);color:var(--vurgu)}
+.rapor-icindekiler-bag.dolu{background:var(--yesil-acik);border-color:var(--yesil);color:var(--yesil)}
+
+.rapor-kart{
+  background:#fff;border:1px solid var(--cizgi);border-radius:12px;
+  padding:20px 22px;margin:18px 0;scroll-margin-top:16px;
+}
+.rapor-kart h2{font-size:19px;color:var(--metin);margin-bottom:10px}
+.rapor-kart .bolum-bas-satir h2{margin-bottom:0}
+.rapor-alan-grup{margin-bottom:12px}
+.rapor-alan-grup label{display:block;font-weight:600;font-size:15px;margin-bottom:5px}
+.rapor-alan-grup input{
+  width:100%;border:1px solid var(--cizgi);border-radius:8px;padding:9px 12px;
+  font-family:inherit;font-size:16px;color:var(--metin);background:#fff;
+}
+.rapor-alan-grup input:focus,.rapor-metin:focus{outline:2px solid var(--vurgu);outline-offset:1px}
+.rapor-ipucu{
+  font-size:13.5px;color:#9b3d20;background:var(--vurgu-acik);
+  border-radius:8px;padding:8px 12px;margin:6px 0 12px;line-height:1.45;
+}
+.rapor-metin{
+  width:100%;border:1px solid var(--cizgi);border-radius:8px;padding:11px 13px;
+  font-family:inherit;font-size:16px;color:var(--metin);background:#fff;resize:vertical;
+  line-height:1.55;
+}
+.uyz-alanlar{margin-top:10px;padding-top:10px;border-top:1px solid var(--cizgi)}
+
+/* etkilesimli is-zaman cizelgesi (gantt) */
+.gantt-tablo th.gantt-ay-bas{font-size:11.5px;text-align:center;padding:6px 4px;white-space:nowrap}
+.gantt-td{padding:2px !important;text-align:center}
+.gantt-hucre{
+  width:100%;min-width:34px;height:34px;border:0;border-radius:5px;
+  background:transparent;cursor:pointer;font-size:15px;color:var(--vurgu);
+  font-family:inherit;
+}
+.gantt-hucre:hover{background:var(--vurgu-acik)}
+.gantt-hucre.secili{background:var(--vurgu);color:#fff}
+.gantt-sil{
+  border:0;background:transparent;color:var(--soluk);font-size:18px;
+  cursor:pointer;padding:2px 8px;border-radius:6px;
+}
+.gantt-sil:hover{background:var(--vurgu-acik);color:var(--vurgu)}
+
+.rapor-gonder-kart{background:var(--panel)}
+.rapor-baski-alani{display:none}
+
 @media (max-width:720px){
   .ders-kart-liste,.ikili,.karsilastir-ikili,.sozluk-liste{grid-template-columns:1fr}
   body{font-size:16px}
@@ -385,4 +450,22 @@ details.ders-katla{border:1px solid var(--cizgi);border-radius:10px;padding:12px
   .tablo-girdi{font-size:10.5pt;padding:2pt}
   .kayit-notu{display:none}
   .teslim{break-inside:avoid}
+
+  /* TUBITAK Proje Raporu ozel yazdirma bicimi: Times New Roman 12 pt, 2.5 cm, iki yana yasli */
+  body.rapor-mod{font-family:"Times New Roman",Times,serif;font-size:12pt;line-height:1.15;color:#000}
+  body.rapor-mod .rapor-ekran{display:none !important}
+  body.rapor-mod .rapor-baski-alani{display:block !important}
+  body.rapor-mod .tubitak-belge{padding:11mm}
+  body.rapor-mod .tubitak-belge p{text-align:justify;margin:0 0 6pt 0}
+  body.rapor-mod .tubitak-belge .tubitak-kunye p{text-align:left;margin:0 0 4pt 0}
+  body.rapor-mod .tubitak-belge h2{
+    font-family:"Times New Roman",Times,serif;font-size:12pt;font-weight:700;
+    text-align:left;margin:12pt 0 6pt 0;page-break-after:avoid;
+  }
+  body.rapor-mod .rapor-baski-tablo{width:100%;border-collapse:collapse;margin:8pt 0;font-size:9pt}
+  body.rapor-mod .rapor-baski-tablo th,
+  body.rapor-mod .rapor-baski-tablo td{border:1px solid #000;padding:3pt 4pt;text-align:center}
+  body.rapor-mod .rapor-baski-tablo td.is-adi{text-align:left;font-size:10pt}
+  body.rapor-mod .rapor-baski-tablo td.dolu{background:#d8d0c6 !important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  body.rapor-mod .ekler-sayfa{page-break-before:always}
 }
