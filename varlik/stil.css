@@ -176,8 +176,22 @@ main{max-width:1000px;margin:0 auto;padding:28px 24px 60px}
   background:var(--vurgu-acik);border-radius:12px;padding:18px 22px;margin:16px 0 20px;
   font-size:20px;font-weight:600;color:var(--vurgu);line-height:1.4;
 }
-.onkosul{margin:0 0 20px;font-size:15px}
+.onkosul{margin:0 0 8px;font-size:15px}
 .onkosul a{font-weight:600}
+.onkosul-kutu{margin:0 0 18px}
+.yoklama-katla{
+  border:1px solid var(--cizgi);border-radius:10px;padding:10px 14px;
+  background:var(--panel);margin-top:8px;
+}
+.yoklama-katla summary{cursor:pointer;font-weight:600;font-size:14.5px;color:var(--metin)}
+.tekrar-kutu{
+  border:1px solid #d5cfc6;border-left:4px solid var(--sari);border-radius:10px;
+  padding:12px 16px;background:var(--sari-acik);margin:0 0 22px;
+}
+.tekrar-kutu summary{cursor:pointer;font-weight:600;font-size:15px;color:var(--sari)}
+.tekrar-etiket{font-size:12.5px;margin-bottom:4px}
+.tekrar-etiket a{text-decoration:none;color:var(--soluk);font-weight:600}
+.tekrar-etiket a:hover{color:var(--vurgu);text-decoration:underline}
 
 .bolum{margin:26px 0}
 .bolum>h2,.bolum-bas-satir h2{
@@ -333,7 +347,8 @@ details.ders-katla{border:1px solid var(--cizgi);border-radius:10px;padding:12px
   .ust,.alt,.yol,.soru,.bolum.derste,.bolum.kazanim,.telafi,.ayak,details.ipucu,
   .yazdir-dugme,.giris-bas,.ders-kart-liste,.bu-hafta,.gelemedim,.taslak-uyari,
   .kimlik,.gonder-satir,.gonderim-durum,.kip-cubuk,.ogrenme-destek,.arac-kutu,
-  .sina-kutu,.ozdenetim-kutu,.ilgili-kavramlar,.devam-kutu,.yedek-kutu{display:none !important}
+  .sina-kutu,.ozdenetim-kutu,.ilgili-kavramlar,.devam-kutu,.yedek-kutu,
+  .yoklama-katla,.tekrar-kutu{display:none !important}
   main{max-width:none;padding:0}
   .hafta-bas h1{font-size:19pt}
   .ad-satir{display:block;margin:10px 0 16px;font-size:11pt;color:#000}

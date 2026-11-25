@@ -85,19 +85,19 @@ window.DERSLER['puy'] = {
      "soru": "Yöntemi ve ham verisi açıkça paylaşılan ama bir şirket tarafından finanse edilmiş Rapor B ile yöntemi gizli Rapor C'den hangisi bilimsel açıdan daha sınanabilirdir?",
      "secenekler": [
       {
-       "metin": "Rapor B, çünkü yöntemi açık olduğu için bağımsız bir araştırmacı aynı veriyle sonucu denetleyebilir",
+       "metin": "Rapor B, yöntemi açık olduğu için denetlenebilir",
        "dogru": true,
-       "aciklama": "Doğru. Çıkar ilişkisi dikkatle okunmalıdır ama yöntemi açık bir çalışma sınanabilir; yöntemi gizli metin ise denetlenemez."
+       "aciklama": "Doğru. Çıkar ilişkisi dikkatle okunmalıdır ama yöntemi açık bir çalışmayı bağımsız bir araştırmacı aynı veriyle sınayabilir; yöntemi gizli metin denetlenemez."
       },
       {
-       "metin": "Rapor C, çünkü daha akıcı yazılmıştır",
+       "metin": "Rapor C, çünkü bağımsız bir kurumda yapılmıştır",
        "dogru": false,
-       "aciklama": "Akıcı dil doğruluk veya güvenilirlik kanıtı değildir."
+       "aciklama": "Finansmanın kaynağı önemlidir ama tek başına sınanabilirlik ölçütü değildir. Yöntemi gizliyse denetlenemez."
       },
       {
-       "metin": "İkisi de aynı düzeyde güvenilirdir",
+       "metin": "Rapor B, çünkü şirket desteği kalitesini artırır",
        "dogru": false,
-       "aciklama": "Yöntem açıklığı bilimsel denetlenebilirliğin temel şartıdır."
+       "aciklama": "Rapor doğru ama gerekçe yanlış. Belirleyici olan finansman değil, yöntemin açık olması."
       }
      ]
     },
@@ -210,19 +210,19 @@ window.DERSLER['puy'] = {
      "soru": "Bir deney hipotezinin tersini gösterdiğinde araştırmacının \"o gün şanssızdık, yoksa fikrim doğruydu\" demesi neye örnektir?",
      "secenekler": [
       {
-       "metin": "Yeni tahmin üretmeyen bir kurtarma cümlesine (ad hoc bahane)",
+       "metin": "Yeni tahmin üretmeyen bir kurtarma cümlesine",
        "dogru": true,
-       "aciklama": "Doğru. Bilimsel ek açıklama yeni ve bağımsız biçimde sınanabilir bir tahmin üretmek zorundadır."
+       "aciklama": "Doğru. Buna ad hoc bahane denir. Bilimsel bir ek açıklama, yeni ve bağımsız biçimde sınanabilir bir tahmin üretmek zorundadır."
       },
       {
-       "metin": "Bilimsel devrime",
+       "metin": "Deneyin tekrarlanması gerektiği uyarısına",
        "dogru": false,
-       "aciklama": "Paradigma değişimi mazeretle değil, tekrarlanabilir aykırı kanıtlarla doğar."
+       "aciklama": "Tekrar istemek meşrudur, ama bu cümle tekrar önermiyor; sonucu açıklamadan geçersiz sayıyor."
       },
       {
-       "metin": "Yanlışlanabilirliğe",
+       "metin": "Ölçüm belirsizliğinin dürüstçe bildirilmesine",
        "dogru": false,
-       "aciklama": "Kurtarma cümlesi iddiayı yanlışlanmaktan kaçırmaya çalışır."
+       "aciklama": "Belirsizlik bildirimi sayısal ve denetlenebilir olur. Burada ise sonuç ölçülmeden şansa bağlanıyor."
       }
      ]
     },
@@ -230,19 +230,19 @@ window.DERSLER['puy'] = {
      "soru": "Kuhn'un paradigma değişiminde (ör. miasma → mikrop kuramı) yeni çerçevenin kabul görmesi için hangi şart gerekir?",
      "secenekler": [
       {
-       "metin": "Yalnızca aykırı olguları değil, eski çerçevenin açıklayabildiği olguları da daha tutarlı açıklaması",
+       "metin": "Eski çerçevenin açıkladıklarını da daha tutarlı açıklaması",
        "dogru": true,
-       "aciklama": "Doğru. Yeni paradigma eskisinin başarılarını da kapsayıp aykırılıkları çözdüğünde yerleşir."
+       "aciklama": "Doğru. Yeni çerçeve yalnızca aykırı olguyu değil, eskinin başarılarını da kapsamalıdır; yoksa kabul görmez."
       },
       {
-       "metin": "Eski bilim insanlarının tamamının bilgisiz ilan edilmesi",
+       "metin": "Aykırı olguların sayısının belirli bir eşiği geçmesi",
        "dogru": false,
-       "aciklama": "Eski paradigmadakiler eldeki araç ve çerçeveyle çalışıyordu; paradigma değişimi aşağılama değildir."
+       "aciklama": "Aykırı olgu birikimi krizi başlatır ama tek başına yeni çerçeveyi kabul ettirmez."
       },
       {
-       "metin": "Tek bir kez tuhaf ölçüm alınması",
+       "metin": "Yeni çerçevenin matematiksel olarak daha basit olması",
        "dogru": false,
-       "aciklama": "Tek tuhaf ölçüm önce ölçüm hatası olarak tekrar sınanır; tekrarlanabilirlik şarttır."
+       "aciklama": "Basitlik bir tercih ölçütüdür; belirleyici olan açıklama kapsamı."
       }
      ]
     }
@@ -332,19 +332,19 @@ window.DERSLER['puy'] = {
      "soru": "Başka bir makaledeki fikri tamamen kendi cümlelerinle yeniden yazıp kaynak göstermemen neden yine de intihaldir?",
      "secenekler": [
       {
-       "metin": "İntihal yalnızca kopyala-yapıştır kelime benzerliği değil, başkasının fikrini kaynak vermeden sahiplenmektir",
+       "metin": "Kaynak vermeden başkasının fikrini sahiplenmektir",
        "dogru": true,
-       "aciklama": "Doğru. Kelimeleri değiştirsen bile fikrin sahibine (Yazar, Yıl) atıf vermek zorunludur."
+       "aciklama": "Doğru. İntihal yalnızca kelime benzerliği değildir; kelimeleri değiştirsen bile fikrin sahibine (Yazar, Yıl) atıf vermek zorunludur."
       },
       {
-       "metin": "Benzerlik programı yakalayacağı için",
+       "metin": "Alıntı tırnak içine alınmadığı için intihaldir",
        "dogru": false,
-       "aciklama": "Benzerlik programları kendi cümlesiyle yazılmış fikir intihalini çoğu zaman yakalayamaz; ama etik ihlal yine de gerçektir."
+       "aciklama": "Tırnak doğrudan alıntıda gerekir. Burada cümleler senin olsa da fikir başkasının; eksik olan atıf."
       },
       {
-       "metin": "Kendi cümlenle yazdıysan intihal sayılmaz",
+       "metin": "Kaynakçaya eklenmişse sorun ortadan kalkar",
        "dogru": false,
-       "aciklama": "En yaygın yanılgı budur; fikir kaynağı her durumda belirtilmelidir."
+       "aciklama": "Kaynakçada bulunmak yetmez; fikrin geçtiği yerde metin içi atıf da olmalıdır."
       }
      ]
     },
@@ -352,19 +352,19 @@ window.DERSLER['puy'] = {
      "soru": "Hangi ölçümün \"hatalı\" sayılıp eleneceğine neden verileri gördükten sonra değil, toplamadan önce karar verilir?",
      "secenekler": [
       {
-       "metin": "Sonuca bakıp karar vermek araştırmacıyı kendi beklentisine uymayan verileri ayıklamaya (çarpıtmaya) iter",
+       "metin": "Sonradan karar vermek beklentiye uymayan veriyi ayıklatır",
        "dogru": true,
-       "aciklama": "Doğru. Eleme kuralını önceden proje defterine yazmak (ön kayıt) tarafsızlığı korur."
+       "aciklama": "Doğru. Ölçütü önceden yazmak araştırmacıyı kendi beklentisinden korur."
       },
       {
-       "metin": "Sonradan kural yazmak yasak yazılım hatası verdiği için",
+       "metin": "Veri görüldükten sonra kural yazmak daha çok zaman alır",
        "dogru": false,
-       "aciklama": "Bu teknik değil bilimsel dürüstlük ve yanlılığı önleme ilkesidir."
+       "aciklama": "Zaman sorunu değil. Sakınca kararın tarafsızlığını yitirmesi."
       },
       {
-       "metin": "Aykırı veriler her zaman silinmesi gerektiği için",
+       "metin": "Aykırı değerlerin tümü zaten elenmek zorundadır",
        "dogru": false,
-       "aciklama": "Aykırı veri bazen hatadır, bazen gerçek bir keşiftir; nesnel kural olmadan silinemez."
+       "aciklama": "Aykırı değer kendiliğinden hatalı değildir; gerçek bir etkiyi de gösterebilir."
       }
      ]
     }
@@ -459,19 +459,19 @@ window.DERSLER['puy'] = {
      "soru": "Bir PÜY projesinde veri toplandıktan sonra başlangıç hipotezin desteklenmezse (beklediğin çıkmazsa) bu ne anlama gelir?",
      "secenekler": [
       {
-       "metin": "Proje başarısız oldu, notun düşer",
+       "metin": "Proje başarısız sayılır, değerlendirme puanı düşer",
        "dogru": false,
        "aciklama": "PÜY değerlendirmesi sonucun beklentine uymasına değil, süreç ve yöntem kararlarının sağlamlığına bakar."
       },
       {
-       "metin": "Soru gerçekten sınanabilirmiş ve dürüst bir bilimsel bulguya ulaşmışsın demektir",
+       "metin": "Soru gerçekten sınanabilirmiş ve geçerli bir bulgu üretilmiş",
        "dogru": true,
-       "aciklama": "Doğru. Başarısızlık ihtimali taşımayan bir çalışma zaten gerçek bir araştırma değil, sonucu önceden belli bir gösteridir."
+       "aciklama": "Doğru. Başarısızlık ihtimali taşımayan bir çalışma gerçek bir araştırma değil, sonucu önceden belli bir gösteridir; olumsuz bulgu da değerli bilimsel bilgidir."
       },
       {
-       "metin": "Hipotezi sonradan veriye uyacak şekilde gizlice değiştirmelisin",
+       "metin": "Deneyi hipotez desteklenene kadar tekrarlamak gerekir",
        "dogru": false,
-       "aciklama": "Bu 3. haftadaki etik kurallara aykırıdır; olumsuz bulgu da değerli bilimsel bilgidir."
+       "aciklama": "Ölçüm hatası yoksa sırf istediğin sonucu almak için deneyi tekrarlamak veri çarpıtmaya (seçici raporlamaya) yol açar."
       }
      ]
     },
@@ -479,19 +479,19 @@ window.DERSLER['puy'] = {
      "soru": "4. haftada henüz kesin proje konun yoksa durumun nedir?",
      "secenekler": [
       {
-       "metin": "Tamamen normaldir; yıllık takvimde konu kararı 13–14. haftalarda literatür taramasıyla verilir",
+       "metin": "Normaldir; konu kararı 13-14. haftada verilir",
        "dogru": true,
-       "aciklama": "Doğru. İlk 10 hafta sağlam yöntem, etik ve proje türü temeli kurmak için ayrılmıştır."
+       "aciklama": "Doğru. Yıllık takvimde konu, literatür taramasından sonra kesinleşir. Erken karar çoğu zaman taramayla değişir."
       },
       {
-       "metin": "Çok geç kaldın, hemen ilk aklına gelen konuyu seçmelisin",
+       "metin": "Geç kaldın, bir konu seçip hemen başlamalısın",
        "dogru": false,
-       "aciklama": "Acele ve literatürsüz seçilen konular 2. dönemde tıkanır."
+       "aciklama": "Taramadan önce seçilen konu genellikle değişir; acele karar sonra zaman kaybettirir."
       },
       {
-       "metin": "Öğretmen senin yerine bir konu atayacaktır",
+       "metin": "Öğretmen uygun bir konu belirleyip verecektir",
        "dogru": false,
-       "aciklama": "PÜY'de konu ve desen kararı öğrenciye aittir; öğretmen rehberlik eder."
+       "aciklama": "Konu sana ait olmalıdır. Öğretmen yönlendirir, seçimi senin yerine yapmaz."
       }
      ]
     }
@@ -567,19 +567,19 @@ window.DERSLER['puy'] = {
      "soru": "Sosyal girişimcilik ile geleneksel ticari girişimcilik arasındaki temel fark nedir?",
      "secenekler": [
       {
-       "metin": "Sosyal girişimcilikte birincil hedef kâr maksimizasyonu değil, toplumsal/çevresel bir soruna sürdürülebilir çözüm üretmektir",
+       "metin": "Birincil hedef kâr değil, toplumsal soruna çözümdür",
        "dogru": true,
-       "aciklama": "Doğru. Sosyal girişimler de mali sürdürülebilirlik gözetir ama başarı ölçütleri toplumsal etkidir."
+       "aciklama": "Doğru. Gelir yine gerekir ama araçtır; başarı ölçütü yaratılan toplumsal ya da çevresel etkidir."
       },
       {
-       "metin": "Sosyal girişimcilikte hiç planlama veya bütçe yapılmaz",
+       "metin": "Sosyal girişimler gelir elde etmeyi hedeflemez",
        "dogru": false,
-       "aciklama": "Tam tersine kaynaklar sınırlı olduğu için dikkatli planlama ve bütçe gerekir."
+       "aciklama": "Hedefler. Sürdürülebilirlik için gelir şarttır; fark, kârın amaç değil araç olması."
       },
       {
-       "metin": "Ticari girişimcilikte kullanıcı ihtiyacı önemli değildir",
+       "metin": "Sosyal girişimler yalnızca bağışla ayakta kalır",
        "dogru": false,
-       "aciklama": "Her iki türde de gerçek bir kullanıcı/fayda sahibi sorunu çözmek esastır."
+       "aciklama": "Bu tanım hayır kurumuna yakındır. Sosyal girişim kendi gelir modelini kurar."
       }
      ]
     },
@@ -587,19 +587,19 @@ window.DERSLER['puy'] = {
      "soru": "Bir proje fikrinde fayda sahibi olarak \"tüm insanlık\" yazmak yerine neden dar ve somut bir grup tanımlanmalıdır?",
      "secenekler": [
       {
-       "metin": "Somut bir kullanıcı grubuyla konuşabilir, onların gerçek sorununu ölçebilir ve çözümünü sınayabilirsin",
+       "metin": "Somut grubun sorununu ölçüp çözümü sınayabilirsin",
        "dogru": true,
-       "aciklama": "Doğru. \"Herkes\" için yapılan tasarım çoğu zaman hiç kimsenin somut sorununu tam çözmez."
+       "aciklama": "Doğru. Herkes için yapılan tasarım çoğu zaman hiç kimsenin somut sorununu tam çözmez."
       },
       {
-       "metin": "Rapor daha kısa olsun diye",
+       "metin": "Küçük grup için veri toplamak daha kolay ve ucuzdur",
        "dogru": false,
-       "aciklama": "Amaç kısalık değil, ölçülebilir ve gerçekçi değer üretmektir."
+       "aciklama": "Kolaylık yan kazançtır. Asıl neden, sorunun ölçülebilir ve çözümün sınanabilir hale gelmesi."
       },
       {
-       "metin": "Büyük gruplar için proje yasak olduğu için",
+       "metin": "Geniş grup tanımlayan projeler yarışmalarda elenir",
        "dogru": false,
-       "aciklama": "Ölçek büyüyebilir ama ilk doğrulama somut bir hedef kitlede yapılır."
+       "aciklama": "Böyle bir kural yok. Sorun elenme riski değil, iddianın ölçülememesi."
       }
      ]
     }
@@ -706,19 +706,19 @@ window.DERSLER['puy'] = {
      "soru": "Buluşunu patent başvurusu yapmadan önce sosyal medyada tüm teknik çizimleriyle yayımlarsan hangi risk doğar?",
      "secenekler": [
       {
-       "metin": "Buluşun \"yenilik\" (daha önce kamuya açıklanmamış olma) şartını bozabilir ve patent almanı engelleyebilir",
+       "metin": "Yenilik şartını bozup patenti engelleyebilir",
        "dogru": true,
-       "aciklama": "Doğru. Başvuru öncesi kamuya ifşa, sınai mülkiyet haklarında en kritik tuzaklardan biridir."
+       "aciklama": "Doğru. Yenilik, buluşun daha önce kamuya açıklanmamış olmasıdır. Başvuru öncesi ifşa, sınai mülkiyette en kritik tuzaklardan biridir."
       },
       {
-       "metin": "Patent süresi 20 yıldan 40 yıla çıkar",
+       "metin": "Başvuru ücretinin iki katına çıkmasına yol açar",
        "dogru": false,
-       "aciklama": "Patent süresi 20 yıldır ve uzatılamaz."
+       "aciklama": "Ücret paylaşımdan etkilenmez. Etkilenen, buluşun patentlenebilirliğidir."
       },
       {
-       "metin": "Hiçbir etkisi olmaz",
+       "metin": "Koruma süresini 20 yıldan 10 yıla indirir",
        "dogru": false,
-       "aciklama": "Yenilik incelemesinde kendi daha önceki paylaşımın bile karşına çıkabilir."
+       "aciklama": "Patent süresi başvurudan itibaren 20 yıldır ve paylaşımla değişmez. Risk süre değil, hakkın hiç doğmaması."
       }
      ]
     }
@@ -814,19 +814,19 @@ window.DERSLER['puy'] = {
      "soru": "Birbirinden tamamen farklı iki alanda (ör. fizik ve eğitim) yürütülen iki bilimsel araştırma projesinin ortak çekirdeği nedir?",
      "secenekler": [
       {
-       "metin": "Araştırma sorusu, açık bir yöntem, sistematik veri toplama/çözümleme ve kanıta dayalı sonuç",
+       "metin": "Soru, açık yöntem, sistematik veri ve kanıta dayalı sonuç",
        "dogru": true,
-       "aciklama": "Doğru. Konular değişse de bilimsel araştırmanın mantıksal omurgası ortaktır."
+       "aciklama": "Doğru. Konu ve araçlar değişir; bu dört halka her bilimsel çalışmada bulunur."
       },
       {
-       "metin": "İkisinin de mutlaka laboratuvar tüpü kullanması",
+       "metin": "İkisinin de laboratuvar ortamında yürütülmesi",
        "dogru": false,
-       "aciklama": "Veri toplama ortamı alana göre değişir (saha, anket, deney, yazılım vb.)."
+       "aciklama": "Eğitim araştırması sınıfta, saha çalışması arazide yapılır. Ortam ortak çekirdek değildir."
       },
       {
-       "metin": "İkisinin de aynı konuda yazılması",
+       "metin": "İkisinin de sayısal veri ve istatistik kullanması",
        "dogru": false,
-       "aciklama": "Ortak olan konu değil bilimsel süreç yapısıdır."
+       "aciklama": "Nitel araştırmalar sayı kullanmadan da sistematiktir; ortak olan yöntemin açıklığı."
       }
      ]
     }
@@ -908,19 +908,19 @@ window.DERSLER['puy'] = {
      "soru": "Bilimsel araştırma projesini diğer proje türlerinden (sosyal sorumluluk, AB, kalkınma, saf tasarım) ayıran ana ölçüt nedir?",
      "secenekler": [
       {
-       "metin": "Cevabı önceden bilinmeyen bir araştırma sorusuna veri ve analizle yeni doğrulanabilir bilgi üretmesi",
+       "metin": "Cevabı bilinmeyen bir soruya yeni bilgi üretmesi",
        "dogru": true,
-       "aciklama": "Doğru. Diğer türler öncelikle ürün, hizmet veya toplumsal etki üretmeye odaklanır."
+       "aciklama": "Doğru. Veri ve analizle doğrulanabilir bilgi üretir. Diğer türler öncelikle ürün, hizmet ya da toplumsal etki üretmeye odaklanır."
       },
       {
-       "metin": "Daha pahalı bir bütçeye sahip olması",
+       "metin": "Sonunda somut bir ürün ya da prototip çıkarması",
        "dogru": false,
-       "aciklama": "Bütçe büyüklüğü proje türünü belirlemez."
+       "aciklama": "Ürün çıkarmak tasarım ve sosyal sorumluluk projelerinde de olur; ayırt edici olan yeni bilgi üretimi."
       },
       {
-       "metin": "Yalnızca üniversitelerde yapılabilmesi",
+       "metin": "Bilimsel yöntem ve kaynakça kullanması",
        "dogru": false,
-       "aciklama": "Ortaokul ve lise düzeyinde de güçlü bilimsel araştırma projeleri yürütülür."
+       "aciklama": "Diğer proje türleri de yöntem ve kaynak kullanır. Fark, sorunun cevabının önceden bilinmemesi."
       }
      ]
     },
@@ -928,19 +928,19 @@ window.DERSLER['puy'] = {
      "soru": "Bir sosyal sorumluluk kampanyasına rapor kapağında \"Bilimsel Araştırma\" başlığı koymak onu bilimsel araştırma yapar mı?",
      "secenekler": [
       {
-       "metin": "Hayır; araştırma sorusu, sistematik veri toplama ve analiz yoksa türü değişmez",
+       "metin": "Hayır; soru, sistematik veri ve analiz yoksa tür değişmez",
        "dogru": true,
-       "aciklama": "Doğru. Ancak kampanya öncesi ve sonrası davranış değişimini kontrollü biçimde ölçersen araştırma boyutu kazanır."
+       "aciklama": "Doğru. Bir çalışmanın türünü başlık değil yöntemi belirler. Kampanya değerli olabilir ama araştırma olmaz."
       },
       {
-       "metin": "Evet, başlık ne yazıyorsa proje odur",
+       "metin": "Evet; raporun biçimi çalışmanın türünü belirler",
        "dogru": false,
-       "aciklama": "Proje türünü kapak başlığı değil, izlenen yöntem ve çıktı belirler."
+       "aciklama": "Biçim bir kabuktur. İçinde araştırma sorusu ve veri yoksa rapor başlığı tür kazandırmaz."
       },
       {
-       "metin": "Sosyal sorumluluk projeleri zaten araştırma sayılır",
+       "metin": "Evet; kampanya sonunda anket yapılmışsa yeterlidir",
        "dogru": false,
-       "aciklama": "İkisi farklı amaçlı ve farklı ölçütlü proje türleridir."
+       "aciklama": "Anket tek başına yetmez; sorunun önceden kurulması ve verinin sistematik çözümlenmesi gerekir."
       }
      ]
     }
@@ -1016,19 +1016,19 @@ window.DERSLER['puy'] = {
      "soru": "Hem yeni bir güneş takip mekanizması prototipi üreten hem de bunu sabit panelle kontrollü deneyde karşılaştıran bir çalışma nasıl değerlendirilir?",
      "secenekler": [
       {
-       "metin": "Tasarım ve deneysel araştırma bileşenlerini birleştiren hibrit bir çalışma; hem işlevsel performans hem bilimsel karşılaştırma ölçütleri taşır",
+       "metin": "Tasarım ve deneysel bileşenleri birleştiren hibrit çalışma",
        "dogru": true,
-       "aciklama": "Doğru. Teknoloji ve tasarım alanında en güçlü projelerin çoğu bu iki yönü tutarlı biçimde birleştirir."
+       "aciklama": "Doğru. Hem işlevsel performans hem bilimsel karşılaştırma ölçütü taşır. Teknoloji ve tasarım alanında en güçlü projelerin çoğu bu iki yönü birleştirir."
       },
       {
-       "metin": "Kurallara aykırıdır, ikisinden biri yasaktır",
+       "metin": "Yalnızca tasarım projesi; deney kısmı süsleme sayılır",
        "dogru": false,
-       "aciklama": "Aksine tasarımın verimini deneyle kanıtlamak projeyi çok güçlendirir."
+       "aciklama": "Kontrollü karşılaştırma süsleme değil, performans iddiasının kanıtıdır. Deney çıkarılırsa iddia dayanaksız kalır."
       },
       {
-       "metin": "Sadece sosyal sorumluluk projesidir",
+       "metin": "Yalnızca deneysel araştırma; prototip araç sayılır",
        "dogru": false,
-       "aciklama": "Burada odak teknik prototip ve performans ölçümüdür."
+       "aciklama": "Prototipin kendisi de bir çıktıdır ve tasarım kararlarıyla değerlendirilir. İki bileşen de raporlanır."
       }
      ]
     },
@@ -1036,19 +1036,19 @@ window.DERSLER['puy'] = {
      "soru": "İki proje türünü sentezleyen bir karar ağacında düğüm soruları nasıl kurulmalıdır?",
      "secenekler": [
       {
-       "metin": "Her soruda net ayrım yaptıran (Evet/Hayır veya açık seçenekli) ölçüt soruları olarak",
+       "metin": "Her düğümde net ayrım yaptıran ölçüt soruları olarak",
        "dogru": true,
-       "aciklama": "Doğru. Belirsiz sorular karar ağacının aynı fikri iki farklı dala atmasına yol açar."
+       "aciklama": "Doğru. Evet/Hayır ya da açık seçenekli sorular her dalı tek bir yöne gönderir; belirsiz soru ağacı kullanılamaz kılar."
       },
       {
-       "metin": "Sadece proje adının uzunluğuna bakarak",
+       "metin": "Her düğümde birden çok ölçütü birlikte sorarak",
        "dogru": false,
-       "aciklama": "Başlık uzunluğu yapısal bir ölçüt değildir."
+       "aciklama": "Birleşik soru iki ölçütü karıştırır; hangisinin dalı belirlediği anlaşılmaz."
       },
       {
-       "metin": "Tüm projeleri tek bir kutuya toplayarak",
+       "metin": "Düğümleri proje türlerinin sıklığına göre sıralayarak",
        "dogru": false,
-       "aciklama": "Karar ağacının amacı ayırt etmektir."
+       "aciklama": "Sıralama kolaylık sağlar ama sorunun ayırt edici olup olmadığını değiştirmez."
       }
      ]
     }
@@ -1138,19 +1138,19 @@ window.DERSLER['puy'] = {
      "soru": "10. haftada yarışma şartnamesi ve takvimini incelediğinde hedeflediğin yarışmanın son başvurusu Şubat ayında görünüyorsa ne yapmalısın?",
      "secenekler": [
       {
-       "metin": "16. haftadaki iş zaman çizelgeni öne çekip veri toplama ve rapor aşamalarını yarışma tarihine göre sıkıştırmalısın",
+       "metin": "İş zaman çizelgesini öne çekip aşamaları sıkıştırmak",
        "dogru": true,
-       "aciklama": "Doğru. Yıllık plan Haziran'da biter; erken kapanan yarışmalar için takvim öne çekilmezse başvuru kaçırılır."
+       "aciklama": "Doğru. 16. haftadaki çizelge yarışma tarihine göre yeniden kurulur; veri toplama ve rapor aşamaları öne alınır."
       },
       {
-       "metin": "Haziran'a kadar bekleyip geçmiş tarihe başvurmaya çalışmalısın",
+       "metin": "Aynı konuda daha geç takvimli bir yarışma aramak",
        "dogru": false,
-       "aciklama": "Yarışma sistemleri son başvuru saatinde otomatik kapanır."
+       "aciklama": "Seçenek olabilir ama hedefi değiştirmek takvimi düzeltmez; önce kendi çizelgeni sınamalısın."
       },
       {
-       "metin": "Şartnameyi okumadan rapor yazmalısın",
+       "metin": "Rapor yazımını başvurudan sonraya bırakmak",
        "dogru": false,
-       "aciklama": "Şartnameye (sayfa sınırı, yasak konular, zorunlu başlıklar) uymayan projeler ön elemede elenir."
+       "aciklama": "Çoğu şartname başvuruda rapor ya da özet ister; sonraya bırakmak başvuruyu geçersiz kılar."
       }
      ]
     },
@@ -1158,19 +1158,19 @@ window.DERSLER['puy'] = {
      "soru": "Yarışma şartnamelerinde \"insan/hayvan deneyleri ve güvenlik\" maddelerini 10. haftada kontrol etmek neden kritiktir?",
      "secenekler": [
       {
-       "metin": "Yasaklı veya ek izin/etik kurul gerektiren bir konuya aylarca emek verip son gün elenmemek için",
+       "metin": "Elenmene yol açacak koşulları baştan görmek için",
        "dogru": true,
-       "aciklama": "Doğru. Bazı yarışmalar belirli kimyasalları, omurgalı hayvan müdahalelerini veya izinsiz anketleri doğrudan eler."
+       "aciklama": "Doğru. Bazı yarışmalar belirli kimyasalları, omurgalı hayvan müdahalelerini ya da izinsiz anketleri doğrudan eler. Aylarca emek verip son gün elenmemek gerekir."
       },
       {
-       "metin": "Yalnızca yarışma logosunu görmek için",
+       "metin": "Etik kurul başvurusunu yarışmanın yapması için",
        "dogru": false,
-       "aciklama": "Etik ve güvenlik maddeleri projenin kabul edilmesinin ön koşuludur."
+       "aciklama": "Etik izni yarışma almaz; gerekliyse siz başvurursunuz. Şartname yalnızca neyin gerektiğini söyler."
       },
       {
-       "metin": "Ödül miktarını hesaplamak için",
+       "metin": "Veri toplama aracını şartnameye göre seçmek için",
        "dogru": false,
-       "aciklama": "Öncelik projenin uygunluğu ve güvenliğidir."
+       "aciklama": "Aracı araştırma sorusu belirler. Şartname aracın türünü değil, izin ve güvenlik koşullarını belirler."
       }
      ]
     }
@@ -1246,19 +1246,19 @@ window.DERSLER['puy'] = {
      "soru": "Güncel bir teknoloji sorununu dört bileşene (teknik, insani, çevresel, ekonomik) ayırarak çözümlemek sana ne kazandırır?",
      "secenekler": [
       {
-       "metin": "Sorunun yalnızca tek bir yüzüne takılmayıp gerçekten müdahale edebileceğin en somut kaldıraç noktasını bulmanı sağlar",
+       "metin": "Gerçekten müdahale edebileceğin kaldıraç noktasını bulursun",
        "dogru": true,
-       "aciklama": "Doğru. Örneğin bir geri dönüşüm sorununda engel bazen makine (teknik) değil, kutu yerleşimi ve alışkanlıktır (insani)."
+       "aciklama": "Doğru. Sorunun tek yüzüne takılmak yerine hangi bileşene dokunabileceğini görürsün."
       },
       {
-       "metin": "Projeyi dört kat büyütüp bitirilemez hâle getirir",
+       "metin": "Projeyi dört ayrı alt projeye bölmen gerekir",
        "dogru": false,
-       "aciklama": "Amaç hepsini birden çözmek değil, resmi görüp dar ve etkili bir parçasını seçmektir."
+       "aciklama": "Çözümleme bölme değildir. Dört bileşeni görmek hepsini çözmek zorunda olmak anlamına gelmez."
       },
       {
-       "metin": "Literatür taramasına gerek bırakmaz",
+       "metin": "Literatür taramasının kapsamını belirlemiş olursun",
        "dogru": false,
-       "aciklama": "Bileşen analizi 13. haftadaki literatür taraması için anahtar kelimelerini çıkarır."
+       "aciklama": "Kısmen yararlı ama asıl kazanç bu değil; tarama yine ayrı bir iştir."
       }
      ]
     },
@@ -1381,19 +1381,19 @@ window.DERSLER['puy'] = {
      "soru": "Gelecek tahmini için hangi kaynak daha güvenilir bir başlangıç verisi sunar?",
      "secenekler": [
       {
-       "metin": "TÜİK, BM, OECD, IEA gibi resmî ve zaman serisi sunan birincil istatistik raporları",
+       "metin": "Zaman serisi sunan resmî birincil istatistik raporları",
        "dogru": true,
-       "aciklama": "Doğru. Birincil veri kaynakları ölçüm yöntemini ve yılları açıkça verir."
+       "aciklama": "Doğru. TÜİK, BM, OECD ve IEA gibi kaynaklar yöntemini açıklar ve geçmiş veriyi karşılaştırmalı verir."
       },
       {
-       "metin": "Kaynağı yazmayan bir sosyal medya görseli",
+       "metin": "Konuyla ilgili haber sitelerinin derleme yazıları",
        "dogru": false,
-       "aciklama": "Kaynaksız görsellerde sayıların nasıl toplandığı denetlenemez."
+       "aciklama": "Haber derlemesi ikincil kaynaktır; sayı doğru olsa da yöntemi ve tanımı görünmez."
       },
       {
-       "metin": "Kendi tahminin",
+       "metin": "Alanın uzmanlarıyla yapılmış söyleşi videoları",
        "dogru": false,
-       "aciklama": "Sezgi tek başına veri yerine geçmez."
+       "aciklama": "Uzman görüşü yorum sağlar, zaman serisi vermez. Tahmin için ölçülmüş veri gerekir."
       }
      ]
     }
@@ -1476,19 +1476,19 @@ window.DERSLER['puy'] = {
      "soru": "Literatür taramasının asıl amacı aşağıdakilerden hangisidir?",
      "secenekler": [
       {
-       "metin": "Alanın şimdiye kadar neleri bulduğunu, hangi yöntemleri kullandığını ve nerede araştırma boşluğu kaldığını görmek",
+       "metin": "Alanın ne bulduğunu ve nerede boşluk kaldığını görmek",
        "dogru": true,
-       "aciklama": "Doğru. \"Kimse bunu yapmamış\" demek yerine mevcut çalışmaların üzerine nerede yeni tuğla koyacağını bulursun."
+       "aciklama": "Doğru. Tarama hem yöntem seçimine yol gösterir hem de senin sorunun neden hâlâ sorulmaya değer olduğunu gösterir."
       },
       {
-       "metin": "İnternetten uzun paragraflar kopyalayıp raporu kalınlaştırmak",
+       "metin": "Raporun kaynakça bölümünü yeterli sayıya ulaştırmak",
        "dogru": false,
-       "aciklama": "Kopyala-yapıştır intihaldir ve literatür özeti yerine geçmez."
+       "aciklama": "Kaynak sayısı ölçüt değildir. Okunmamış kaynak taramaya katkı sağlamaz."
       },
       {
-       "metin": "Sadece kendi fikrini destekleyen tek bir blog yazısı bulmak",
+       "metin": "Kendi hipotezini destekleyen çalışmaları toplamak",
        "dogru": false,
-       "aciklama": "Hakemli akademik kaynaklara ve farklı sonuçlara dengeli bakmak gerekir."
+       "aciklama": "Yalnızca destekleyeni toplamak seçici tarama olur; çelişen bulgular da görülmelidir."
       }
      ]
     },
@@ -1496,19 +1496,19 @@ window.DERSLER['puy'] = {
      "soru": "Google Scholar'da çok fazla alakasız sonuç çıkıyorsa aramayı nasıl daraltırsın?",
      "secenekler": [
       {
-       "metin": "Tam ifadeyi tırnak içine alıp (\"gri su\" AND \"okul\") yıl filtresi ekleyerek",
+       "metin": "Tam ifadeyi tırnak içine alıp yıl filtresi eklemek",
        "dogru": true,
-       "aciklama": "Doğru. Tırnak, AND/OR operatörleri ve son 5–10 yıl filtresi isabeti büyük ölçüde artırır."
+       "aciklama": "Doğru. Tırnak tam ifadeyi arar, AND iki koşulu birlikte ister, yıl filtresi güncel çalışmaları öne çıkarır."
       },
       {
-       "metin": "Tek bir genel kelime (\"teknoloji\") yazarak",
+       "metin": "Arama kutusuna daha fazla eşanlamlı sözcük eklemek",
        "dogru": false,
-       "aciklama": "Tek genel kelime milyonlarca ilgisiz sonuç getirir."
+       "aciklama": "Sözcük eklemek çoğu arama motorunda sonucu genişletir, daraltmaz."
       },
       {
-       "metin": "Bütün kelimeleri büyük harfle yazarak",
+       "metin": "Sonuçları en çok atıf alana göre sıralamak",
        "dogru": false,
-       "aciklama": "Arama motorları büyük/küçük harfi ayırt etmez (AND/OR operatörleri hariç)."
+       "aciklama": "Sıralama okuma düzenini değiştirir; alakasız sonuçlar listeden çıkmaz."
       }
      ]
     }
@@ -1706,19 +1706,19 @@ window.DERSLER['puy'] = {
      "soru": "Anket uygulayacağın okulun müdürü ve veliler projenin hangi grubuna girer?",
      "secenekler": [
       {
-       "metin": "Projeyi izin ve erişim açısından doğrudan etkileyen kritik paydaşlardır",
+       "metin": "İzin ve erişimi doğrudan etkileyen kritik paydaşlar",
        "dogru": true,
        "aciklama": "Doğru. Onları paydaş listesine baştan koymak 25. haftadaki izin sürecini sorunsuz yürütmeni sağlar."
       },
       {
-       "metin": "Projenin yazarlarıdır",
+       "metin": "Projenin sonuçlarından yararlanacak faydalanıcılar",
        "dogru": false,
-       "aciklama": "İzin vermek yazarlık katkısı değildir."
+       "aciklama": "Faydalanıcı da olabilirler, ama burada belirleyici rolleri erişim ve izin kapısı olmaları."
       },
       {
-       "metin": "Proje ile ilgileri yoktur",
+       "metin": "Veri toplanacak çalışma grubunun kendisi",
        "dogru": false,
-       "aciklama": "İzin olmadan insanlardan veri toplanamaz."
+       "aciklama": "Çalışma grubu anketi yanıtlayan öğrencilerdir. Müdür ve veliler o gruba erişimi açan taraftır."
       }
      ]
     },
@@ -1726,19 +1726,19 @@ window.DERSLER['puy'] = {
      "soru": "Projenin beklenen sonuçlarını yazarken \"istenmeyen yan etki veya olası riski\" de sorgulamak neden önemlidir?",
      "secenekler": [
       {
-       "metin": "Tasarım veya uygulamanın doğurabileceği gizli maliyet, güvenlik veya erişim sorunlarını önceden görüp önlem almanı sağlar",
+       "metin": "Gizli maliyet ve güvenlik sorunlarını önceden görmeni sağlar",
        "dogru": true,
-       "aciklama": "Doğru. Eleştirel öngörü projeyi gerçekçi ve savunulabilir kılar."
+       "aciklama": "Doğru. Erişim engelleri de bu kapsamdadır. Eleştirel öngörü projeyi gerçekçi ve savunulabilir kılar."
       },
       {
-       "metin": "Projeyi kötülemek için",
+       "metin": "Olumsuz sonuç çıkarsa sorumluluğu azaltır",
        "dogru": false,
-       "aciklama": "Riski görmek projeyi zayıflatmaz, tam tersine güçlendirir."
+       "aciklama": "Risk yazmak sorumluluğu devretmez. Amaç, önlem alınabilecek noktaları önceden göstermektir."
       },
       {
-       "metin": "Sadece şirket projeleri için geçerlidir",
+       "metin": "Beklenen faydayı daha büyük göstermeye yarar",
        "dogru": false,
-       "aciklama": "Her araştırma ve tasarım projesinde olası yan etkiler düşünülmelidir."
+       "aciklama": "Tam tersi: risk bölümü faydayı abartmayı değil, iddiayı sınırlarıyla sunmayı sağlar."
       }
      ]
     }
@@ -1847,19 +1847,19 @@ window.DERSLER['puy'] = {
      "soru": "Projende pahalı bir hazır ticari sensör ya da yazılım yazmadan önce bütçe denetiminde ilk ne yapmalısın?",
      "secenekler": [
       {
-       "metin": "Atölyede mevcut olan araçları ve ücretsiz açık kaynak alternatifleri karşılaştırmalısın",
+       "metin": "Mevcut araçları ve ücretsiz alternatifleri karşılaştırmak",
        "dogru": true,
-       "aciklama": "Doğru. TT.PÜY.7.2 bütçe bileşenlerinde alternatif seçenekler üzerinde mantıksal denetleme ister."
+       "aciklama": "Doğru. Atölyede bulunanı ve açık kaynak seçeneği denetlemek bütçeyi gerçekçi kılar."
       },
       {
-       "metin": "En pahalı ürünü doğrudan bütçeye yazmalısın",
+       "metin": "Benzer projelerin bütçe tablolarını örnek almak",
        "dogru": false,
-       "aciklama": "Gerekçesiz yüksek bütçe uygulanabilirliği düşürür."
+       "aciklama": "Örnek almak fikir verir ama senin atölyende neyin bulunduğunu söylemez."
       },
       {
-       "metin": "Bütçe bölümünü tamamen atlamalısın",
+       "metin": "Satın alma için okul yönetiminden ön onay istemek",
        "dogru": false,
-       "aciklama": "Nakit harcama gerekmese bile hangi mevcut kaynakların kullanıldığı belirtilmelidir."
+       "aciklama": "Onay gerekli bir adımdır ama önce alımın gerçekten gerekip gerekmediği denetlenmelidir."
       }
      ]
     }
@@ -1943,19 +1943,19 @@ window.DERSLER['puy'] = {
      "soru": "\"Zaman yetmezse deneyi bitiremem\" ifadesi neden bir bilimsel sınırlılık cümlesi DEĞİLDİR?",
      "secenekler": [
       {
-       "metin": "Sınırlılık kişisel bir mazeret değil, araştırmanın bilinçli olarak çizdiği yer, zaman, örneklem veya araç sınırıdır",
+       "metin": "Sınırlılık mazeret değil, bilinçli çizilen araştırma sınırıdır",
        "dogru": true,
-       "aciklama": "Doğru. Örneğin \"ölçümler yalnızca 3 farklı yalıtım malzemesiyle sınırlıdır\" doğru bir sınırlılıktır."
+       "aciklama": "Doğru. Yer, zaman, örneklem ve araç sınırları önceden ve gerekçeli yazılır; yetişememek bunlardan biri değildir."
       },
       {
-       "metin": "Sınırlılıklar sadece Sonuç bölümünde yazıldığı için",
+       "metin": "Sınırlılıklar ancak veri toplandıktan sonra yazılabilir",
        "dogru": false,
-       "aciklama": "Sınırlılıklar Giriş bölümünün temel başlıklarındandır ve Tartışma'da yeniden değerlendirilir."
+       "aciklama": "Sınırlılıkların çoğu desen kurulurken bellidir ve yöntem bölümünde bildirilir."
       },
       {
-       "metin": "Çok kısa olduğu için",
+       "metin": "Araştırmacının kendisiyle ilgili cümleler rapora girmez",
        "dogru": false,
-       "aciklama": "Sorun uzunluk değil içerik türüdür."
+       "aciklama": "Araştırmacı kaynaklı kısıtlar yazılabilir; buradaki sorun cümlenin kime ait olduğu değil, bir plan eksiğini kısıt gibi sunması."
       }
      ]
     },
@@ -1963,19 +1963,19 @@ window.DERSLER['puy'] = {
      "soru": "Giriş bölümündeki \"Problem Durumu\" yazılırken huni mantığı neyi ifade eder?",
      "secenekler": [
       {
-       "metin": "Konunun bağlamından ve mevcut literatürden başlayıp adım adım daralarak senin spesifik problem cümlene inmeyi",
+       "metin": "Geniş bağlamdan başlayıp problem cümlesine daralmak",
        "dogru": true,
-       "aciklama": "Doğru. Okuyucu son paragrafa geldiğinde \"evet, tam da bu soru araştırılmalı\" diyebilmelidir."
+       "aciklama": "Doğru. Okur önce konunun neden önemli olduğunu, sonra literatürdeki boşluğu, en sonunda senin sorunu görür."
       },
       {
-       "metin": "Önce sonuçları yazıp sonra başlığı yazmayı",
+       "metin": "Problem cümlesinden başlayıp bağlama genişlemek",
        "dogru": false,
-       "aciklama": "Giriş bölümü sonuçları değil sorunun gerekçesini kurar."
+       "aciklama": "Bu ters huni olur; okur sorunun neden sorulduğunu anlamadan sayıyla karşılaşır."
       },
       {
-       "metin": "Literatür kaynağı hiç kullanmadan kişisel görüş yazmayı",
+       "metin": "Her paragrafta bir alt probleme ayrıntıyla girmek",
        "dogru": false,
-       "aciklama": "Problem durumu 13. haftadaki güvenilir kaynaklarla desteklenmelidir."
+       "aciklama": "Alt problemler giriş sonunda sıralanır; huni yapısı paragraf içi ayrıntıyla değil kapsam daralmasıyla kurulur."
       }
      ]
     }
@@ -2078,19 +2078,19 @@ window.DERSLER['puy'] = {
      "soru": "Sıfır hipotezi (H₀) neyi ifade eder?",
      "secenekler": [
       {
-       "metin": "İncelenen gruplar veya değişkenler arasında anlamlı bir fark ya da ilişki olmadığını",
+       "metin": "Gruplar arasında anlamlı fark olmadığını",
        "dogru": true,
-       "aciklama": "Doğru. İstatistiksel sınamada veriler H₀'ı reddetmeye yetecek kadar güçlü mü diye bakılır."
+       "aciklama": "Doğru. İstatistiksel sınamada veriler H0'ı reddetmeye yetecek kadar güçlü mü diye bakılır."
       },
       {
-       "metin": "Hiç veri toplanmayacağını",
+       "metin": "Araştırmacının beklediği farkın bulunduğunu",
        "dogru": false,
-       "aciklama": "H₀ veriyle sınanan başlangıç varsayımıdır."
+       "aciklama": "Beklenen fark alternatif hipotezdir (H1). H0 bunun karşıtıdır."
       },
       {
-       "metin": "Projenin sıfır puan aldığını",
+       "metin": "Ölçülen değerlerin ortalamasının sıfır olduğunu",
        "dogru": false,
-       "aciklama": "Bilimsel bir test kavramıdır, puanla ilgisi yoktur."
+       "aciklama": "Sıfır, ortalamanın değil farkın büyüklüğünü anlatır. Ortalamalar sıfır olmak zorunda değildir."
       }
      ]
     }
@@ -2171,19 +2171,19 @@ window.DERSLER['puy'] = {
      "soru": "Giriş bölümünün iç tutarlılığını denetlerken en kritik kontrol aşağıdakilerden hangisidir?",
      "secenekler": [
       {
-       "metin": "Alt problemlerin ve hipotezlerin gerçekten ana problem cümlesinin parçaları olması ve metinde geçen her atfın kaynakçada bulunması",
+       "metin": "Alt problemlerin ana problemin parçası olması",
        "dogru": true,
-       "aciklama": "Doğru. Birbiriyle konuşmayan alt başlıklar yöntem aşamasında projeyi dağıtır."
+       "aciklama": "Doğru. Ayrıca metinde geçen her atfın kaynakçada bulunması gerekir. Birbiriyle konuşmayan alt başlıklar yöntem aşamasında projeyi dağıtır."
       },
       {
-       "metin": "Sayfa kenar boşluklarının renkli olması",
+       "metin": "Kaynakçanın alfabetik sırayla dizilmiş olması",
        "dogru": false,
-       "aciklama": "Süsleme değil kavramsal ve bilimsel tutarlılık önemlidir."
+       "aciklama": "Biçimsel bir kuraldır, önemlidir ama iç tutarlılığı göstermez."
       },
       {
-       "metin": "Giriş bölümüne bulgu grafiklerini şimdiden eklemek",
+       "metin": "Giriş bölümünün sayfa sayısının yeterli olması",
        "dogru": false,
-       "aciklama": "Bulgular veri toplandıktan sonra kendi bölümünde (30. hafta) yazılır."
+       "aciklama": "Uzunluk ölçüt değildir. Kısa ama tutarlı bir giriş, uzun ve dağınık olandan güçlüdür."
       }
      ]
     },
@@ -2191,19 +2191,19 @@ window.DERSLER['puy'] = {
      "soru": "Giriş bölümüne \"İnsanlık tarihinin başlangıcından beri teknoloji çok önemlidir\" diye başlamak neden önerilmez?",
      "secenekler": [
       {
-       "metin": "Çok geniş ve klişe olduğu için okuyucuya senin somut problemin hakkında hiçbir bilgi vermez",
+       "metin": "Somut problem hakkında hiçbir bilgi vermez",
        "dogru": true,
-       "aciklama": "Doğru. İlk paragraftan doğrudan çalıştığın somut alan ve sorun bağlamına girmek çok daha etkilidir."
+       "aciklama": "Doğru. Çok geniş ve klişe bir açılıştır. İlk paragraftan doğrudan çalıştığın alana ve sorun bağlamına girmek çok daha etkilidir."
       },
       {
-       "metin": "Tarih kelimesi yasak olduğu için",
+       "metin": "Kaynak gösterilmeden genel bir iddia içerir",
        "dogru": false,
-       "aciklama": "Amaç gereksiz genel lafları eleyip somut bağlama odaklanmaktır."
+       "aciklama": "Kaynak eklemek bu cümleyi kurtarmaz; sorun dayanaksızlık değil, hiçbir şeyi daraltmaması."
       },
       {
-       "metin": "Çok kısa olduğu için",
+       "metin": "Giriş bölümüne tarihsel arka plan konulmaz",
        "dogru": false,
-       "aciklama": "Sorun kısalık değil, konuyla bağlantısız genelliktir."
+       "aciklama": "Tarihsel arka plan konabilir, ama projenin sorunuyla bağı kurularak ve kısa tutularak."
       }
      ]
     }
@@ -2278,19 +2278,19 @@ window.DERSLER['puy'] = {
      "soru": "\"Dondurma satışları arttığında denizde boğulma vakaları da artıyor\" ilişkisel (korelasyonel) bulgusundan \"dondurma yemek boğulmaya sebep olur\" çıkarımı neden yanlıştır?",
      "secenekler": [
       {
-       "metin": "İlişki (korelasyon) tek başına nedensellik demek değildir; ikisini birden artıran üçüncü bir değişken (yaz sıcaklığı) vardır",
+       "metin": "İlişki tek başına nedensellik anlamına gelmez",
        "dogru": true,
-       "aciklama": "Doğru. Neden-sonuç iddiası için ilişkisel çalışma yetmez, değişken kontrolü yapılan deneysel desen gerekir."
+       "aciklama": "Doğru. İkisini birden artıran üçüncü bir değişken var: yaz sıcaklığı. Neden-sonuç iddiası için değişken denetimi yapılan deneysel desen gerekir."
       },
       {
-       "metin": "Sayılar yanlış toplandığı için",
+       "metin": "İlişkinin yönü ters kurulmuş olabilir",
        "dogru": false,
-       "aciklama": "Veriler tamamen doğru olsa bile iki değişkenin birlikte artması birinin diğerine sebep olduğunu kanıtlamaz."
+       "aciklama": "Ters yön de bir olasılıktır ama burada asıl sorun üçüncü değişken; boğulmalar dondurma satışını artırmıyor."
       },
       {
-       "metin": "Dondurma nicel bir değişken olmadığı için",
+       "metin": "Örneklem bu çıkarım için yeterince büyük değildir",
        "dogru": false,
-       "aciklama": "Satış adedi niceldir; sorun korelasyonu nedensellik sanmaktır."
+       "aciklama": "Milyonlarca kayıtla da aynı hata yapılır. Veri miktarı korelasyonu nedenselliğe çevirmez."
       }
      ]
     },
@@ -2298,19 +2298,19 @@ window.DERSLER['puy'] = {
      "soru": "Bir araştırma raporunda Yöntem bölümü neden \"tekrarlanabilirlik garantisi\" sayılır?",
      "secenekler": [
       {
-       "metin": "Başka bir araştırmacı senin yöntemini okuyarak aynı çalışmayı tekrarlayıp sonucunu bağımsızca sınayabilir",
+       "metin": "Başka biri aynı çalışmayı tekrarlayıp sınayabilir",
        "dogru": true,
        "aciklama": "Doğru. Yöntemi belirsiz bir çalışmanın bulguları bilimsel olarak denetlenemez."
       },
       {
-       "metin": "Raporu uzattığı için",
+       "metin": "Kullanılan araçların markaları kayıt altına alınır",
        "dogru": false,
-       "aciklama": "Yöntem şeffaflık ve güvenilirlik içindir."
+       "aciklama": "Araç bilgisi yöntemin parçasıdır ama amacı değil. Amaç, sürecin baştan sona yeniden kurulabilmesi."
       },
       {
-       "metin": "Sadece deneysel çalışmalarda gerektiği için",
+       "metin": "Okuyucu bulguları okumadan sonucu tahmin edebilir",
        "dogru": false,
-       "aciklama": "Nicel, nitel ve karma tüm bilimsel çalışmalarda yöntem açıkça yazılır."
+       "aciklama": "Yöntem sonucu tahmin ettirmez; sonucun nasıl elde edildiğini denetlenebilir kılar."
       }
      ]
     }
@@ -2393,19 +2393,19 @@ window.DERSLER['puy'] = {
      "soru": "Rüzgâr türbininde kanat açısının (15°, 30°, 45°) ürettiği voltaja etkisini ölçerken vantilatörün mesafesi ve hızı hangi değişkendir?",
      "secenekler": [
       {
-       "metin": "Kontrol (sabit tutulan) değişkeni",
+       "metin": "Kontrol değişkeni",
        "dogru": true,
-       "aciklama": "Doğru. Kanat açısı bağımsız, voltaj bağımlı, rüzgâr hızı ve mesafe ise kesinlikle sabit tutulması gereken kontrol değişkenleridir."
+       "aciklama": "Doğru. Vantilatörün mesafesi ve hızı her denemede aynı tutulur. Bağımsız değişken kanat açısı, bağımlı değişken üretilen voltajdır."
       },
       {
        "metin": "Bağımsız değişken",
        "dogru": false,
-       "aciklama": "Burada kasıtlı değiştirdiğimiz tek bağımsız değişken kanat açısıdır."
+       "aciklama": "Bağımsız değişken senin bilerek değiştirdiğindir; burada o kanat açısı."
       },
       {
        "metin": "Bağımlı değişken",
        "dogru": false,
-       "aciklama": "Ölçtüğümüz çıktı (bağımlı değişken) üretilen voltajdır."
+       "aciklama": "Bağımlı değişken ölçtüğün sonuçtur; burada üretilen voltaj."
       }
      ]
     },
@@ -2413,19 +2413,19 @@ window.DERSLER['puy'] = {
      "soru": "Bir deneyde aynı koşulu 1 kez değil de 5 kez tekrarlayıp ortalamasını almak neyi azaltır?",
      "secenekler": [
       {
-       "metin": "Tek seferlik rastgele ölçüm hatalarının sonucu yanıltma riskini",
+       "metin": "Rastgele ölçüm hatalarının sonucu yanıltma riskini",
        "dogru": true,
-       "aciklama": "Doğru. Tekrarlı ölçüm ayrıca yayılımı (standart sapmayı) görerek deneyin kararlılığını sınamanı sağlar."
+       "aciklama": "Doğru. Tekrar rastgele hatayı azaltır. Sistematik hatayı ise azaltmaz; onun için ölçüm aracının kendisi düzeltilmelidir."
       },
       {
-       "metin": "Kontrol grubuna olan ihtiyacı",
+       "metin": "Ölçüm aracındaki sistematik sapmanın etkisini",
        "dogru": false,
-       "aciklama": "Kontrol/referans ölçümü tekrarlı ölçümden ayrı, karşılaştırma için yine gereklidir."
+       "aciklama": "Sistematik sapma her tekrarda aynı yönde çıkar; ortalama onu gizler, azaltmaz."
       },
       {
-       "metin": "Bağımsız değişken sayısını",
+       "metin": "Karşılaştırma için kontrol grubu kurma gereğini",
        "dogru": false,
-       "aciklama": "Bağımsız değişken tasarım kararıdır, tekrar sayısı ölçüm güvenirliğini artırır."
+       "aciklama": "Tekrar kontrol grubunun yerini tutmaz; karşılaştırma ölçütü yine gerekir."
       }
      ]
     }
@@ -2508,19 +2508,19 @@ window.DERSLER['puy'] = {
      "soru": "Bir anket \"öğrencilerin %70'i yeni arayüzü beğenmedi\" sonucunu verdi. Kullanıcıların tam olarak nerede ve neden zorlandığını anlamak için hangi yaklaşım daha uygundur?",
      "secenekler": [
       {
-       "metin": "Nitel yaklaşım (yarı yapılandırılmış görüşme ve kullanım gözlemi)",
+       "metin": "Nitel yaklaşım: görüşme ve kullanım gözlemi",
        "dogru": true,
-       "aciklama": "Doğru. Nitel araştırma sayıların arkasındaki \"nasıl\" ve \"neden\" deneyimini açığa çıkarır."
+       "aciklama": "Doğru. Yüzde kaçının beğenmediğini anket verir; nerede ve neden zorlandığını ancak görüşme ve gözlem gösterir."
       },
       {
-       "metin": "Aynı evet/hayır anketini bir kez daha yapmak",
+       "metin": "Aynı anketi daha büyük örnekleme uygulamak",
        "dogru": false,
-       "aciklama": "Yine sadece yüzde verir, nedeni açıklamaz."
+       "aciklama": "Büyük örneklem yüzdeyi kesinleştirir ama nedeni hâlâ söylemez."
       },
       {
-       "metin": "Yüzdeyi %70'ten %30'a çevirmek",
+       "metin": "Ankete beğenmeme nedenini soran madde eklemek",
        "dogru": false,
-       "aciklama": "Veriyi değiştirmek etik ihlaldir."
+       "aciklama": "Yararlı bir iyileştirme ama hazır seçenekler kullanıcının kendi ifadesini ve davranışını yakalamaz."
       }
      ]
     },
@@ -2528,19 +2528,19 @@ window.DERSLER['puy'] = {
      "soru": "Nitel bir çalışmanın \"kişisel sohbet\" değil bilimsel araştırma olduğunu gösteren önlemlerden biri hangisidir?",
      "secenekler": [
       {
-       "metin": "Farklı veri kaynaklarıyla çeşitleme (görüşme + gözlem + belge) yapmak ve temaları katılımcıların doğrudan alıntılarıyla kanıtlamak",
+       "metin": "Çeşitleme yapmak ve temaları doğrudan alıntılarla kanıtlamak",
        "dogru": true,
-       "aciklama": "Doğru. Çeşitleme, şeffaf kodlama ve doğrudan alıntılar nitel araştırmanın inandırıcılığını kurar."
+       "aciklama": "Doğru. Görüşme, gözlem ve belgenin birlikte kullanılması ile alıntıya dayanma, yorumun denetlenebilir olmasını sağlar."
       },
       {
-       "metin": "Katılımcılara istediğimiz cevabı verecek yönlendirici sorular sormak",
+       "metin": "Görüşmeleri aynı araştırmacının tek başına yorumlaması",
        "dogru": false,
-       "aciklama": "Yönlendirme nitel veriyi tamamen geçersiz kılar."
+       "aciklama": "Tek yorumcu kaçınılmaz olarak kendi bakışını taşır; ikinci kodlayıcı ya da katılımcı doğrulaması gerekir."
       },
       {
-       "metin": "Görüşme notlarını kaydetmeyip akılda tutmak",
+       "metin": "Katılımcı sayısını olabildiğince çok tutmak",
        "dogru": false,
-       "aciklama": "Kayıtsız hafıza yanlıdır; sistematik döküm ve kodlama gerekir."
+       "aciklama": "Nitel çalışmada ölçüt sayı değil derinliktir; çok görüşme yüzeysel kalabilir."
       }
      ]
     }
@@ -2643,19 +2643,19 @@ window.DERSLER['puy'] = {
      "soru": "\"Her proje mutlaka karma yöntem olmalı, tek yöntem zayıftır\" düşüncesi neden yanlıştır?",
      "secenekler": [
       {
-       "metin": "En iyi desen en karmaşık olan değil, araştırma sorusunu en temiz, geçerli ve yapılabilir biçimde yanıtlayandır",
+       "metin": "En iyi desen soruyu en temiz yanıtlayandır",
        "dogru": true,
-       "aciklama": "Doğru. Karma yöntem ek zaman ve iki ayrı analiz yükü getirir; yalnızca tek yöntem yetmediğinde seçilmelidir."
+       "aciklama": "Doğru. Karma yöntem ek zaman ve iki ayrı analiz yükü getirir; yalnızca tek yöntem yetmediğinde seçilir. En karmaşık desen en iyi desen değildir."
       },
       {
-       "metin": "Karma yöntem bilimsel kabul edilmediği için",
+       "metin": "Karma yöntem yalnızca ileri düzey ekipler içindir",
        "dogru": false,
-       "aciklama": "Karma yöntem çok güçlü ve yaygın kabul gören bir yaklaşımdır; mesele soruya uygunluktur."
+       "aciklama": "Düzeyle ilgili değil. Ortaokul düzeyinde de karma desen kurulabilir; ölçüt sorunun bunu gerektirip gerektirmemesi."
       },
       {
-       "metin": "Karma yöntemde grafik çizilemediği için",
+       "metin": "İki yöntemin bulguları birbirini geçersiz kılar",
        "dogru": false,
-       "aciklama": "Hem nicel grafik hem nitel tema şeması birlikte kullanılabilir."
+       "aciklama": "Tersine, iyi kurulmuş karma desende nicel ve nitel bulgular birbirini destekler ya da açıklar."
       }
      ]
     }
@@ -2738,19 +2738,19 @@ window.DERSLER['puy'] = {
      "soru": "Araştırma desenine karar verirken en temel dayanak ne olmalıdır?",
      "secenekler": [
       {
-       "metin": "19. haftada kesinleştirdiğin problem cümlesi ve alt problemlerin hangi tür kanıt istediği",
+       "metin": "Alt problemlerin hangi tür kanıt istediği",
        "dogru": true,
-       "aciklama": "Doğru. Yöntem soruyu seçmez; soru en uygun yöntemi belirler."
+       "aciklama": "Doğru. 19. haftada kesinleştirdiğin problem cümlesi ve alt problemler deseni belirler; desen önce seçilip problem ona uydurulmaz."
       },
       {
-       "metin": "Arkadaşlarının en çok hangi deseni seçtiği",
+       "metin": "Verinin en kolay toplanabileceği yöntem",
        "dogru": false,
-       "aciklama": "Her projenin sorusu ve veri ihtiyacı farklıdır."
+       "aciklama": "Kolaylık önemlidir ama tek başına ölçüt değil; kolay toplanan veri soruyu yanıtlamıyorsa işe yaramaz."
       },
       {
-       "metin": "Adı kulağa en akademik gelen desen",
+       "metin": "Benzer çalışmalarda en sık kullanılan desen",
        "dogru": false,
-       "aciklama": "Uygulanamayan veya soruyla uyumsuz bir desen projeyi kilitler."
+       "aciklama": "Literatür yol gösterir ama senin alt problemlerin farklı kanıt isteyebilir."
       }
      ]
     },
@@ -2758,19 +2758,19 @@ window.DERSLER['puy'] = {
      "soru": "Seçtiğin desende alt problemlerinden birinin hiç yanıtlanamadığını fark edersen ne yapmalısın?",
      "secenekler": [
       {
-       "metin": "Ya deseni o alt problemi kapsayacak biçimde revize etmeli ya da alt problemi projenin kapsamına göre yeniden düzenlemelisin",
+       "metin": "Ya deseni ya alt problemi yeniden düzenlemelisin",
        "dogru": true,
-       "aciklama": "Doğru. Alt problemler ile desen arasında birebir eşleşme olması şarttır."
+       "aciklama": "Doğru. Alt problemler ile desen arasında birebir eşleşme şarttır; biri değişirse diğeri de değişmelidir."
       },
       {
-       "metin": "O alt problemi raporda bırakıp cevapsız geçmelisin",
+       "metin": "Yeni bir veri toplama aracı ekleyip devam etmelisin",
        "dogru": false,
-       "aciklama": "Cevapsız kalan alt problem raporda ciddi bir tutarsızlık yaratır."
+       "aciklama": "Araç eklemek bazen çözüm olur ama kendiliğinden yetmez; önce desen ile alt problem eşleşmesini düzeltmelisin."
       },
       {
-       "metin": "Sonuçta uydurma bir cevap yazmalısın",
+       "metin": "Alt problemi sınırlılıklar bölümünde belirtmelisin",
        "dogru": false,
-       "aciklama": "Verisiz sonuç uydurmak ağır etik ihlaldir."
+       "aciklama": "Sınırlılık bildirimi gerçek bir kısıt için yazılır, çözülebilir bir tutarsızlığı örtmek için değil."
       }
      ]
     }
@@ -2853,19 +2853,19 @@ window.DERSLER['puy'] = {
      "soru": "Projende öğrencilerden anket ya da görüşme verisi toplayacaksan okul yönetimi onayı ve veli/katılımcı izin sürecini neden 25. haftada başlatmalısın?",
      "secenekler": [
       {
-       "metin": "İzinlerin onaylanması zaman alır; 27. haftadaki veri toplamaya yetişmezse tüm proje takvimi kayar",
+       "metin": "İzinler zaman alır; 27. haftaya yetişmezse takvim kayar",
        "dogru": true,
-       "aciklama": "Doğru. İzinsiz veri toplamak hem etik ihlaldir hem yarışmalarda elenme nedenidir."
+       "aciklama": "Doğru. Onay yazısı olmadan toplanan veri kullanılamaz; gecikme tüm çizelgeyi öteler."
       },
       {
-       "metin": "25. haftadan sonra anket yapmak yasak olduğu için",
+       "metin": "İzin belgesi raporun ekler bölümünde istenmektedir",
        "dogru": false,
-       "aciklama": "Amaç 27. haftadaki veri toplama penceresine izinleri yetiştirmektir."
+       "aciklama": "Ek olarak sunulur ama bu, sürecin neden erken başlatıldığını açıklamaz."
       },
       {
-       "metin": "Anketlerde izin gerekmez, sadece deneylerde gerekir",
+       "metin": "Katılımcı sayısı ancak izinden sonra belirlenebilir",
        "dogru": false,
-       "aciklama": "İnsanlardan anket/görüşme/gözlem verisi toplamak mutlaka kurum ve katılımcı/veli izni gerektirir."
+       "aciklama": "Örneklem planı önceden yapılır; belirleyici olan onayın beklediği süre."
       }
      ]
     },
@@ -2878,14 +2878,14 @@ window.DERSLER['puy'] = {
        "aciklama": "Doğru. Yakın arkadaş çevresi tüm okulu temsil etmez ve tarafsız yanıt vermeyebilir."
       },
       {
-       "metin": "Birim hatası",
+       "metin": "Ölçme aracının güvenilirlik sorunu",
        "dogru": false,
-       "aciklama": "Sorun birim değil, örneklemin evreni temsil etmemesidir."
+       "aciklama": "Güvenilirlik aracın tutarlılığıyla ilgilidir. Buradaki sorun aracın değil, kimlere uygulandığının."
       },
       {
-       "metin": "İntihal",
+       "metin": "Veri analizinde yanlış test seçimi",
        "dogru": false,
-       "aciklama": "Bu kaynak çalma değil, yöntemsel örnekleme yanlılığıdır."
+       "aciklama": "Hangi test seçilirse seçilsin, sekiz kişilik yanlı bir gruptan tüm okula genelleme yapılamaz."
       }
      ]
     }
@@ -2962,19 +2962,19 @@ window.DERSLER['puy'] = {
      "soru": "Her ölçümde gerçek ağırlıktan tam 2 kg fazla gösteren ama hiç şaşmayan bir terazi için ne söylenebilir?",
      "secenekler": [
       {
-       "metin": "Güvenilirdir (tutarlıdır) ama geçerli değildir (gerçek ağırlığı doğru ölçmez)",
+       "metin": "Güvenilirdir ama geçerli değildir",
        "dogru": true,
-       "aciklama": "Doğru. Bu yüzden hem tutarlılığı (güvenirlik) hem de doğru şeyi ölçmeyi (geçerlik / kalibrasyon) birlikte denetleriz."
+       "aciklama": "Doğru. Tutarlı sonuç verdiği için güvenilir, gerçek ağırlığı doğru göstermediği için geçersizdir. Güvenilirlik geçerliliğin ön koşuludur ama tek başına yetmez."
       },
       {
        "metin": "Hem geçerli hem güvenilirdir",
        "dogru": false,
-       "aciklama": "Sürekli 2 kg hatalı gösterdiği için geçerli değildir."
+       "aciklama": "Sonuç tutarlı ama sistematik olarak 2 kg sapmalı; ölçtüğünü doğru ölçmüyor."
       },
       {
        "metin": "Geçerlidir ama güvenilir değildir",
        "dogru": false,
-       "aciklama": "Tersine: tutarlı olduğu için güvenilir, hedeften saptığı için geçersizdir."
+       "aciklama": "Tam tersi. Şaşmıyorsa güvenilirdir; sapma geçerliliği bozar."
       }
      ]
     },
@@ -3077,19 +3077,19 @@ window.DERSLER['puy'] = {
      "soru": "Veri temizliği yaparken orijinal ham veri dosyasının üzerine doğrudan yazmak neden tehlikelidir?",
      "secenekler": [
       {
-       "metin": "Yanlış bir filtreleme veya silme yaparsan özgün kayda dönemez ve yaptığın temizliği şeffaf biçimde kanıtlayamazsın",
+       "metin": "Özgün kayda dönemez ve temizliğini kanıtlayamazsın",
        "dogru": true,
-       "aciklama": "Doğru. ham_veri_ORIJINAL dosyasına hiç dokunma; tüm temizliği kopya dosyada yap ve değişiklikleri kaydet."
+       "aciklama": "Doğru. Ham veri hiç değiştirilmez; temizlik ayrı bir dosyada yapılır ve adımları yazılır."
       },
       {
-       "metin": "Bilgisayar aynı dosyayı iki kez kaydetmediği için",
+       "metin": "Dosya boyutu büyüdüğü için çözümleme yavaşlar",
        "dogru": false,
-       "aciklama": "Teknik değil veri güvenliği ve bilimsel saydamlık kuralıdır."
+       "aciklama": "Boyut sorun değil. Kaybedilen şey geri dönüş olanağı ve şeffaflık."
       },
       {
-       "metin": "Ham veri çok renkli olduğu için",
+       "metin": "İstatistik programları değiştirilmiş dosyayı okumaz",
        "dogru": false,
-       "aciklama": "Amaç veri bütünlüğünü ve izlenebilirliğini korumaktır."
+       "aciklama": "Programlar okur. Asıl sakınca, yanlış bir silmenin artık düzeltilemez olması."
       }
      ]
     },
@@ -3194,19 +3194,19 @@ window.DERSLER['puy'] = {
      "soru": "Bir sınıfta 9 öğrenci 70 puan, 1 öğrenci 10 puan aldıysa ortalama 64 çıkar ama medyan (ortanca) 70'tir. Bu örnek bize ne gösterir?",
      "secenekler": [
       {
-       "metin": "Uç (aşırı düşük veya yüksek) değerler ortalamayı çeker; bu yüzden ortalama yanında medyan ve standart sapmayı da vermek daha dürüst bir özet sunar",
+       "metin": "Uç değerler ortalamayı çeker, medyan daha dayanıklıdır",
        "dogru": true,
-       "aciklama": "Doğru. Tek bir sayı bazen dağılımın gerçek biçimini gizler."
+       "aciklama": "Doğru. Tek bir sayı dağılımın gerçek biçimini gizleyebilir; ortalamanın yanında medyan ve standart sapmayı da vermek daha dürüst bir özettir."
       },
       {
-       "metin": "10 puan alan öğrenciyi silmek gerektiğini",
+       "metin": "Sınıf mevcudunun özet için fazla küçük olduğunu",
        "dogru": false,
-       "aciklama": "Gerçek bir gözlem sırf uç değer diye silinmez; medyan gibi dayanıklı ölçütlerle birlikte raporlanır."
+       "aciklama": "Aynı durum 100 kişilik grupta da olur. Sorun büyüklük değil, uç değerin ortalamayı çekmesi."
       },
       {
-       "metin": "Ortalamanın her zaman medyandan büyük olduğunu",
+       "metin": "Medyanın her zaman ortalamadan güvenilir olduğunu",
        "dogru": false,
-       "aciklama": "Aşırı düşük uç değer ortalamayı medyandan küçük yapar."
+       "aciklama": "Medyan uç değerlere dayanıklıdır ama her veriyi kullanmaz. Hangisinin uygun olduğu dağılımın biçimine bağlıdır."
       }
      ]
     },
@@ -3302,19 +3302,19 @@ window.DERSLER['puy'] = {
      "soru": "Analiz sırasında hipotezine ters düşen beklenmedik bir örüntü ortaya çıktığında ne yapmalısın?",
      "secenekler": [
       {
-       "metin": "Önce hesaplama/kodlama hatası var mı diye denetlemeli, veri doğruysa bu bulguyu da açıkça sınıflandırıp kaydetmelisin",
+       "metin": "Önce hesap hatası var mı diye denetleyip sonra kaydetmek",
        "dogru": true,
-       "aciklama": "Doğru. Beklenmeyen ama doğru bulgular Tartışma bölümünü en çok zenginleştiren kısımdır."
+       "aciklama": "Doğru. Veri doğruysa beklenmedik bulgu da rapora girer; hipotezle çelişmek bulguyu geçersiz kılmaz."
       },
       {
-       "metin": "Sadece hipotezi destekleyen alt grubu rapora koymalısın",
+       "metin": "Hipotezi destekleyen alt grubu ayırıp onu sunmak",
        "dogru": false,
-       "aciklama": "Seçici raporlama (cherry-picking) ciddi bir araştırma etiği ihlalidir."
+       "aciklama": "Seçici sunum veri ayıklamadır. Örneklemi sonradan daraltmak bulguyu doğrulamaz, görünümü değiştirir."
       },
       {
-       "metin": "Veriyi baştan uydurmalısın",
+       "metin": "Hipotezi bulguya uyacak biçimde yeniden yazmak",
        "dogru": false,
-       "aciklama": "Veri uydurma en ağır akademik ihlaldir."
+       "aciklama": "Hipotez veri toplanmadan önce yazılır. Sonradan değiştirmek sınamayı anlamsız kılar."
       }
      ]
     },
@@ -3322,19 +3322,19 @@ window.DERSLER['puy'] = {
      "soru": "Nitel görüşme dökümlerini kodladığında elinde 35 ayrı tekil kod oluştu. Bir sonraki adımın ne olmalıdır?",
      "secenekler": [
       {
-       "metin": "Anlamca birbiriyle ilişkili kodları gruplayıp 3–5 anlaşılır üst kategori/tema altında toplamak",
+       "metin": "İlişkili kodları 3-5 üst tema altında gruplamak",
        "dogru": true,
-       "aciklama": "Doğru. Dağınık 35 kod okuyucuyu boğar; ilişkili temalar büyük resmi görünür kılar."
+       "aciklama": "Doğru. Tema oluşturma nitel çözümlemenin ikinci aşamasıdır; kod listesi tek başına bulgu değildir."
       },
       {
-       "metin": "30 kodu rastgele silip 5 tanesini bırakmak",
+       "metin": "En sık geçen beş kodu alıp diğerlerini bırakmak",
        "dogru": false,
-       "aciklama": "Veri silinmez, üst kategorilerde örgütlenir."
+       "aciklama": "Sıklık nitel çözümlemede tek ölçüt değildir; az geçen bir kod önemli bir temanın parçası olabilir."
       },
       {
-       "metin": "Metinlerin hepsini yorumsuz rapora yapıştırmak",
+       "metin": "Her kodu ayrı bir bulgu başlığı olarak yazmak",
        "dogru": false,
-       "aciklama": "Ham döküm analiz değildir."
+       "aciklama": "Otuz beş başlık okunabilir bir bulgu bölümü vermez; kodlar arası ilişki de görünmez kalır."
       }
      ]
     }
@@ -3428,7 +3428,7 @@ window.DERSLER['puy'] = {
       {
        "metin": "Çizgi grafiği",
        "dogru": true,
-       "aciklama": "Doğru. Zaman içindeki sürekli değişimi ve eğimi en net çizgi grafiği gösterir."
+       "aciklama": "Doğru. Zaman içindeki sürekli değişimi ve soğuma/ısınma eğimini en net çizgi grafiği gösterir."
       },
       {
        "metin": "Pasta grafiği",
@@ -3436,9 +3436,9 @@ window.DERSLER['puy'] = {
        "aciklama": "Pasta grafiği yalnızca %100'e tamamlanan parça-bütün oranları içindir; zaman serisinde kullanılamaz."
       },
       {
-       "metin": "Kelime bulutu",
+       "metin": "Sütun grafiği",
        "dogru": false,
-       "aciklama": "Kelime bulutu sayısal zaman ölçümü göstermez."
+       "aciklama": "Sütun grafiği ayrı kategorileri karşılaştırmak içindir; zamana bağlı sürekli sıcaklık eğilimini çizgi grafiği kadar net göstermez."
       }
      ]
     },
@@ -3446,19 +3446,19 @@ window.DERSLER['puy'] = {
      "soru": "Bulgular bölümünde bir tablonun altındaki metin nasıl yazılmalıdır?",
      "secenekler": [
       {
-       "metin": "Tabloya atıf yaparak (Tablo 1'de görüldüğü gibi...) yalnızca en belirgin farkı, en yüksek/düşük değeri ve örüntüyü öne çıkarmalı",
+       "metin": "Tabloya atıf yapıp yalnızca en belirgin örüntüyü öne çıkarmalı",
        "dogru": true,
-       "aciklama": "Doğru. Tablodaki her hücreyi tek tek cümleye dökmek okuyucuyu yorar."
+       "aciklama": "Doğru. Tablo 1'de görüldüğü gibi diye atıf yapılır; en yüksek ve en düşük değer ile ana örüntü yazılır, geri kalanı tablo gösterir."
       },
       {
-       "metin": "Tablodaki 24 hücrenin hepsini tek tek cümleyle tekrar etmeli",
+       "metin": "Tablodaki her hücreyi sırayla cümleye dökmeli",
        "dogru": false,
-       "aciklama": "Metin tablonun kopyası değil, okuyucunun gözünü yönlendiren özettir."
+       "aciklama": "Tabloyu sözle tekrar etmek yer harcar ve okuru yorar. Metin tabloyu yorumlar, kopyalamaz."
       },
       {
-       "metin": "Tabloya hiç değinmeden yalnızca kişisel tahmin yazmalı",
+       "metin": "Tablonun hesaplama adımlarını ayrıntılı anlatmalı",
        "dogru": false,
-       "aciklama": "Atıfsız tablo raporda havada kalır; yorum ise 31. haftanın işidir."
+       "aciklama": "Hesaplama adımları yöntem bölümüne aittir; bulgular bölümünde sonuç yorumlanır."
       }
      ]
     }
@@ -3546,19 +3546,19 @@ window.DERSLER['puy'] = {
      "soru": "Aşağıdaki cümlelerden hangisi saf \"bulgu\" değil, \"yorum\"dur?",
      "secenekler": [
       {
-       "metin": "\"Bu sonuç, ses yalıtım panelinin öğrencilerin odaklanma süresini iyileştirdiğini ve H₁ hipotezini desteklediğini göstermektedir.\"",
+       "metin": "Panelin odaklanmayı iyileştirdiğini göstermektedir",
        "dogru": true,
-       "aciklama": "Doğru. Verinin rakamını söylemekten öteye geçip hipotez açısından anlamını kuruyor."
+       "aciklama": "Doğru. Sayıdan anlam çıkarmak yorumdur ve Tartışma bölümüne aittir. Bulgu yalnızca ölçülen değeri bildirir."
       },
       {
-       "metin": "\"Deney grubunda ortalama odaklanma süresi 14,2 dakika, kontrol grubunda 10,8 dakikadır.\"",
+       "metin": "Deney grubunda ortalama 14,2, kontrol grubunda 10,8 dakikadır",
        "dogru": false,
-       "aciklama": "Bu, herkesin tablodan aynı biçimde okuyacağı nesnel bulgudur."
+       "aciklama": "Bu bir bulgudur: ölçülen değer olduğu gibi aktarılmış, hiçbir çıkarım eklenmemiş."
       },
       {
-       "metin": "\"Katılımcıların %65'i 4. maddede 'Katılıyorum' seçeneğini işaretlemiştir.\"",
+       "metin": "Katılımcıların %65'i 4. maddeye katıldığını belirtmiştir",
        "dogru": false,
-       "aciklama": "Doğrudan ölçülmüş sayısal bir bulgudur."
+       "aciklama": "Bu da bulgudur. Yüzde bir ölçüm sonucudur; anlamı ayrıca tartışılır."
       }
      ]
     },
@@ -3566,19 +3566,19 @@ window.DERSLER['puy'] = {
      "soru": "Bilimsel yorum yazarken \"kesin olarak kanıtlanmıştır\" yerine \"elde edilen veriler bu hipotezi desteklemektedir\" demek neden daha doğrudur?",
      "secenekler": [
       {
-       "metin": "Bilim 2. haftada gördüğümüz gibi kesinlik değil sınanmış güvenilirlik üretir; her çalışma kendi örneklem ve koşullarıyla sınırlıdır",
+       "metin": "Bilim kesinlik değil, sınanmış güvenilirlik üretir",
        "dogru": true,
-       "aciklama": "Doğru. Ölçülü ve kanıta sadık dil akademik güvenilirliği artırır."
+       "aciklama": "Doğru. 2. haftada gördüğümüz gibi her çalışma kendi örneklemi ve koşullarıyla sınırlıdır; ölçülü dil kanıtın sınırını doğru temsil eder."
       },
       {
-       "metin": "Araştırmacı kendi verisine güvenmediği için",
+       "metin": "Akademik metinlerde kesin ifadeler yasaktır",
        "dogru": false,
-       "aciklama": "Bu güvensizlik değil bilimsel dürüstlüktür."
+       "aciklama": "Yasak değil; yeterince güçlü kanıt varsa kesin ifade kullanılabilir. Ölçüt kural değil kanıtın gücüdür."
       },
       {
-       "metin": "Cümle daha uzun görünsün diye",
+       "metin": "Hakemler ihtiyatlı dili daha olumlu karşılar",
        "dogru": false,
-       "aciklama": "Amaç kanıtın sınırını doğru temsil etmektir."
+       "aciklama": "Hakem beklentisi değil, iddianın kanıtla orantılı olması belirleyicidir."
       }
      ]
     }
@@ -3666,19 +3666,19 @@ window.DERSLER['puy'] = {
      "soru": "Senin projenin sonucu, 13. haftada okuduğun bir makalenin sonucuyla çelişti. Tartışma bölümünde en olgun yaklaşım hangisidir?",
      "secenekler": [
       {
-       "metin": "İki çalışma arasındaki örneklem, ortam, yaş grubu veya ölçüm yöntemi farklarını inceleyerek bu ayrışmanın olası nedenlerini tartışmak",
+       "metin": "Örneklem ve ölçüm farklarını inceleyip nedenleri tartışmak",
        "dogru": true,
-       "aciklama": "Doğru. Bilimsel tartışma tam olarak bu farkları sorgulayarak yeni bilgi üretir."
+       "aciklama": "Doğru. Çelişki gizlenmez, açıklanır. Örneklem, ortam, yaş grubu ve ölçüm yöntemi farkları olası nedenlerdir."
       },
       {
-       "metin": "Çelişen makaleyi kaynakçadan gizlice silmek",
+       "metin": "Çelişen makaleyi kaynakçadan çıkarıp hiç anmamak",
        "dogru": false,
-       "aciklama": "Karşıt kanıtı gizlemek hem etik dışıdır hem tartışmayı sığlaştırır."
+       "aciklama": "Bulguya uymayan kaynağı gizlemek veri seçiciliğidir; raporun güvenilirliğini yok eder."
       },
       {
-       "metin": "Diğer araştırmacıların kesinlikle hata yaptığını yazmak",
+       "metin": "Diğer araştırmacıların hata yaptığını yazmak",
        "dogru": false,
-       "aciklama": "Kanıt olmadan başkasını hatalı ilan etmek bilimsel üsluba aykırıdır."
+       "aciklama": "Hata iddiası ancak kanıtla yapılır. Elinde onların verisi yoksa bu bir gerekçe değil, suçlamadır."
       }
      ]
     },
@@ -3686,19 +3686,19 @@ window.DERSLER['puy'] = {
      "soru": "Raporun \"Sonuç\" bölümünde aşağıdakilerden hangisi YER ALMAZ?",
      "secenekler": [
       {
-       "metin": "Daha önce Bulgular bölümünde hiç gösterilmemiş yeni bir veri tablosu veya yeni literatür kaynağı",
+       "metin": "Daha önce gösterilmemiş yeni veri ya da yeni kaynak",
        "dogru": true,
-       "aciklama": "Doğru. Sonuç bölümü yeni veri eklemez; yalnızca bulgulardan ve tartışmadan süzülen nihai yanıtları özetler."
+       "aciklama": "Doğru. Sonuç bölümü yeni kanıt sunmaz; bulguları problem cümlesine bağlar ve özetler."
       },
       {
-       "metin": "Araştırma problemine ve alt problemlere verilen özlü yanıtlar",
+       "metin": "Problem ve alt problemlere verilen özlü yanıtlar",
        "dogru": false,
-       "aciklama": "Sonuç bölümünün temel görevi tam olarak budur."
+       "aciklama": "Bu tam olarak sonuç bölümüne aittir; bölümün temel işlevidir."
       },
       {
        "metin": "Hipotezin desteklenme durumunun kısa özeti",
        "dogru": false,
-       "aciklama": "Bu Sonuç bölümünde mutlaka yer almalıdır."
+       "aciklama": "Sonuç bölümünde yer alır; hipotezin akıbeti burada açıkça yazılır."
       }
      ]
     }
@@ -3780,19 +3780,19 @@ window.DERSLER['puy'] = {
      "soru": "Raporun en başında yer alan \"Özet (Abstract)\" bölümü neden yazım sırası olarak en sonda (33. haftada) yazılır?",
      "secenekler": [
       {
-       "metin": "Özet; amaç ve yöntemin yanı sıra gerçek bulguları ve nihai sonucu içerdiği için rapor bitmeden yazılamaz",
+       "metin": "Gerçek bulguları ve sonucu içerir",
        "dogru": true,
-       "aciklama": "Doğru. İlk sayfada görünür ama tüm rapor tamamlandıktan sonra yazılır."
+       "aciklama": "Doğru. Özet amaç ve yöntemin yanı sıra bulguları da taşır, bu yüzden rapor bitmeden yazılamaz. İlk sayfada görünür ama en son yazılır."
       },
       {
-       "metin": "Özetin önemsiz olması nedeniyle",
+       "metin": "Kaynakça tamamlanmadan yazılamaz",
        "dogru": false,
-       "aciklama": "Jürilerin ilk okuduğu ve projeye dair ilk izlenimi edindiği en kritik bölümdür."
+       "aciklama": "Özette genellikle atıf bulunmaz. Belirleyici olan kaynakça değil, bulguların hazır olması."
       },
       {
-       "metin": "Kelime sayısı rastgele seçildiği için",
+       "metin": "Jüri önce özeti okuduğu için en sona bırakılır",
        "dogru": false,
-       "aciklama": "Genellikle 150–250 kelime aralığında yoğun ve net bilgi taşır."
+       "aciklama": "Jürinin önce okuması özeti önemli kılar ama yazım sırasını belirlemez; sıranın nedeni içeriğin ancak sonda oluşması."
       }
      ]
     },
@@ -3800,19 +3800,19 @@ window.DERSLER['puy'] = {
      "soru": "Aşağıdaki önerilerden hangisi bilimsel rapora uygun, bulguya dayalı bir öneridir?",
      "secenekler": [
       {
-       "metin": "\"Okul kütüphanesinde masa lambaları 4000K LED'e çevrilmeli; gelecek araştırmacılar bu etkiyi kış aylarında daha büyük örneklemle sınamalıdır.\"",
+       "metin": "Masa lambaları 4000K LED'e çevrilmeli; etki kışın da sınanmalı",
        "dogru": true,
        "aciklama": "Doğru. Kime (okul yönetimi ve gelecek araştırmacılar) ve neyi yapması gerektiğini bulguya dayalı söyler."
       },
       {
-       "metin": "\"Herkes derslerine çok çalışmalı ve bilinçli olmalıdır.\"",
+       "metin": "Aydınlatma konusunda farkındalık çalışmaları artırılmalıdır",
        "dogru": false,
-       "aciklama": "Projenin bulgusuyla ilgisiz, soyut ve uygulanamaz bir temennidir."
+       "aciklama": "Kulağa makul gelir ama bulgudan çıkmaz ve kimin ne yapacağını söylemez; ölçülebilir bir eylem içermiyor."
       },
       {
-       "metin": "\"Dünyadaki tüm okullar yıkılıp yeniden yapılmalıdır.\"",
+       "metin": "Bu konuda daha fazla araştırma yapılması gerekmektedir",
        "dogru": false,
-       "aciklama": "Verinin desteklemediği aşırı ve gerçek dışı bir öneridir."
+       "aciklama": "En sık yazılan ve en az bilgi taşıyan cümle. Hangi değişkenin hangi koşulda inceleneceği belirtilmeli."
       }
      ]
     }
@@ -3894,19 +3894,19 @@ window.DERSLER['puy'] = {
      "soru": "6 dakikalık bir proje sunumunda jürinin senin bilmediğin veya projende ölçmediğin bir değişkeni sorması hâlinde en güvenilir tepki nedir?",
      "secenekler": [
       {
-       "metin": "Uydurmadan, \"Bu değişkeni çalışmamızın kapsamına almadık; bir sonraki aşamada ... biçiminde incelenebilir\" demek",
+       "metin": "Kapsam dışı olduğunu söyleyip sonraki adımı önermek",
        "dogru": true,
-       "aciklama": "Doğru. Sınırlarını bilmek ve dürüst kalmak jüri karşısında güvenilirliği en çok artıran davranıştır."
+       "aciklama": "Doğru. Uydurmadan, bu değişkeni kapsama almadığını söyleyip nasıl incelenebileceğini belirtmek jüri karşısında güvenilirliği en çok artıran davranıştır."
       },
       {
-       "metin": "Veri olmadan kesin bir sayı uydurup söylemek",
+       "metin": "Konuyla ilgili genel bilginden yola çıkıp tahmin yürütmek",
        "dogru": false,
-       "aciklama": "Jüri uydurmayı hemen fark eder ve tüm projeye güveni sarsılır."
+       "aciklama": "Tahmin yürütmek kendiliğinden yanlış değil, ama bunu ölçülmüş bulgu gibi sunmak güveni zedeler. Tahmin olduğunu belirtmek gerekir."
       },
       {
-       "metin": "Soruyu duymazdan gelip başka bir slayta geçmek",
+       "metin": "Sorunun projeyle ilgisiz olduğunu belirtip geçmek",
        "dogru": false,
-       "aciklama": "Soruyu saygıyla karşılayıp kapsam sınırıyla yanıtlamak gerekir."
+       "aciklama": "Jürinin sorusu çoğu zaman ilgilidir; kapsam dışı olmakla ilgisiz olmak farklı şeylerdir."
       }
      ]
     },
@@ -3914,19 +3914,19 @@ window.DERSLER['puy'] = {
      "soru": "Sözlü provada 6 dakikalık süreyi 9 dakikaya taşırdığını fark ettin. Ne yapmalısın?",
      "secenekler": [
       {
-       "metin": "Nefessiz hızlanmak yerine giriş ve genel tanımları kısaltıp asıl süreyi yöntem ve bulgu grafiklerine ayırmalısın",
+       "metin": "Giriş ve tanımları kısaltıp süreyi yöntem ve bulguya ayırmak",
        "dogru": true,
-       "aciklama": "Doğru. Hızlı konuşmak anlaşılırlığı yok eder; slaytı sadeleştirmek etkiyi artırır."
+       "aciklama": "Doğru. Hızlanmak anlaşılırlığı düşürür. Jüri için en bilgi taşıyan bölümler yöntem ve bulgu grafikleridir."
       },
       {
-       "metin": "Bulgular slaydını tamamen silmelisin",
+       "metin": "Her slaytta daha hızlı konuşarak süreyi sıkıştırmak",
        "dogru": false,
-       "aciklama": "Bulgular sunumun kalbidir, asla çıkarılmaz."
+       "aciklama": "Aynı içeriği hızlı anlatmak dinleyicinin izlemesini zorlaştırır; kesinti yapılacak yer seçilmelidir."
       },
       {
-       "metin": "Yazıları küçültüp her şeyi tek slayta sıkıştırmalısın",
+       "metin": "Slayt sayısını azaltıp içeriği aynı tutmak",
        "dogru": false,
-       "aciklama": "Okunmayan slayt zaman kazandırmaz, dinleyiciyi koparır."
+       "aciklama": "Slayt birleştirmek süreyi kısaltmaz; anlatılan içerik aynı kalırsa süre de aynı kalır."
       }
      ]
     }
@@ -4002,19 +4002,19 @@ window.DERSLER['puy'] = {
      "soru": "İyi bir bilimsel posterin temel görsel tasarım ölçütü nedir?",
      "secenekler": [
       {
-       "metin": "1–1,5 metreden hızla okunabilmesi; alanın en az %40'ının grafik, diyagram, fotoğraf ve ferah boşluktan oluşması",
+       "metin": "1-1,5 metreden hızla okunabilmesi",
        "dogru": true,
-       "aciklama": "Doğru. Poster ayakta okunan bir görsel özettir; duvarı 10 punto paragrafla kaplamak okunmasını engeller."
+       "aciklama": "Doğru. Alanın en az %40'ı grafik, diyagram, fotoğraf ve ferah boşluk olmalıdır; poster baştan sona okunmak için değil hızla taranmak için tasarlanır."
       },
       {
-       "metin": "15 sayfalık raporun tamamının küçük puntoyla postere yapıştırılması",
+       "metin": "Raporun tüm bölümlerini eksiksiz içermesi",
        "dogru": false,
-       "aciklama": "Kimse sergide ayakta 15 sayfa küçük yazı okuyamaz."
+       "aciklama": "Poster raporun kısaltması değildir; tam metin küçük puntoyla okunamaz hâle gelir."
       },
       {
-       "metin": "Hiç grafik koymadan sadece başlık yazmak",
+       "metin": "Kurum logosunun en üstte büyük yer alması",
        "dogru": false,
-       "aciklama": "Poster projenin yöntemini ve ana bulgularını görsel kanıtlarla taşımalıdır."
+       "aciklama": "Logo gereklidir ama görsel hiyerarşinin tepesinde başlık ve ana bulgu olmalıdır."
       }
      ]
     },
@@ -4022,19 +4022,19 @@ window.DERSLER['puy'] = {
      "soru": "Proje çıktında patent/faydalı model potansiyeli taşıyan teknik bir buluş varsa sergi ve yaygınlaştırma aşamasında neye dikkat etmelisin?",
      "secenekler": [
       {
-       "metin": "Başvuru öncesinde buluşun teknik sırrını halka açık ayrıntıyla ifşa etmemeye (6. haftadaki yenilik şartı)",
+       "metin": "Başvuru öncesi teknik ayrıntıyı kamuya açmamaya",
        "dogru": true,
-       "aciklama": "Doğru. Başvuru öncesi kamuya açık ayrıntılı yayın, sınai mülkiyet yeniliğini bozabilir."
+       "aciklama": "Doğru. 6. haftadaki yenilik şartı gereği, başvurudan önce yapılan ayrıntılı kamuya açık paylaşım korumayı bozabilir."
       },
       {
-       "metin": "Buluşu hiç kimseye asla anlatmamaya",
+       "metin": "Sergide yalnızca sözlü anlatıp görsel kullanmamaya",
        "dogru": false,
-       "aciklama": "Önce başvuru ya da koruma planı yapılır, ardından güvenle paylaşılır."
+       "aciklama": "Biçim değil içerik belirleyici. Sözlü ayrıntılı anlatım da ifşa sayılabilir; ölçüt teknik ayrıntının açıklanmasıdır."
       },
       {
-       "metin": "Sadece renkli kâğıt kullanmaya",
+       "metin": "Başvuruyu sergi bittikten sonra yapmaya",
        "dogru": false,
-       "aciklama": "Konu fikri ve sınai hakların yenilik koşuludur."
+       "aciklama": "Sıra tam tersi olmalı: önce başvuru ya da koruma planı, sonra kamuya açık paylaşım."
       }
      ]
     }
@@ -4138,19 +4138,19 @@ window.DERSLER['puy'] = {
      "soru": "Proje çıktısı için patent veya faydalı model başvurusu simülasyonunda teknik tarifname yazmadan önce yapılması gereken ilk kritik adım nedir?",
      "secenekler": [
       {
-       "metin": "TÜRKPATENT veya Google Patents üzerinde ön patent araştırması yaparak benzer önceki teknikleri denetlemek",
+       "metin": "Benzer önceki teknikleri ön araştırmayla denetlemek",
        "dogru": true,
-       "aciklama": "Doğru. Ön araştırma yapmadan başvuru yapmak hem zaman hem harç kaybına yol açar."
+       "aciklama": "Doğru. TÜRKPATENT ya da Google Patents üzerinde yapılan ön araştırma, aynı buluşun daha önce tescil edilip edilmediğini gösterir."
       },
       {
-       "metin": "Ürünün reklam videosunu internette yayımlamak",
+       "metin": "Tarifnamenin dilini uzman bir çevirmene onaylatmak",
        "dogru": false,
-       "aciklama": "Başvurudan önce kamuya açıklama yapmak yenilik şartını riske atar."
+       "aciklama": "Çeviri sonraki adımlardan biri olabilir; yenilik denetimi yapılmadan tarifname yazmak boşa emek olur."
       },
       {
-       "metin": "Büyük bir fabrika kiralamak",
+       "metin": "Ürünün maliyet ve satış fiyatı hesabını çıkarmak",
        "dogru": false,
-       "aciklama": "Ürüne dönüştürme aşamalıdır (ön araştırma → prototip → pilot → ölçekleme)."
+       "aciklama": "Ticarileştirme ayrı bir süreç. Başvurunun kabulü yenilik ölçütüne bağlıdır."
       }
      ]
     }

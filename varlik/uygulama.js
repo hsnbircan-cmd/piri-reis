@@ -713,10 +713,118 @@
     if (k.soru) p.appendChild(el("div", { class: "soru", metin: k.soru }));
 
     if (k.onkosul) {
-      p.appendChild(el("p", { class: "onkosul" }, [
+      var onkKap = el("div", { class: "onkosul-kutu" });
+      onkKap.appendChild(el("p", { class: "onkosul" }, [
         document.createTextNode("Bunu yapabilmek için bilmen gereken tek şey: "),
         el("a", { href: "#/" + ders + "/" + k.onkosul.hafta, metin: k.onkosul.hafta + ". hafta, " + k.onkosul.metin })
       ]));
+      var onkHafta = haftaBul(ders, k.onkosul.hafta);
+      if (onkHafta && onkHafta.sina && onkHafta.sina.length) {
+        var onkSoru = onkHafta.sina[0];
+        var onkDurum = el("span", { class: "rozet" });
+        var onkGeri = el("div", { class: "sina-geri" });
+        var onkSecListe = el("div", { class: "sina-secenekler" });
+        var onkDugmeler = [];
+        karistir(onkSoru.secenekler).forEach(function (sec) {
+          var b = el("button", { type: "button", class: "sina-secenek", metin: sec.metin });
+          b.addEventListener("click", function () {
+            onkDugmeler.forEach(function (x) { x.classList.remove("secili-dogru", "secili-yanlis"); });
+            b.classList.add(sec.dogru ? "secili-dogru" : "secili-yanlis");
+            onkGeri.innerHTML = "";
+            onkGeri.className = "sina-geri " + (sec.dogru ? "dogru" : "yanlis");
+            if (sec.dogru) {
+              onkDurum.className = "rozet tamam";
+              onkDurum.textContent = "hazır";
+              onkGeri.textContent = sec.aciklama + " Önkoşul hazır, bu haftaya güvenle devam edebilirsin.";
+            } else {
+              onkDurum.className = "rozet kod";
+              onkDurum.textContent = "tekrar gerekebilir";
+              onkGeri.appendChild(document.createTextNode(sec.aciklama + " "));
+              onkGeri.appendChild(el("a", { href: "#/" + ders + "/" + k.onkosul.hafta, metin: k.onkosul.hafta + ". haftayı kısaca gözden geçir →" }));
+            }
+          });
+          onkDugmeler.push(b);
+          onkSecListe.appendChild(b);
+        });
+        onkKap.appendChild(el("details", { class: "yoklama-katla" }, [
+          el("summary", {}, [document.createTextNode("Önkoşulu 1 soruyla yokla "), onkDurum]),
+          el("div", { class: "sina-soru" }, [
+            el("div", { class: "sina-soru-metin", metin: onkSoru.soru }),
+            onkSecListe,
+            onkGeri
+          ])
+        ]));
+      }
+      p.appendChild(onkKap);
+    }
+
+    // Aralikli tekrar: onceki haftadan (N-1) ve 3 hafta oncesinden (N-3) 2 kisa soru
+    if (k.hazir && no > 1) {
+      var kullanilan = {};
+      if (k.onkosul) kullanilan[k.onkosul.hafta + ":0"] = true;
+      var tekrarlar = [];
+      function tekrarSec(hNo) {
+        if (hNo < 1) return false;
+        var hh = haftaBul(ders, hNo);
+        if (!hh || !hh.sina || !hh.sina.length) return false;
+        for (var i = 0; i < hh.sina.length; i++) {
+          var key = hNo + ":" + i;
+          if (!kullanilan[key]) {
+            kullanilan[key] = true;
+            tekrarlar.push({ hafta: hNo, baslik: hh.baslik, soru: hh.sina[i] });
+            return true;
+          }
+        }
+        return false;
+      }
+      tekrarSec(no - 1);
+      if (no >= 4) tekrarSec(no - 3);
+      if (tekrarlar.length < 2) tekrarSec(no - 2);
+      if (tekrarlar.length < 2) tekrarSec(no - 1);
+
+      if (tekrarlar.length) {
+        var tSayac = el("span", { class: "rozet", metin: "0 / " + tekrarlar.length + " doğru" });
+        var dogruDurum = tekrarlar.map(function () { return false; });
+        var tGovde = el("div", { class: "tekrar-govde" });
+
+        tekrarlar.forEach(function (item, idx) {
+          var geri = el("div", { class: "sina-geri" });
+          var secListe = el("div", { class: "sina-secenekler" });
+          var dugmeler = [];
+          karistir(item.soru.secenekler).forEach(function (sec) {
+            var b = el("button", { type: "button", class: "sina-secenek", metin: sec.metin });
+            b.addEventListener("click", function () {
+              dugmeler.forEach(function (x) { x.classList.remove("secili-dogru", "secili-yanlis"); });
+              b.classList.add(sec.dogru ? "secili-dogru" : "secili-yanlis");
+              geri.className = "sina-geri " + (sec.dogru ? "dogru" : "yanlis");
+              geri.textContent = sec.aciklama;
+              dogruDurum[idx] = !!sec.dogru;
+              var top = dogruDurum.filter(Boolean).length;
+              tSayac.textContent = top + " / " + tekrarlar.length + " doğru";
+              tSayac.className = top === tekrarlar.length ? "rozet tamam" : "rozet";
+            });
+            dugmeler.push(b);
+            secListe.appendChild(b);
+          });
+          tGovde.appendChild(el("div", { class: "sina-soru" }, [
+            el("div", { class: "tekrar-etiket" }, [
+              el("a", { href: "#/" + ders + "/" + item.hafta, metin: item.hafta + ". haftadan · " + item.baslik })
+            ]),
+            el("div", { class: "sina-soru-metin", metin: (idx + 1) + ". " + item.soru.soru }),
+            secListe,
+            geri
+          ]));
+        });
+
+        p.appendChild(el("details", { class: "tekrar-kutu" }, [
+          el("summary", {}, [
+            document.createTextNode("Aralıklı tekrar · Önceki haftalardan " + tekrarlar.length + " kısa soru "),
+            tSayac
+          ]),
+          el("p", { class: "kucuk", style: "margin:8px 0 4px", metin: "Yeni konuya geçmeden önce bir hafta ve üç hafta önceki temel ayrımları hatırlayıp hatırlamadığını sına." }),
+          tGovde
+        ]));
+      }
     }
 
     if (!k.hazir) {
