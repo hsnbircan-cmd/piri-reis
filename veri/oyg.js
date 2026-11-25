@@ -1,6 +1,6 @@
 // Bu dosya yillik plandan ve icerik/*.json dosyalarindan uretildi.
-// Hafta icerigini guncellemek icin icerik/ klasorundeki ilgili JSON
-// dosyasini duzenleyip `python uret.py` komutunu calistirin.
+// Icerigi guncellemek icin icerik/ klasorundeki ilgili JSON dosyasini
+// duzenleyip python uret.py komutunu calistirin.
 window.DERSLER = window.DERSLER || {};
 window.DERSLER['oyg'] = {
  "ad": "Teknoloji ve Tasarım · ÖYG",
@@ -71,6 +71,63 @@ window.DERSLER['oyg'] = {
     "Autodesk davet e-postası gelen kutusunda yoksa Gereksiz (Spam) klasörünü kontrol et; hâlâ görünmüyorsa e-posta adresini öğretmeninle teyit et.",
     "Doğrulama kodu birkaç dakika gecikebilir; beklerken çalışma yaprağındaki soruları yanıtlamaya devam et.",
     "Dosyayı kaydederken ortak klasöre değil, kendi adının bulunduğu bulut klasörüne girdiğinden emin ol."
+   ],
+   "inceleme": {
+    "baslik": "Atölye yapay zekâ kullanım kuralları (özet)",
+    "maddeler": [
+     "1. Beyan kuralı: Hangi araca ne yaptırdığını teslimde açıkça yaz; yazılmayan çıktı kendi işin sayılır.",
+     "2. Karar sorumluluğu: Seçenekleri araç üretebilir ama seçimi ve gerekçesini sen yazarsın.",
+     "3. Araçsız haftalar: Modelleme haftalarında hazır model indirmek ya da yaptırmak çalışmayı geçersiz kılar."
+    ]
+   },
+   "karsilastir": {
+    "baslik": "Kâğıt çizim vs. 3B dijital model",
+    "solBaslik": "Kâğıtta çizim",
+    "sol": "Kutunun boyunu 5 cm'den 8 cm'ye çıkarmak için tüm görünüşleri silip baştan çizmen gerekir.",
+    "sagBaslik": "Bilgisayarda 3B model",
+    "sag": "Tek bir ölçüyü 50 mm'den 80 mm'ye değiştirirsin; katı model, kesit ve teknik resim kendini günceller."
+   },
+   "sina": [
+    {
+     "soru": "1. haftada yapılan başlangıç çalışmasının (tanılayıcı görev) temel amacı nedir?",
+     "secenekler": [
+      {
+       "metin": "İlk dersten yüksek not vermek",
+       "dogru": false,
+       "aciklama": "Bu çalışma not için değildir; düşük başlaması normal ve beklenendir."
+      },
+      {
+       "metin": "36. haftada tekrarlayarak yıl içindeki gelişimi ölçebilmek",
+       "dogru": true,
+       "aciklama": "Doğru. Yıl başında temel bir ölçüm olmazsa yıl sonunda ne kadar ilerlediğini nesnel göremezsin."
+      },
+      {
+       "metin": "Fusion 360 komutlarını ezberletmek",
+       "dogru": false,
+       "aciklama": "İlk hafta komut ezberlenmez; amaç başlangıç uzamsal becerini ve düzeni kurmaktır."
+      }
+     ]
+    },
+    {
+     "soru": "Bir teslimde yapay zekâ aracından yardım aldıysan atölye kuralına göre ne yapmalısın?",
+     "secenekler": [
+      {
+       "metin": "Söylemeden kendi çalışman gibi teslim etmelisin",
+       "dogru": false,
+       "aciklama": "Beyan edilmeyen çıktı kurala aykırıdır ve tüm sorumluluğu sana aittir."
+      },
+      {
+       "metin": "Hangi araca ne yaptırdığını yazmalı, seçim gerekçesini kendin kurmalısın",
+       "dogru": true,
+       "aciklama": "Doğru. Saydam beyan ve tasarım kararının gerekçesi bu dersin temel kuralıdır."
+      },
+      {
+       "metin": "Yıl boyunca hiçbir yapay zekâ aracı kullanmamalısın",
+       "dogru": false,
+       "aciklama": "25–30. haftalarda yapay zekâ araçları programın kendi çıktısı gereği kullanılacaktır."
+      }
+     ]
+    }
    ],
    "hazir": true
   },
@@ -143,6 +200,64 @@ window.DERSLER['oyg'] = {
     "\"Daha düzenli\" ya da \"daha profesyonel\" yazdıysan kendine şu soruyu sor: bunu arkadaşına parmağınla nasıl gösterirsin? Cevap ölçütün kendisidir.",
     "On tane farklı ölçüt yazmaya çalışma; birbirini tekrar edenleri birleştirip üç net ölçütte kalmak daha değerlidir.",
     "İki kaynak aynı ilkeye farklı ad veriyorsa birini silme; bu farkı özellikle not et, gelecek hafta işimize yarayacak."
+   ],
+   "gorsel": "oyg_h02_duzen",
+   "inceleme": {
+    "baslik": "Bir ifadenin \"ölçüt\" sayılabilmesi için üç şart",
+    "maddeler": [
+     "1. Parmakla gösterilebilir olmalı (görselin neresine baktığın açık olmalı).",
+     "2. Başka biri aynı görsele baktığında seninle aynı sonuca varabilmeli.",
+     "3. Tek bir görsele değil, başka tasarımlara da uygulanabilmeli."
+    ]
+   },
+   "karsilastir": {
+    "baslik": "Öznel beğeni vs. Gözlenebilir ölçüt",
+    "solBaslik": "Ölçüt değildir",
+    "sol": "\"2. tasarım daha güzel, daha modern ve göze hoş görünüyor.\"",
+    "sagBaslik": "Gözlenebilir ölçüttür",
+    "sag": "\"2. tasarımda etkinlik adı en büyük puntoyla en üstte, tarih-saat ayrı bir grupta toplanmış.\""
+   },
+   "sina": [
+    {
+     "soru": "Aşağıdakilerden hangisi gerçek bir görsel tasarım ölçütüdür?",
+     "secenekler": [
+      {
+       "metin": "Afiş çok şık ve profesyonel duruyor",
+       "dogru": false,
+       "aciklama": "\"Şık\" ve \"profesyonel\" kişiden kişiye değişir; parmakla gösterilemez."
+      },
+      {
+       "metin": "Ana başlık ile arka plan arasındaki renk zıtlığı 2 metreden okunabiliyor",
+       "dogru": true,
+       "aciklama": "Doğru. Gözlenebilir, sınanabilir ve iki kişiyi aynı sonuca götürür."
+      },
+      {
+       "metin": "Mavi renk her zaman en iyi renktir",
+       "dogru": false,
+       "aciklama": "Bu kişisel bir tercihtir; tasarımda renk seçimi bağlam ve zıtlığa bağlıdır."
+      }
+     ]
+    },
+    {
+     "soru": "Yukarıdaki 3. kartta (tuzak örnek) \"büyük yazı iyidir\" ölçütü neden aksadı?",
+     "secenekler": [
+      {
+       "metin": "Yazı tipi okunaksız olduğu için",
+       "dogru": false,
+       "aciklama": "Üç kartta da aynı yazı tipi kullanıldı; sorun yazı tipi değil vurgu sırası."
+      },
+      {
+       "metin": "En büyük yazı en önemli bilgiye (etkinlik adına) değil, ikincil bilgiye (kat adına) verildiği için",
+       "dogru": true,
+       "aciklama": "Doğru. Büyüklük tek başına değil, bilginin önem sırasıyla (hiyerarşi) eşleştiğinde işe yarar."
+      },
+      {
+       "metin": "Afişte renk kullanıldığı için",
+       "dogru": false,
+       "aciklama": "Renk vurgu aracıdır; yanlış yere verilirse dikkati dağıtır."
+      }
+     ]
+    }
    ],
    "hazir": true
   },
@@ -217,6 +332,62 @@ window.DERSLER['oyg'] = {
     "Önermenin başına \"Her tasarımda...\" yazdıysan neredeyse kesin bir karşı örnek çıkacaktır; hangi amaç ya da izleyici koşulunda geçerli olduğunu belirt.",
     "Gerekçe kısmında \"daha güzel olur\" yerine izleyicinin yaşadığı somut bir durum yaz (okuyamaz, karıştırır, gözden kaçırır)."
    ],
+   "inceleme": {
+    "baslik": "Önerme kurma kalıbı ve 4 Ekim bağlamı",
+    "maddeler": [
+     "Önerme kalıbı: \"[Hangi tür/amaç] tasarımında [ilke] uygulanmalıdır; aksi hâlde izleyici [somut sorun] yaşar.\"",
+     "4 Ekim Hayvanları Koruma Günü ilan kartı sınaması: 2 metre uzaktan, 3 saniyede ana mesaj okunabilmeli."
+    ]
+   },
+   "karsilastir": {
+    "baslik": "Dar kural vs. Kapsam koşullu ilke önermesi",
+    "solBaslik": "Kapsamsız kural (kolay çürütülür)",
+    "sol": "\"Her tasarımda en fazla iki satır yazı olmalıdır.\"",
+    "sagBaslik": "Kapsam koşullu önerme",
+    "sag": "\"2 metreden 3 saniyede okunması gereken duyuru kartlarında metin en çok üç kısa öğeye bölünmelidir; yoksa izleyici ana mesajı kaçırır.\""
+   },
+   "sina": [
+    {
+     "soru": "Kurduğun tasarım önermesine arkadaşın geçerli bir karşı örnek bulursa ne yapmalısın?",
+     "secenekler": [
+      {
+       "metin": "Önermeyi tamamen çöpe atmalısın",
+       "dogru": false,
+       "aciklama": "Karşı örnek yenilgi değildir; önermenin nerede çalışıp nerede çalışmadığını gösterir."
+      },
+      {
+       "metin": "Önermenin kapsam koşulunu o karşı örneği dışarıda bırakacak biçimde daraltmalısın",
+       "dogru": true,
+       "aciklama": "Doğru. Kapsam koşulu eklenmiş bir önerme, her yere uygulanan genel bir kuraldan daha güçlüdür."
+      },
+      {
+       "metin": "Karşı örneği görmezden gelmelisin",
+       "dogru": false,
+       "aciklama": "Çürütmeye dayanmayan genelleme güvenilir değildir."
+      }
+     ]
+    },
+    {
+     "soru": "Bir sokak afişi ile ders kitabı sayfasında yazı boyutu ve bilgi yoğunluğunun farklı olması neyi gösterir?",
+     "secenekler": [
+      {
+       "metin": "Tasarım ilkelerinin bağlama ve kullanım amacına göre farklılaşan (ortak olmayan) yanları olduğunu",
+       "dogru": true,
+       "aciklama": "Doğru. Afiş 5 metreden hızlı okuma, kitap ise yakından uzun inceleme amacı taşır."
+      },
+      {
+       "metin": "Ders kitaplarının kötü tasarlandığını",
+       "dogru": false,
+       "aciklama": "Fark kalite değil, kullanım amacı farkıdır."
+      },
+      {
+       "metin": "Görsel tasarım ilkelerinin hiçbir işe yaramadığını",
+       "dogru": false,
+       "aciklama": "İlkeler evrensel reçeteler değil, amaca bağlandığında çalışan araçlardır."
+      }
+     ]
+    }
+   ],
    "hazir": true
   },
   {
@@ -288,6 +459,57 @@ window.DERSLER['oyg'] = {
     "İçinde tek bir parça bulunan bir grup ara düğüm sayılmaz; en az iki parçanın birlikte hareket etmesi gereken bir gerekçesi olmalıdır.",
     "Kırma sınamasında elle düzeltme sayısının yüksek çıkması başarısızlık değildir; sahte bağları bulabildiğini gösterir, sayıyı gizleme.",
     "Her müdahaleden sonra Geri Al (Ctrl+Z) yapmazsan bir sonraki sınama bozulmuş dosya üzerinde çalışır ve ölçümün yanlış çıkar."
+   ],
+   "gorsel": "oyg_h04_agac",
+   "inceleme": {
+    "baslik": "Kırma sınaması: 3 müdahale",
+    "maddeler": [
+     "1. Konum/boyut: Kartı 20 piksel genişlet → kaç parçayı elle kaydırman gerekti? (Sonra geri al.)",
+     "2. İçerik uzatma: Başlığı iki satıra çıkar → altındaki parçalar üst üste bindi mi? (Sonra geri al.)",
+     "3. Tekrar maliyeti: Vurgu rengini değiştir → kaç yerde tek tek boyaman gerekti?"
+    ]
+   },
+   "sina": [
+    {
+     "soru": "Kırma sınamasında elle düzeltme sayın yüksek çıkarsa bu ne anlama gelir?",
+     "secenekler": [
+      {
+       "metin": "Sınavdan kaldığın anlamına gelir, sayıyı düşük yazmalısın",
+       "dogru": false,
+       "aciklama": "Bu not değil bir teşhistir; sayıyı gizlemek hatayı saklar."
+      },
+      {
+       "metin": "Tasarımındaki sahte bağları başarıyla yakaladığın ve onarılacak yeri bulduğun anlamına gelir",
+       "dogru": true,
+       "aciklama": "Doğru. Kırma sınamasının amacı sahte bağları görünür kılıp onarmaktır."
+      },
+      {
+       "metin": "Tasarımın renklerinin uyumsuz olduğu anlamına gelir",
+       "dogru": false,
+       "aciklama": "Kırma sınaması estetiği değil, parçalar arası yapısal bağları ölçer."
+      }
+     ]
+    },
+    {
+     "soru": "İçinde yalnızca tek bir parça bulunan bir grup neden gerçek bir \"ara düğüm\" sayılmaz?",
+     "secenekler": [
+      {
+       "metin": "Ara düğüm, birlikte hareket etmesi gereken en az iki parçayı tek tutamağa bağlamak için vardır",
+       "dogru": true,
+       "aciklama": "Doğru. Tek parçayı gruplamak ekstra katman yaratır ama yapısal ilişki kurmaz."
+      },
+      {
+       "metin": "Yazılım tek parçalı gruba izin vermediği için",
+       "dogru": false,
+       "aciklama": "Çoğu yazılım izin verir ama mantıksal bir işlevi yoktur."
+      },
+      {
+       "metin": "Ara düğümler yalnızca 3B yazılımlarda olduğu için",
+       "dogru": false,
+       "aciklama": "Bileşen ağacı mantığı 2B arayüzde de 3B CAD'de de aynıdır."
+      }
+     ]
+    }
    ],
    "hazir": true
   },
@@ -373,6 +595,55 @@ window.DERSLER['oyg'] = {
     "Kesitler Tarayıcı'da Çözümleme başlığı altında birikir; oradan gizleyebilir ya da silebilirsin.",
     "Yanlış yüzeyi seçtiysen boş bir yere tıkla, seçim temizlenir."
    ],
+   "karsilastir": {
+    "baslik": "Bakışı değiştiren araç vs. Modeli değiştiren araç",
+    "solBaslik": "Yalnızca görüntüyü/bakışı değiştirir",
+    "sol": "Yörünge (Orbit), Yakınlaş, Görünüm Küpü, Göz simgesi, Kesit Çözümlemesi, Ölç.",
+    "sagBaslik": "Model dosyasının kendisini değiştirir",
+    "sag": "Taşı/Kopyala (Move), Extrude, Sil, Fillet — geri almazsan geometri kalıcı değişir."
+   },
+   "sina": [
+    {
+     "soru": "İncele > Kesit Çözümlemesi ile modeli ortadan ikiye böldüğünde gerçekte ne olur?",
+     "secenekler": [
+      {
+       "metin": "Modelin yarısı silinir ve kütlesi yarıya düşer",
+       "dogru": false,
+       "aciklama": "Kesit Çözümlemesi malzemeyi eksiltmez; yalnızca görsel bir inceleme düzlemidir."
+      },
+      {
+       "metin": "Model değişmez, yalnızca içini görebilmen için geçici bir kesit görünümü açılır",
+       "dogru": true,
+       "aciklama": "Doğru. Çözümleme klasöründeki göz simgesini kapatınca tüm model eksiksiz geri görünür."
+      },
+      {
+       "metin": "Dosya bozulur, hemen kapatıp yeniden açmak gerekir",
+       "dogru": false,
+       "aciklama": "Kesitler Tarayıcı'da Çözümleme altında güvenle gizlenebilir veya silinebilir."
+      }
+     ]
+    },
+    {
+     "soru": "Bir aracın modeli mi yoksa yalnızca bakışını mı değiştirdiğini en kesin nasıl sınarsın?",
+     "secenekler": [
+      {
+       "metin": "Aracı uyguladıktan sonra zaman çizelgesinde (Timeline) yeni adım eklenip eklenmediğine ve ölçünün/kütlenin değişip değişmediğine bakarak",
+       "dogru": true,
+       "aciklama": "Doğru. Modeli değiştiren araç geometriyi veya zaman çizelgesini kalıcı etkiler."
+      },
+      {
+       "metin": "Simgesinin rengine bakarak",
+       "dogru": false,
+       "aciklama": "Simge rengi güvenilir bir ölçüt değildir."
+      },
+      {
+       "metin": "Ekran görüntüsü alarak",
+       "dogru": false,
+       "aciklama": "Ekran görüntüsü yalnızca bakış açısını yakalar."
+      }
+     ]
+    }
+   ],
    "hazir": true
   },
   {
@@ -444,6 +715,49 @@ window.DERSLER['oyg'] = {
     "Eskiz kapalı göründüğü hâlde içi dolmuyorsa köşelere iyice yakınlaş; milimetreden küçük bir boşluk veya üst üste binmiş kısa bir çizgi kalmış olabilir.",
     "Çizgi siyah olmuyorsa mavi bir köşeyi tutup fareyle sürükle; hangi yöne hareket ediyorsa o yöndeki ölçü ya da kısıt eksiktir.",
     "Eskizi orijine (merkez noktasına) bağlamazsan tüm ölçüler tamam olsa bile şeklin tamamı uzayda kayabildiği için çizgiler mavi kalır."
+   ],
+   "gorsel": "oyg_h06_eskiz",
+   "sina": [
+    {
+     "soru": "Fusion 360 eskizinde tüm ölçüleri verdiğin hâlde çizgiler hâlâ mavi kalıyorsa en olası neden nedir?",
+     "secenekler": [
+      {
+       "metin": "Bilgisayarın ekran kartı renkleri yanlış gösteriyordur",
+       "dogru": false,
+       "aciklama": "Mavi renk yazılımın \"konum veya boyut hâlâ serbest\" uyarısıdır."
+      },
+      {
+       "metin": "Eskiz orijine (merkez noktasına) sabitlenmemiş veya bir açı/kısıt eksik kalmıştır",
+       "dogru": true,
+       "aciklama": "Doğru. Mavi bir köşeyi fareyle sürükleyerek hangi yönde serbest kaldığını anında görebilirsin."
+      },
+      {
+       "metin": "Profil kapalı değildir",
+       "dogru": false,
+       "aciklama": "Kapalı bir profil bile orijine ve ölçülere kilitlenmedikçe mavi kalabilir."
+      }
+     ]
+    },
+    {
+     "soru": "Kapalı olmayan (köşesinde 0,1 mm boşluk kalmış) bir dikdörtgen eskizi neden Extrude ile katılaştırılamaz?",
+     "secenekler": [
+      {
+       "metin": "Katı hacim yalnızca sınırları tamamen kapalı bir alan profilinden üretilebilir",
+       "dogru": true,
+       "aciklama": "Doğru. Profilin içi açık mavi tonda dolmadıysa köşelere yakınlaşıp açık ucu Çakışık (Coincident) kısıtıyla kapat."
+      },
+      {
+       "metin": "Ölçüsü milimetre cinsinden verilmediği için",
+       "dogru": false,
+       "aciklama": "Ölçü verilmemiş kapalı bir şekil bile katılaşabilir; sorun profilin açık olmasıdır."
+      },
+      {
+       "metin": "Üst düzlemde çizildiği için",
+       "dogru": false,
+       "aciklama": "Herhangi bir düzlemdeki kapalı profil katılaştırılabilir."
+      }
+     ]
+    }
    ],
    "hazir": true
   },
@@ -517,6 +831,55 @@ window.DERSLER['oyg'] = {
     "Birim uyuşmazlığı (kırmızı yazı) görüyorsan mm ile mm'yi çarpmış olabilirsin; katsayılar birimsiz olmalıdır (boy * 0.4, boy * 0.4 mm değil).",
     "Değişiklik sonrası zaman çizelgesinde sarı ya da kırmızı simge çıkarsa üzerine sağ tıklayıp hatayı oku; çoğu zaman bir kenar ya da pah sıfırlanmıştır."
    ],
+   "karsilastir": {
+    "baslik": "Sabit sayılarla çizim vs. Parametrik bağımlılık",
+    "solBaslik": "Sabit sayılar (kırılgan)",
+    "sol": "Boy = 60, En = 24, Delik = 6. Boyu 90 yapınca en ve delik küçük kalır; hepsini tek tek bulup değiştirmen gerekir.",
+    "sagBaslik": "Parametrik formül (esnek)",
+    "sag": "boy = 60 mm · en = boy * 0.4 · delik_capi = en * 0.25. Yalnızca boy = 90 yazınca tüm anahtarlık orantılı büyür."
+   },
+   "sina": [
+    {
+     "soru": "Fusion 360 parametre tablosunda en = boy * 0.4 mm yazdığında neden kırmızı birim uyarısı alırsın?",
+     "secenekler": [
+      {
+       "metin": "boy zaten mm olduğu için mm × mm = mm² (alan) çıkar; katsayı birimsiz (boy * 0.4) olmalıdır",
+       "dogru": true,
+       "aciklama": "Doğru. Uzunluk parametresini boyutsuz bir oranla çarparsan sonuç yine mm uzunluk olur."
+      },
+      {
+       "metin": "Parametrelerde çarpma işareti (*) kullanılmadığı için",
+       "dogru": false,
+       "aciklama": "Çarpma için * kullanılır; sorun fazla yazılan mm birimidir."
+      },
+      {
+       "metin": "Ondalık sayı yazılamadığı için",
+       "dogru": false,
+       "aciklama": "Nokta ile ondalık sayı (0.4) rahatlıkla yazılabilir."
+      }
+     ]
+    },
+    {
+     "soru": "Parametrik bir modelde stres sınaması (küçük, orta, büyük değer deneme) neden yapılır?",
+     "secenekler": [
+      {
+       "metin": "Dosya boyutunu küçültmek için",
+       "dogru": false,
+       "aciklama": "Stres sınaması dosya boyutunu değil geometrik sağlamlığı test eder."
+      },
+      {
+       "metin": "Ana sayı değiştiğinde delik taşması veya kısıt kopması olup olmadığını önceden yakalamak için",
+       "dogru": true,
+       "aciklama": "Doğru. Modelin yalnızca tek bir sayıda değil, hedeflenen aralıkta bozulmadan çalıştığını kanıtlar."
+      },
+      {
+       "metin": "Render görüntüsünü güzelleştirmek için",
+       "dogru": false,
+       "aciklama": "Render görsel kalitesi parametre sınamasından ayrıdır."
+      }
+     ]
+    }
+   ],
    "hazir": true
   },
   {
@@ -589,6 +952,49 @@ window.DERSLER['oyg'] = {
     "Sweep'te kesit ile yol aynı düzlemdeyse araç çalışmaz; kesit genellikle yola dik bir düzlemde (Plane Along Path) çizilir.",
     "Loft için iki profili aynı düzleme çizdiysen hacim oluşmaz; ikinci profil için mutlaka Öteleme Düzlemi (Offset Plane) oluştur."
    ],
+   "gorsel": "oyg_h08_govdeler",
+   "sina": [
+    {
+     "soru": "Alt tabanı kare, üst ağzı yuvarlak ve aradaki yüzeyi yumuşak geçişli bir huni yapmak için en doğru araç hangisidir?",
+     "secenekler": [
+      {
+       "metin": "Extrude",
+       "dogru": false,
+       "aciklama": "Extrude tek bir kesiti düz iter; kesit biçimini kareden daireye dönüştüremez."
+      },
+      {
+       "metin": "Revolve",
+       "dogru": false,
+       "aciklama": "Revolve dairesel simetrili dönel gövdeler üretir; kare taban oluşturamaz."
+      },
+      {
+       "metin": "Loft",
+       "dogru": true,
+       "aciklama": "Doğru. Loft, farklı düzlemlerdeki iki ya da daha fazla farklı kesiti yumuşak yüzeyle birleştirir."
+      }
+     ]
+    },
+    {
+     "soru": "Bir satranç piyonu gövdesi için Revolve profilini çizerken yapılan en yaygın hata hangisidir?",
+     "secenekler": [
+      {
+       "metin": "Profilin merkez dönme eksenini kesip diğer tarafa taşması",
+       "dogru": true,
+       "aciklama": "Doğru. Profil ekseni keserse döndürme sırasında gövde kendi içine çöker ve hata verir; yalnızca yarım kesit çizilmelidir."
+      },
+      {
+       "metin": "Eksen çizgisinin dikey olması",
+       "dogru": false,
+       "aciklama": "Dikey veya yatay herhangi bir çizgi dönme ekseni olabilir."
+      },
+      {
+       "metin": "Eskizin tam belirlenmiş (siyah) olması",
+       "dogru": false,
+       "aciklama": "Siyah eskiz hata değil, tam olarak istenen sağlam eskizdir."
+      }
+     ]
+    }
+   ],
    "hazir": true
   },
   {
@@ -660,6 +1066,49 @@ window.DERSLER['oyg'] = {
     "Shell komutu çalışmıyorsa duvar kalınlığı gövdenin en ince yerinin yarısından büyük olabilir; kalınlığı küçültüp tekrar dene.",
     "Zaman çizelgesinde Fillet'i Shell'in önüne çektikten sonra hata çıkarsa Fillet'i düzenleyip seçili kenarı yeniden işaretle.",
     "3B yazıcıda basılacak parçanın tabanına büyük bir Fillet verirsen çıkıntı açısı dikleşip sarkma yapabilir; taban kenarlarında Chamfer (45°) genellikle daha temiz basılır."
+   ],
+   "gorsel": "oyg_h09_kabuk",
+   "sina": [
+    {
+     "soru": "Bir kabın dış taban köşelerine yuvarlatma (Fillet) yaparken duvar kalınlığının köşede de eşit kalması için doğru işlem sırası nedir?",
+     "secenekler": [
+      {
+       "metin": "Önce Shell, sonra Fillet",
+       "dogru": false,
+       "aciklama": "İç köşe dik kalacağı için dıştan büyük yuvarlatma duvarı köşede inceltebilir hatta delebilir."
+      },
+      {
+       "metin": "Önce Fillet, sonra Shell",
+       "dogru": true,
+       "aciklama": "Doğru. Önce dış formu yuvarlatıp sonra Shell yaparsan yazılım iç köşeyi de sabit et kalınlığına göre otomatik yuvarlatır."
+      },
+      {
+       "metin": "Sıra hiç fark etmez",
+       "dogru": false,
+       "aciklama": "Zaman çizelgesinde (Timeline) sırayı değiştirip Kesit Çözümlemesi ile farkı gözünle görebilirsin."
+      }
+     ]
+    },
+    {
+     "soru": "3B yazıcıda basılacak bir kabın doğrudan tablaya oturan alt kenarında büyük bir Fillet yerine 45° Chamfer (pah) neden daha temiz çıkar?",
+     "secenekler": [
+      {
+       "metin": "Büyük Fillet'in alt başlangıcı yataya çok yakın çıkıntı oluşturup sarkma yaparken 45° Chamfer desteksiz temiz basılır",
+       "dogru": true,
+       "aciklama": "Doğru. Eklemeli imalat geometrisi 45° eğimleri destek gerekmeden düzgün örer."
+      },
+      {
+       "metin": "3B yazıcılar yuvarlak kenar basamadığı için",
+       "dogru": false,
+       "aciklama": "Yazıcı dikey kenarlardaki Fillet'leri rahat basar; sorun yalnızca tabana yakın yatay sarkmadır."
+      },
+      {
+       "metin": "Chamfer daha fazla filament harcadığı için",
+       "dogru": false,
+       "aciklama": "Aksine az malzeme kullanır ve daha temiz taban geçişi verir."
+      }
+     ]
+    }
    ],
    "hazir": true
   },
@@ -735,6 +1184,55 @@ window.DERSLER['oyg'] = {
     "Nesne sahnede havada asılı görünüyorsa Sahne Ayarları'ndan Zemini Düzleştir (Flatten Ground) seçeneğini kontrol et.",
     "Işık çok parlak parlıyorsa parlak metal yerine saten/mat malzeme seç veya ortam parlaklığını (Brightness) düşür."
    ],
+   "ozdenetim": [
+    "Modeldeki tüm ana eskizler tam belirlenmiş (siyah) ve zaman çizelgesinde kırmızı/sarı hata yok.",
+    "En az iki bağımlı parametre tanımlı; ana parametreyi iki farklı değerle değiştirip bozulmadığını sınadım.",
+    "Render çalışma alanında biri genel 3/4, biri ayrıntı gösteren iki farklı görselleştirme ürettim ve dışa aktardım.",
+    "Tasarım gerekçemde 2–3. haftadaki görsel tasarım ilkelerine somut bağlantı kurdum.",
+    "Tüm dosyaları Modül A bulut klasörüne düzenli adlarla kaydettim."
+   ],
+   "sina": [
+    {
+     "soru": "Modül A değerlendirmesinde aşağıdakilerden hangisi tek başına yeterli değildir?",
+     "secenekler": [
+      {
+       "metin": "Render görselinin şık görünmesi ama parametre değişince modelin bozulması",
+       "dogru": true,
+       "aciklama": "Doğru. Bu derste yalnızca dış görünüş değil, parametrik yapı ve gerekçe birlikte ölçülür."
+      },
+      {
+       "metin": "Parametre değişince modelin hatasız ölçeklenmesi ve gerekçenin yazılması",
+       "dogru": false,
+       "aciklama": "Tam olarak Modül A'nın beklediği çekirdek yetkinlik budur."
+      },
+      {
+       "metin": "İki farklı açıdan net ışıklandırılmış render alınması",
+       "dogru": false,
+       "aciklama": "Bu, teslim paketinin zorunlu ve doğru bir parçasıdır."
+      }
+     ]
+    },
+    {
+     "soru": "Render alırken nesne sanki havada asılıymış gibi gölgesiz görünüyorsa ilk nereyi kontrol etmelisin?",
+     "secenekler": [
+      {
+       "metin": "Sahne Ayarları'nda Zemini Düzleştir (Flatten Ground) ve zemin gölgesi ayarını",
+       "dogru": true,
+       "aciklama": "Doğru. Zemin düzlemi ve gölge açılınca nesne sahneye gerçekçi biçimde oturur."
+      },
+      {
+       "metin": "Eskizdeki ölçü birimini inç yapmayı",
+       "dogru": false,
+       "aciklama": "Ölçü biriminin gölgeyle ilgisi yoktur."
+      },
+      {
+       "metin": "Gövdeyi silip baştan çizmeyi",
+       "dogru": false,
+       "aciklama": "Sorun modelde değil sahne ayarındadır."
+      }
+     ]
+    }
+   ],
    "hazir": true
   },
   {
@@ -802,6 +1300,55 @@ window.DERSLER['oyg'] = {
     "Renk, parlaklık veya şekil gibi dış görünüş özellikleri kolayca değişebilir; malzemenin öz yapısına ait kalıcı özellikler ara.",
     "\"Dayanıklı\" tek başına bir ölçüt değildir: çekmeye mi, darbeye mi, ısıya mı, çizilmeye mi dayanıklı olduğunu mutlaka ayır."
    ],
+   "karsilastir": {
+    "baslik": "Geçici dış özellik vs. Öz malzeme ölçütü",
+    "solBaslik": "Güvenilmez ölçüt",
+    "sol": "\"Kırmızı olanlar\", \"ağır olanlar\", \"sağlam olanlar\" (boyanabilir, boyuta bağlıdır veya belirsizdir).",
+    "sagBaslik": "Sınanabilir malzeme ölçütü",
+    "sag": "\"Mıknatıs çeker mi?\", \"Işığı geçirir mi?\", \"Bükülünce eski hâline döner mi?\", \"Suda batar mı?\""
+   },
+   "sina": [
+    {
+     "soru": "Bir demir ataş (2 g) büyük bir meşe takozdan (200 g) daha hafif olduğu hâlde neden demir daha yoğundur?",
+     "secenekler": [
+      {
+       "metin": "Yoğunluk toplam ağırlık değil, aynı 1 cm³ hacimdeki kütledir (kütle ÷ hacim)",
+       "dogru": true,
+       "aciklama": "Doğru. \"Ağır\" nesneye bağlıdır, \"yoğun\" ise malzemenin kendi ayırt edici özelliğidir."
+      },
+      {
+       "metin": "Demir mıknatıs çektiği için daha yoğundur",
+       "dogru": false,
+       "aciklama": "Manyetizma yoğunluktan bağımsız bir özelliktir."
+      },
+      {
+       "metin": "Ahşap her zaman demirden ağırdır",
+       "dogru": false,
+       "aciklama": "Eşit hacimde demir ahşabın yaklaşık 10 katı kütleye sahiptir."
+      }
+     ]
+    },
+    {
+     "soru": "Bir öğrenci \"dayanıklı malzemeler\" diye bir sınıf açarsa ölçütünü nasıl netleştirmelidir?",
+     "secenekler": [
+      {
+       "metin": "Hangi etkiye karşı (darbe, çekme, çizilme, ısı) dayanıklılıktan söz ettiğini ayırmalıdır",
+       "dogru": true,
+       "aciklama": "Doğru. Örneğin cam çizilmeye çok dayanıklıdır ama darbeye karşı kırılgandır."
+      },
+      {
+       "metin": "Sadece metalleri bu sınıfa koymalıdır",
+       "dogru": false,
+       "aciklama": "Kurşun gibi yumuşak metaller olduğu gibi karbon fiber gibi çok dayanıklı kompozitler de vardır."
+      },
+      {
+       "metin": "Rengine göre koyu olanları seçmelidir",
+       "dogru": false,
+       "aciklama": "Rengin mekanik dayanımla doğrudan ilişkisi yoktur."
+      }
+     ]
+    }
+   ],
    "hazir": true
   },
   {
@@ -848,8 +1395,15 @@ window.DERSLER['oyg'] = {
      "soru": "Test ettiğin modelin hacmi kaç cm³ çıktı? Malzeme değiştikçe hacim değişti mi?"
     },
     {
-     "tip": "uzun",
-     "soru": "Beş malzemenin adını, yoğunluğunu (g/cm³) ve modelin bu malzemedeki kütlesini (g) sırayla yaz."
+     "tip": "tablo",
+     "soru": "Beş malzemenin adını, yoğunluğunu (g/cm³) ve modelin bu malzemedeki kütlesini (g) sırayla yaz.",
+     "sutunlar": [
+      "Malzeme adı",
+      "Yoğunluk (g/cm³)",
+      "Hacim (cm³)",
+      "Kütle (g)"
+     ],
+     "satirlar": 5
     },
     {
      "tip": "kisa",
@@ -873,6 +1427,49 @@ window.DERSLER['oyg'] = {
     "Malzemeyi değiştirdiğin hâlde kütle hep aynı kalıyorsa Physical Material yerine yanlışlıkla Appearance uygulamış olabilirsin.",
     "Özellikler (Properties) penceresinde hacim mm³ ve kütle g görünüyorsa 1 cm³ = 1000 mm³ dönüşümünü unutma.",
     "Bileşene değil tek bir gövdeye malzeme atadıysan doğru gövdenin Özellikler penceresine baktığından emin ol."
+   ],
+   "yardimci": "yogunluk",
+   "sina": [
+    {
+     "soru": "Fusion 360'ta gövdenin rengini Görünüm (Appearance) ile çelik yaptığın hâlde Özellikler penceresinde kütle değişmedi. Neden?",
+     "secenekler": [
+      {
+       "metin": "Appearance yalnızca görsel boya/doku değiştirir; kütleyi değiştirmek için Fiziksel Malzeme (Physical Material) atanmalıdır",
+       "dogru": true,
+       "aciklama": "Doğru. Kütle hesabı yalnızca Physical Material üzerinden yapılır."
+      },
+      {
+       "metin": "Çelik ile plastik aynı yoğunluğa sahip olduğu için",
+       "dogru": false,
+       "aciklama": "Çelik plastiğin yaklaşık 7 katı yoğunluğa sahiptir."
+      },
+      {
+       "metin": "Yazılım kütle hesaplayamadığı için",
+       "dogru": false,
+       "aciklama": "Physical Material atandığında Özellikler penceresi kütleyi anında hesaplar."
+      }
+     ]
+    },
+    {
+     "soru": "Hacmi 20 cm³ olan bir parça alüminyumdan (2,7 g/cm³) yapılırsa kütlesi kaç gram olur?",
+     "secenekler": [
+      {
+       "metin": "54 g",
+       "dogru": true,
+       "aciklama": "Doğru. Kütle = yoğunluk × hacim = 2,7 × 20 = 54 g."
+      },
+      {
+       "metin": "7,4 g",
+       "dogru": false,
+       "aciklama": "Hacmi yoğunluğa bölmek değil, yoğunlukla çarpmak gerekir."
+      },
+      {
+       "metin": "22,7 g",
+       "dogru": false,
+       "aciklama": "Yoğunluk ile hacim toplanmaz, çarpılır."
+      }
+     ]
+    }
    ],
    "hazir": true
   },
@@ -915,8 +1512,16 @@ window.DERSLER['oyg'] = {
    ],
    "yaprak": [
     {
-     "tip": "uzun",
-     "soru": "Seçtiğin altı malzemeyi termal, manyetik, optik ve elektriksel iletkenlik ölçütlerine göre karşılaştıran özet tablonu satır satır yaz."
+     "tip": "tablo",
+     "soru": "Seçtiğin altı malzemeyi termal, manyetik, optik ve elektriksel iletkenlik ölçütlerine göre karşılaştıran özet tablonu satır satır yaz.",
+     "sutunlar": [
+      "Malzeme",
+      "Termal",
+      "Manyetik",
+      "Optik",
+      "Elektriksel"
+     ],
+     "satirlar": 6
     },
     {
      "tip": "kisa",
@@ -943,6 +1548,57 @@ window.DERSLER['oyg'] = {
    "tikanma": [
     "\"Isıya dayanıklı\" ile \"ısıyı iyi ileten\" kavramlarını karıştırma: bakır ısıyı çok iyi iletir ama elini yakar; seramik ısıyı kötü iletir ama yüksek sıcaklığa dayanır.",
     "Paslanmaz çeliğin bazı türleri mıknatısa çekilir, bazıları çekilmez; bunu alaşım farkı olarak not edebilirsin."
+   ],
+   "inceleme": {
+    "baslik": "Hızlı malzeme referans ipucu (dört teknik ölçüt)",
+    "maddeler": [
+     "Termal: Isıyı iletme (iletken/yalıtkan) ile yüksek sıcaklığa dayanma (erime/yumuşama noktası) farklı şeylerdir.",
+     "Manyetik: Demir/çelik çoğu zaman mıknatısa çekilir; alüminyum ve bakır metaldir ama mıknatıs çekmez.",
+     "Optik: Saydam (cam, akrilik), yarı saydam (buzlu cam, ince PLA), opak (metaller, ahşap).",
+     "Elektriksel: Metaller iletken; plastik, cam, seramik, kuru ahşap yalıtkandır."
+    ]
+   },
+   "sina": [
+    {
+     "soru": "Aşağıdaki ifadelerden hangisi doğrudur?",
+     "secenekler": [
+      {
+       "metin": "Bütün metaller mıknatıs tarafından çekilir",
+       "dogru": false,
+       "aciklama": "Yanlış! Alüminyum ve bakır metal olduğu hâlde mıknatısa çekilmez."
+      },
+      {
+       "metin": "Seramik ısıyı kötü iletir ama çok yüksek sıcaklığa dayanabilir",
+       "dogru": true,
+       "aciklama": "Doğru. Isı iletkenliği ile ısıya dayanım birbirinden farklı termal özelliklerdir."
+      },
+      {
+       "metin": "PLA plastik kaynar su kabı için idealdir",
+       "dogru": false,
+       "aciklama": "PLA yaklaşık 60 °C civarında yumuşar; kaynar suda (100 °C) biçimini kaybeder."
+      }
+     ]
+    },
+    {
+     "soru": "Bir tasarım için hem elektriksel yalıtkan hem de darbelere dayanıklı, ışık geçiren bir kapak arıyorsan hangisine yönelirsin?",
+     "secenekler": [
+      {
+       "metin": "Polikarbonat / akrilik gibi şeffaf polimerler",
+       "dogru": true,
+       "aciklama": "Doğru. Elektriği yalıtır, ışığı geçirir ve standart cama göre darbeye çok daha dayanıklıdır."
+      },
+      {
+       "metin": "Alüminyum levha",
+       "dogru": false,
+       "aciklama": "Alüminyum hem opaktır (ışık geçirmez) hem de elektriği iletir."
+      },
+      {
+       "metin": "Seramik plaka",
+       "dogru": false,
+       "aciklama": "Seramik opaktır ve darbeye karşı kırılgandır."
+      }
+     ]
+    }
    ],
    "hazir": true
   },
@@ -1009,6 +1665,55 @@ window.DERSLER['oyg'] = {
    "tikanma": [
     "Gerekçende \"çünkü metal sağlamdır\" gibi genel bir cümle yerine ürünün kullanım koşulunu yaz (ör. \"100 °C kaynar suya temas ettiği için yumuşamamalı\").",
     "Etiket kısa ve ayırıcı olmalı; bir malzemenin tüm özelliklerini değil, o kullanım alanında karar verdiren 2–3 öz niteliğini yaz."
+   ],
+   "karsilastir": {
+    "baslik": "Zayıf malzeme gerekçesi vs. Veriye dayalı gerekçe",
+    "solBaslik": "Genel / zayıf gerekçe",
+    "sol": "\"Tencere sapı için plastik seçtim çünkü plastik güzel ve ucuzdur.\"",
+    "sagBaslik": "Koşula ve veriye dayalı gerekçe",
+    "sag": "\"Sap 100 °C gövdeye yakın olduğu için ısı iletkenliği çok düşük ve 150 °C üstünde yumuşamayan termoset bakalit seçtim; PLA 60 °C'de yumuşadığı için elendi.\""
+   },
+   "sina": [
+    {
+     "soru": "Bir elektrik kablosunun içinde bakır, dışında PVC/silikon kullanılması hangi iki öz niteliğin birleştirilmesidir?",
+     "secenekler": [
+      {
+       "metin": "İçte yüksek elektriksel iletkenlik ve esneklik; dışta elektriksel yalıtım ve esnek koruma",
+       "dogru": true,
+       "aciklama": "Doğru. Tek bir malzeme hem iletken hem yalıtkan olamayacağı için çok malzemeli tasarım gerekir."
+      },
+      {
+       "metin": "İçte mıknatıslanma, dışta saydamlık",
+       "dogru": false,
+       "aciklama": "Bakır mıknatıslanmaz ve kablo kılıfı genellikle opaktır."
+      },
+      {
+       "metin": "İçte düşük yoğunluk, dışta yüksek ağırlık",
+       "dogru": false,
+       "aciklama": "Kablo tasarımında birincil ölçüt elektriksel güvenlik ve iletkenliktir."
+      }
+     ]
+    },
+    {
+     "soru": "Bir ürün için malzeme seçerken \"elenen alternatifi\" de yazmak neden değerlidir?",
+     "secenekler": [
+      {
+       "metin": "Seçimin tesadüf olmadığını, diğer adayın hangi teknik veriyle yetersiz kaldığını kanıtlar",
+       "dogru": true,
+       "aciklama": "Doğru. Karşılaştırmalı eleme gerekçesi mühendislik kararını denetlenebilir kılar."
+      },
+      {
+       "metin": "Sayfayı doldurmak için",
+       "dogru": false,
+       "aciklama": "Amaç uzun yazmak değil, kararın gerekçesini netleştirmektir."
+      },
+      {
+       "metin": "Malzeme fiyatını gizlemek için",
+       "dogru": false,
+       "aciklama": "Fiyat ve teknik veri birlikte açıkça değerlendirilir."
+      }
+     ]
+    }
    ],
    "hazir": true
   },
@@ -1077,6 +1782,55 @@ window.DERSLER['oyg'] = {
     "Yanlışlıkla her şeyi ana kökün altında Gövde olarak çizdiysen gövdeye sağ tıklayıp Gövdelerden Bileşen Oluştur (Create Components from Bodies) diyebilirsin; ama en temizi baştan bileşen açmaktır.",
     "Bir bileşeni etkinleştirdiğinde diğer bileşenler şeffaf görünür; bu bir hata değil, o an hangi bileşende çalıştığını gösteren yardımcı görünümdür.",
     "İki parçayı üst üste çizerken Extrude penceresinde işlem türünün Birleştir (Join) değil Yeni Gövde (New Body) olduğundan emin ol."
+   ],
+   "karsilastir": {
+    "baslik": "Gövde (Body) vs. Bileşen (Component)",
+    "solBaslik": "Gövde (Body)",
+    "sol": "Yalnızca katı bir şekildir. Kendi orijini yoktur; doğrudan montaj eklemi (Joint) bağlanamaz.",
+    "sagBaslik": "Bileşen (Component)",
+    "sag": "Kendi orijini, eskizleri ve zaman çizelgesi olan bağımsız parçadır; eklemle hareket ettirilebilir."
+   },
+   "sina": [
+    {
+     "soru": "Fusion 360'ta çok parçalı bir kutu çizerken \"Kural 1\" (önce Yeni Bileşen oluştur ve etkinleştir) neden önemlidir?",
+     "secenekler": [
+      {
+       "metin": "Her parçanın kendi eskiz ve gövdesi kendi bileşeni altında düzenli toplanır; montaj eklemleri sorunsuz çalışır",
+       "dogru": true,
+       "aciklama": "Doğru. Etkinleştirmeden çizersen tüm eskizler üst kökte karışır ve montaj zorlaşır."
+      },
+      {
+       "metin": "Bileşen açmazsan dosya kaydedilemediği için",
+       "dogru": false,
+       "aciklama": "Dosya kaydedilir ama çok parçalı montajda düzen ve eklem yönetimi bozulur."
+      },
+      {
+       "metin": "Gövdeler 3B yazıcıda basılamadığı için",
+       "dogru": false,
+       "aciklama": "Tek gövde de basılabilir; bileşen çok parçalı montaj ve yönetim için kritiktir."
+      }
+     ]
+    },
+    {
+     "soru": "Aşağıdakilerden hangisi tek parça bir ürünü iki ayrı parçaya bölmek için geçerli bir tasarım gerekçesi DEĞİLDİR?",
+     "secenekler": [
+      {
+       "metin": "İçindeki pile veya devreye erişebilmek (bakım/değişim)",
+       "dogru": false,
+       "aciklama": "Bu çok güçlü ve yaygın bir bölme gerekçesidir."
+      },
+      {
+       "metin": "İki parçanın farklı malzemeden yapılması veya hareketli olması",
+       "dogru": false,
+       "aciklama": "Hareket ve malzeme farkı ayrı parça gerektirir."
+      },
+      {
+       "metin": "Sırf daha fazla bileşen sayısı görünsün diye düz bir anahtarlığı ortadan ikiye kesmek",
+       "dogru": true,
+       "aciklama": "Doğru. İşlevsel, malzeme veya üretim gerekçesi olmadan parça artırmak zayıflık ve maliyet yaratır."
+      }
+     ]
+    }
    ],
    "hazir": true
   },
@@ -1150,6 +1904,49 @@ window.DERSLER['oyg'] = {
     "Parça ters yönde oturuyorsa Joint penceresindeki Çevir (Flip) düğmesine tıkla.",
     "Parçalar zaten doğru yerdeyse Birleştir > Yerinde Eklem (As-Built Joint) komutu parçaları oynatmadan oldukları yerde birbirine bağlar."
    ],
+   "gorsel": "oyg_h16_tolerans",
+   "sina": [
+    {
+     "soru": "Bir kutu ve kapak montajında Eklem (Joint) verdiğinde iki parça da havada birlikte sürükleniyorsa neyi unutmuşsundur?",
+     "secenekler": [
+      {
+       "metin": "Sabit kalacak ana bileşeni Sabitle (Ground) yapmayı",
+       "dogru": true,
+       "aciklama": "Doğru. En az bir ana parça Ground edilmezse montajın referans noktası olmaz."
+      },
+      {
+       "metin": "Renk atamayı",
+       "dogru": false,
+       "aciklama": "Görünüm renginin hareket fiziğiyle ilgisi yoktur."
+      },
+      {
+       "metin": "Dosyayı STL dışa aktarmayı",
+       "dogru": false,
+       "aciklama": "Montaj hareketleri Fusion içindeki eklem ve sabitleme ayarlarına bağlıdır."
+      }
+     ]
+    },
+    {
+     "soru": "Menteşeli bir kapak yalnızca tek bir eksen etrafında dönerek açılıp kapanacaksa hangi eklem (Joint) türünü seçersin?",
+     "secenekler": [
+      {
+       "metin": "Rigid (Sabit — 0 serbestlik)",
+       "dogru": false,
+       "aciklama": "Rigid parçayı tamamen kilitler, kapak açılmaz."
+      },
+      {
+       "metin": "Revolute (Döner — 1 dönme serbestliği)",
+       "dogru": true,
+       "aciklama": "Doğru. Revolute menteşe ekseni etrafında 1 dönme serbestliği verir; Joint Limits ile açılma açısı da sınırlanır."
+      },
+      {
+       "metin": "Slider (Kayar — 1 doğrusal serbestlik)",
+       "dogru": false,
+       "aciklama": "Slider sürgülü çekmece gibi doğrusal kayma hareketi içindir."
+      }
+     ]
+    }
+   ],
    "hazir": true
   },
   {
@@ -1222,6 +2019,55 @@ window.DERSLER['oyg'] = {
     "Delik çaplarını ve merkezlerini göstermek için Merkez İşareti (Center Mark) ve Merkez Çizgisi (Centerline) araçlarını ekle; ölçüyü doğrudan kenardan değil merkezden ver.",
     "Ölçü çizgileri birbirini kesiyorsa küçük ölçüleri parçaya yakın, toplam ölçüleri daha dışa yerleştir."
    ],
+   "karsilastir": {
+    "baslik": "Eksik/tekrarlı teknik resim vs. Üretilebilir teknik resim",
+    "solBaslik": "Sorunlu teknik resim",
+    "sol": "Aynı 60 mm uzunluk hem ön hem üst görünüşte tekrar yazılmış, delik merkezi kenara ölçülendirilmemiş, ölçek boş.",
+    "sagBaslik": "Temiz ISO teknik resim",
+    "sag": "Her kritik ölçü tam bir kez ve en net görünüşte verilmiş, delikler merkez çizgisiyle ölçülendirilmiş, antet ve ölçek tam."
+   },
+   "sina": [
+    {
+     "soru": "Bir parçanın aynı kenar uzunluğunu hem ön görünüşte hem üst görünüşte tekrar ölçülendirmek neden hata sayılır?",
+     "secenekler": [
+      {
+       "metin": "Aşırı ölçülendirme çizimi kalabalıklaştırır ve bir revizyonda iki ölçü çelişirse üreticiyi yanıltır",
+       "dogru": true,
+       "aciklama": "Doğru. Teknik resimde her ölçü yalnızca en anlaşılır olduğu tek görünüşte yer alır."
+      },
+      {
+       "metin": "Yazıcı aynı sayıyı iki kez basamadığı için",
+       "dogru": false,
+       "aciklama": "Bu teknik resim standardı ve okunabilirlik kuralıdır."
+      },
+      {
+       "metin": "Ölçek bozulduğu için",
+       "dogru": false,
+       "aciklama": "Ölçek görünüş boyutunu belirler, ölçü metnini tekrarlamak çelişki ve dağınıklık yaratır."
+      }
+     ]
+    },
+    {
+     "soru": "Parçanın dışından görünmeyen bir iç duvar kalınlığını veya geçme yuvasını teknik resimde en net nasıl gösterirsin?",
+     "secenekler": [
+      {
+       "metin": "Kesit Görünüşü (Section View) ekleyerek",
+       "dogru": true,
+       "aciklama": "Doğru. Kesit görünüşü iç geometriyi net, gizli çizgi karmaşası olmadan ölçülendirmeni sağlar."
+      },
+      {
+       "metin": "Antete not yazarak",
+       "dogru": false,
+       "aciklama": "Geometrik ölçüler sözel notla değil, standart görünüş/kesit üzerinde verilir."
+      },
+      {
+       "metin": "Sadece izometrik görünüş koyarak",
+       "dogru": false,
+       "aciklama": "İzometrik görünüş genel fikri verir ama iç ayrıntıları ve standart ölçüleri taşımaz."
+      }
+     ]
+    }
+   ],
    "hazir": true
   },
   {
@@ -1290,6 +2136,55 @@ window.DERSLER['oyg'] = {
     "Kamera her tıklamada istemeden hareket ediyorsa zaman çizelgesindeki Kamera Kaydı (View) düğmesini kapatıp yalnızca istediğin anlarda aç.",
     "Parçalar hareket ederken birbirinin içinden geçiyorsa hareket yönünü (X/Y/Z ekseni) veya zaman çizelgesindeki sıralamayı yeniden düzenle."
    ],
+   "ozdenetim": [
+    "Montaj dosyamda ana gövde Ground edilmiş, eklem türü ve hareket sınırları çalışıyor.",
+    "Çakışma Çözümlemesi (Interference) sonucu sıfır çakışma ve geçme toleransı kayıtlı.",
+    "ISO A4 PDF teknik resmimde görünüşler, tekrarsız ölçüler, ölçek ve antet eksiksiz.",
+    "Animasyon videomda parçalar birbirinin içinden geçmeden gerçek montaj/söküm sırasıyla hareket ediyor.",
+    "1. dönem e-portfolyomda Modül A ve Modül B klasörlerindeki tüm dosyalar düzenli adlandırılmış."
+   ],
+   "sina": [
+    {
+     "soru": "Fusion 360 Animasyon (Animation) çalışma alanında parçaları ayırıp patlattığında Tasarım (Design) alanındaki gerçek montajın bozulur mu?",
+     "secenekler": [
+      {
+       "metin": "Hayır, animasyon hareketleri yalnızca sunum zaman çizelgesinde kalır; gerçek modeli değiştirmez",
+       "dogru": true,
+       "aciklama": "Doğru. Tasarım alanına dönünce montajının yerli yerinde olduğunu görürsün."
+      },
+      {
+       "metin": "Evet, tüm eklemler kalıcı olarak kopar",
+       "dogru": false,
+       "aciklama": "Animation çalışma alanı Design geometrisinden izoledir."
+      },
+      {
+       "metin": "Yalnızca kapağın rengi silinir",
+       "dogru": false,
+       "aciklama": "Renk ve geometri korunur."
+      }
+     ]
+    },
+    {
+     "soru": "Patlatılmış görünüm animasyonunda parçaları tek tıkla rastgele dağıtmak yerine sırayla ayırmak neden önemlidir?",
+     "secenekler": [
+      {
+       "metin": "İzleyici hangi parçanın önce takılacağını ve hangi eksenden gireceğini sözsüz biçimde anlar",
+       "dogru": true,
+       "aciklama": "Doğru. Montaj animasyonunun amacı süslü efekt değil, montaj sırasını açıkça göstermektir."
+      },
+      {
+       "metin": "Video dosyası daha büyük olsun diye",
+       "dogru": false,
+       "aciklama": "Amaç dosya boyutu değil anlatım netliğidir."
+      },
+      {
+       "metin": "Otomatik patlatma çalışmadığı için",
+       "dogru": false,
+       "aciklama": "Otomatik patlatma fiziksel engel ve sırayı bilemez; mantıksal sırayı tasarımcı kurar."
+      }
+     ]
+    }
+   ],
    "hazir": true
   },
   {
@@ -1356,6 +2251,57 @@ window.DERSLER['oyg'] = {
     "\"Hangisi en iyi imalat yöntemidir?\" sorusunun tek bir cevabı yoktur; her zaman adet, malzeme, hassasiyet ve geometri koşullarına göre karar verilir.",
     "Gözlem ölçütünün \"iyi çıktı mı\" gibi öznel değil, \"tasarım ölçüsünden kaç mm saptı\" gibi kaydedilebilir olmasına dikkat et."
    ],
+   "gorsel": "oyg_h19_imalat",
+   "inceleme": {
+    "baslik": "Üç örnek üretim vakası (hangisi hangi yöntem?)",
+    "maddeler": [
+     "Vaka 1: İçinde kıvrımlı soğutma kanalları bulunan 1 adet özgün sensör prototipi → Eklemeli imalat (3B baskı).",
+     "Vaka 2: Aynı biçimde 100.000 adet standart plastik şişe kapağı → Plastik enjeksiyon / kalıplama.",
+     "Vaka 3: 0,02 mm hassasiyet gerektiren 5 adet çelik motor mili → Talaşlı imalat (CNC torna/freze)."
+    ]
+   },
+   "sina": [
+    {
+     "soru": "100.000 adet standart plastik kapak üretmek için neden 3B yazıcı yerine plastik enjeksiyon kalıbı seçilir?",
+     "secenekler": [
+      {
+       "metin": "Kalıp başta pahalı olsa da yüksek adette parça başı süre saniyelere ve maliyet kuruşlara düşer",
+       "dogru": true,
+       "aciklama": "Doğru. 3B yazıcı 1–20 adet prototipte harikadır ama 100.000 adette çok yavaş ve pahalı kalır."
+      },
+      {
+       "metin": "3B yazıcılar yuvarlak kapak basamadığı için",
+       "dogru": false,
+       "aciklama": "Basabilir ama seri üretim hızına ulaşamaz."
+      },
+      {
+       "metin": "Enjeksiyon kalıpları bedava olduğu için",
+       "dogru": false,
+       "aciklama": "Kalıp maliyeti yüksektir; ancak çok sayıda ürüne bölününce avantajlı olur."
+      }
+     ]
+    },
+    {
+     "soru": "İmalat yöntemini gözlemlerken aşağıdakilerden hangisi ölçülebilir bir gözlem ölçütüdür?",
+     "secenekler": [
+      {
+       "metin": "Parça çok havalı çıktı",
+       "dogru": false,
+       "aciklama": "Öznel beğeni bir gözlem ölçütü değildir."
+      },
+      {
+       "metin": "Tasarım ölçüsü ile üretilen parça arasındaki sapma (mm) ve oluşan atık/destek kütlesi (g)",
+       "dogru": true,
+       "aciklama": "Doğru. Birimiyle kaydedilebilir ve başka baskılarla karşılaştırılabilir."
+      },
+      {
+       "metin": "Makine güzel ses çıkarıyor",
+       "dogru": false,
+       "aciklama": "Ölçülebilir bir kalite verisi vermez."
+      }
+     ]
+    }
+   ],
    "hazir": true
   },
   {
@@ -1421,6 +2367,48 @@ window.DERSLER['oyg'] = {
    "tikanma": [
     "Dijital kumpas kullanıyorsan ölçümden önce çeneleri tam kapatıp ZERO düğmesine basarak sıfırla; yoksa tüm ölçümlerin sabit bir hata taşır.",
     "Kayıt formunda her sütun başlığının yanına birimini (mm, g, dk, °C, %) yaz ki sayılar sonradan karışmasın."
+   ],
+   "sina": [
+    {
+     "soru": "0,3 mm toleranslı bir geçme parçasını ölçmek için neden standart okul cetveli yerine kumpas kullanılır?",
+     "secenekler": [
+      {
+       "metin": "Cetvel en fazla 1 mm hassasiyet verirken kumpas 0,05–0,1 mm düzeyinde ve iç çapları da ölçebilir",
+       "dogru": true,
+       "aciklama": "Doğru. 0,3 mm'lik boşluğu 1 mm bölmeli cetvelle doğru okuyamazsın."
+      },
+      {
+       "metin": "Cetvel plastik ölçemez",
+       "dogru": false,
+       "aciklama": "Sorun malzeme değil ölçüm hassasiyetidir."
+      },
+      {
+       "metin": "Kumpas santimetre yerine inç ölçer",
+       "dogru": false,
+       "aciklama": "Kumpasla standart olarak milimetre (mm) okuruz."
+      }
+     ]
+    },
+    {
+     "soru": "Baskı ayarlarını (katman yüksekliği, doluluk, sıcaklık) baskıdan önce kayıt formuna yazmak neden gereklidir?",
+     "secenekler": [
+      {
+       "metin": "Ölçüm sapması veya baskı hatası çıktığında hangi ayarın buna yol açtığını ancak kayıt varsa görebilirsin",
+       "dogru": true,
+       "aciklama": "Doğru. Ayarlar kaydedilmezse sonraki baskıda neyi düzelteceğini tahmin etmek zorunda kalırsın."
+      },
+      {
+       "metin": "3B yazıcı kayıt formu olmadan çalışmadığı için",
+       "dogru": false,
+       "aciklama": "Yazıcı G-code ile çalışır; kayıt formu bilimsel gözlem içindir."
+      },
+      {
+       "metin": "Sadece öğretmen istediği için",
+       "dogru": false,
+       "aciklama": "Bu kayıt 23 ve 24. haftalardaki analizlerinin ana verisidir."
+      }
+     ]
+    }
    ],
    "hazir": true
   },
@@ -1494,6 +2482,55 @@ window.DERSLER['oyg'] = {
     "Baskı süresi çok uzun çıktıysa parça gereksiz yere büyük olabilir ya da %100 doluluk seçmiş olabilirsin; önce duvar sayısı 3, doluluk %15–20 aralığını dene.",
     "Tasarımın içindeki ince duvarlar dilimleme önizlemesinde kayboluyorsa duvar kalınlığı nozul çapından (0,4 mm) küçük kalmıştır; modele dönüp kalınlaştır."
    ],
+   "karsilastir": {
+    "baslik": "STL/3MF modeli vs. G-code dosyası",
+    "solBaslik": "STL / 3MF (3B Geometri)",
+    "sol": "Parçanın dış yüzey üçgenlerini tutar. Sıcaklık, katman kalınlığı, doluluk veya yazıcı hareketi içermez.",
+    "sagBaslik": "G-code (Geometrik Kod)",
+    "sag": "Yazıcının doğrudan uygulayacağı katman katman X-Y-Z hareket, hız, sıcaklık ve filament itme komutlarıdır."
+   },
+   "sina": [
+    {
+     "soru": "Bir parçanın mekanik dayanımını artırmak için doluluk oranını %100 yapmak yerine duvar sayısını (perimeter) 2'den 4'e çıkarmak genellikle neden daha verimlidir?",
+     "secenekler": [
+      {
+       "metin": "Eğilme yüklerinin büyük kısmını dış kabuk duvarları taşır; %100 doluluk süreyi ve filamenti aşırı artırır",
+       "dogru": true,
+       "aciklama": "Doğru. 3–4 duvar + %20 doluluk çoğu zaman %100 doluluğa yakın dayanımı çok daha az malzeme ve sürede verir."
+      },
+      {
+       "metin": "Yazıcılar %100 doluluk basamadığı için",
+       "dogru": false,
+       "aciklama": "Basabilir ama gereksiz süre, malzeme ve bükülme (warping) riski artar."
+      },
+      {
+       "metin": "Duvar sayısı baskı süresini sıfırladığı için",
+       "dogru": false,
+       "aciklama": "Duvar sayısı da süreyi biraz artırır ama %100 doluluktan çok daha dengelidir."
+      }
+     ]
+    },
+    {
+     "soru": "Dilimleme önizlemesinde tasarımındaki ince bir duvarın tamamen kaybolduğunu gördün. En olası neden nedir?",
+     "secenekler": [
+      {
+       "metin": "Duvar kalınlığı yazıcının nozul çapından (genelde 0,4 mm) ince çizilmiştir",
+       "dogru": true,
+       "aciklama": "Doğru. Nozul kendi genişliğinden ince bir duvarı basamaz; modele dönüp duvarı en az 1,2–1,6 mm yap."
+      },
+      {
+       "metin": "Tabla sıcaklığı düşüktür",
+       "dogru": false,
+       "aciklama": "Önizlemede duvarın hiç görünmemesi geometrik kalınlık sorunudur."
+      },
+      {
+       "metin": "Filament rengi şeffaftır",
+       "dogru": false,
+       "aciklama": "Filament rengi dilimleme önizlemesini etkilemez."
+      }
+     ]
+    }
+   ],
    "hazir": true
   },
   {
@@ -1561,6 +2598,57 @@ window.DERSLER['oyg'] = {
     "Parça sıcak tabladan çıkmıyorsa kesici aletle zorlama; tabla oda sıcaklığına inince kendiliğinden gevşer.",
     "Destek parçalarını sökerken kargaburun penseyi vücudundan dışa doğru kullan ve gözünü koru."
    ],
+   "inceleme": {
+    "baslik": "Baskıda en sık görülen 4 fiziksel sorun",
+    "maddeler": [
+     "İlk katman tutunmaması: Tabla kirli/yağlı veya nozul tabladan fazla yüksek → baskıyı durdur, tablayı temizle ve kalibre et.",
+     "Köşe kalkması (Warping): Soğuma kaynaklı büzülme → tabla sıcaklığını kontrol et, gerekirse etek (brim) ekle.",
+     "İpliklenme (Stringing): Hareket ederken nozuldan ince tel akması → sıcaklık biraz yüksek veya geri çekme (retraction) yetersiz.",
+     "Katman kayması (Layer shift): Kayış gevşekliği veya nozulun parçaya takılması → mekanik kontrol gerekir."
+    ]
+   },
+   "sina": [
+    {
+     "soru": "3B baskıyı başlattıktan sonra neden ilk 2–3 katmanı mutlaka başından ayrılmadan izlemelisin?",
+     "secenekler": [
+      {
+       "metin": "Baskı hatalarının çoğu ilk katmanın tablaya yapışmamasından doğar; erken durdurmazsan spagetti atığı oluşur",
+       "dogru": true,
+       "aciklama": "Doğru. İlk katman sağlam oturursa baskının geri kalanının başarı olasılığı çok yükselir."
+      },
+      {
+       "metin": "İlk 3 katmandan sonra makine kendiliğinden soğuduğu için",
+       "dogru": false,
+       "aciklama": "Nozul ve tabla baskı bitene kadar sıcak kalır."
+      },
+      {
+       "metin": "İlk katmanlar en hızlı bittiği için",
+       "dogru": false,
+       "aciklama": "Aksine ilk katman daha iyi tutunması için genellikle en yavaş basılan katmandır."
+      }
+     ]
+    },
+    {
+     "soru": "Baskı biter bitmez sıcak tabladaki parçayı maket bıçağıyla zorlayarak sökmek neden yanlıştır?",
+     "secenekler": [
+      {
+       "metin": "Hem el yaralanması ve tabla çizilmesi riski taşır hem de sıcak parça bükülür; tabla soğuyunca parça kendiliğinden gevşer",
+       "dogru": true,
+       "aciklama": "Doğru. Güvenlik ve ölçü doğruluğu için tablanın oda sıcaklığına inmesini bekle."
+      },
+      {
+       "metin": "Parça soğuyunca tablaya daha sıkı yapıştığı için",
+       "dogru": false,
+       "aciklama": "Tersine plastik soğurken hafifçe büzülerek tabladan kolayca ayrılır."
+      },
+      {
+       "metin": "G-code dosyası silineceği için",
+       "dogru": false,
+       "aciklama": "G-code dosyasının sökme işlemiyle ilgisi yoktur."
+      }
+     ]
+    }
+   ],
    "hazir": true
   },
   {
@@ -1608,8 +2696,15 @@ window.DERSLER['oyg'] = {
    ],
    "yaprak": [
     {
-     "tip": "uzun",
-     "soru": "Beş kritik boyutun hedef ölçüsünü (mm), ölçülen değerini (mm) ve işaretli sapmasını (Ölçülen − Hedef) satır satır yaz."
+     "tip": "tablo",
+     "soru": "Beş kritik boyutun hedef ölçüsünü (mm), ölçülen değerini (mm) ve işaretli sapmasını (Ölçülen − Hedef) satır satır yaz.",
+     "sutunlar": [
+      "Kritik boyut / Özellik",
+      "Hedef (mm)",
+      "Ölçülen (mm)",
+      "Sapma (Ölçülen − Hedef)"
+     ],
+     "satirlar": 5
     },
     {
      "tip": "kisa",
@@ -1633,6 +2728,49 @@ window.DERSLER['oyg'] = {
     "Ölçüm yaparken kumpası plastiğe fazla bastırırsan parça esner ve olduğundan küçük okursun; çeneler yüzeye hafifçe değdiği anda oku.",
     "Tablanın ilk katmanında oluşan hafif taşma (fil ayağı / elephant's foot) ölçümü bozabilir; ölçümü parçanın tam taban kenarından değil orta yüksekliğinden al.",
     "Sapma işareti (+ veya −) önemlidir: +0,2 mm fazla malzeme, −0,2 mm eksik malzeme demektir; mutlak değer alıp yönünü kaybetme."
+   ],
+   "yardimci": "sapma",
+   "sina": [
+    {
+     "soru": "3B yazıcıda 10,0 mm çapında çizilen dairesel bir iç delik neden çoğu zaman 9,7–9,8 mm gibi biraz daha dar çıkar?",
+     "secenekler": [
+      {
+       "metin": "Erimiş plastik soğurken büzülür ve dairesel hareket sırasında nozul plastiği içeri doğru çeker",
+       "dogru": true,
+       "aciklama": "Doğru. Bu yüzden iç deliklerde ve geçme yuvalarında tolerans payı (ör. +0,2/+0,3 mm) bırakılır."
+      },
+      {
+       "metin": "Fusion 360 daireleri yanlış hesapladığı için",
+       "dogru": false,
+       "aciklama": "CAD dosyası tamdır; fark fiziksel erime-soğuma ve nozul davranışından gelir."
+      },
+      {
+       "metin": "Kumpas iç çap ölçemediği için",
+       "dogru": false,
+       "aciklama": "Kumpasın üstteki küçük çeneleri tam olarak iç çap ölçümü içindir."
+      }
+     ]
+    },
+    {
+     "soru": "Hedef ölçüsü 25,0 mm olan bir kenar kumpasla 24,7 mm ölçüldü. İşaretli sapması nedir?",
+     "secenekler": [
+      {
+       "metin": "−0,3 mm",
+       "dogru": true,
+       "aciklama": "Doğru. Sapma = Ölçülen − Hedef = 24,7 − 25,0 = −0,3 mm (hedeften küçük)."
+      },
+      {
+       "metin": "+0,3 mm",
+       "dogru": false,
+       "aciklama": "Artı işareti parçanın hedeften büyük çıktığı anlamına gelir; işaret yönü önemlidir."
+      },
+      {
+       "metin": "0,3 cm",
+       "dogru": false,
+       "aciklama": "0,3 mm = 0,03 cm'dir; birim hatası yapmamaya dikkat et."
+      }
+     ]
+    }
    ],
    "hazir": true
   },
@@ -1698,6 +2836,55 @@ window.DERSLER['oyg'] = {
    "tikanma": [
     "Destek kullanmadıysan atık kütlesi yalnızca ilk şerit (purge line) veya etek (skirt/brim) kadar olabilir; bu durumda 0'a yakın çıkmasını olumlu bir yönelim başarısı olarak raporla.",
     "Raporunda \"3B yazıcı daha iyidir\" gibi genel yargılar yerine \"1–10 adet arası karmaşık geometride avantajlıdır, ancak 10.000 adette yavaştır\" gibi koşullu ifadeler kur."
+   ],
+   "yardimci": "atik",
+   "ozdenetim": [
+    "Baskı ayarlarım, gerçek süre/kütle ve 5 boyut sapma verim tek bir sınıflandırılmış tabloda toplandı.",
+    "Destek/brim/hatalı deneme atık oranını yüzde olarak hesapladım ve sürdürülebilirlik açısından yorumladım.",
+    "Kendi 3B baskı verimi referans alarak 1 adet, 50 adet ve 10.000 adet üretim için yöntem karşılaştırması yaptım.",
+    "Modül C dosyalarını bulut klasörüne düzenli adlarla kaydettim."
+   ],
+   "sina": [
+    {
+     "soru": "Net kütlesi 16 g olan bir parçayı basmak için 4 g destek ve etek (brim) harcandıysa atık yüzdesi kaçtır?",
+     "secenekler": [
+      {
+       "metin": "%20",
+       "dogru": true,
+       "aciklama": "Doğru. Toplam filament = 16 + 4 = 20 g; Atık oranı = (4 ÷ 20) × 100 = %20."
+      },
+      {
+       "metin": "%25",
+       "dogru": false,
+       "aciklama": "Atık kütlesi net kütleye değil, toplam harcanan filamente (20 g) bölünür."
+      },
+      {
+       "metin": "%4",
+       "dogru": false,
+       "aciklama": "4 g gram cinsinden kütledir, yüzde oranı değildir."
+      }
+     ]
+    },
+    {
+     "soru": "Sürdürülebilirlik açısından 3B baskıda destek atığını azaltmanın en etkili yolu hangisidir?",
+     "secenekler": [
+      {
+       "metin": "Parçanın tabla yönelimini değiştirmek veya çıkıntı açılarını 45°'ye göre yeniden tasarlamak",
+       "dogru": true,
+       "aciklama": "Doğru. Akıllı yönelim ve tasarım düzenlemesi destek atığını çoğu zaman sıfıra yaklaştırır."
+      },
+      {
+       "metin": "Doluluk oranını %100'e çıkarmak",
+       "dogru": false,
+       "aciklama": "Bu malzeme tüketimini ve baskı süresini gereksiz yere katlar."
+      },
+      {
+       "metin": "Katman yüksekliğini en küçüğe çekmek",
+       "dogru": false,
+       "aciklama": "Katman yüksekliği destek ihtiyacını ortadan kaldırmaz."
+      }
+     ]
+    }
    ],
    "hazir": true
   },
@@ -1766,6 +2953,55 @@ window.DERSLER['oyg'] = {
     "Yapay zekâ araçları görsel içindeki küçük Türkçe yazıları sıkça bozar; görselde yazıyı araca yazdırmak yerine görseli sade üretip yazıyı kendin dijital araçla ekle.",
     "İstemde \"çok güzel, harika, muhteşem\" gibi sıfatlar yerine somut görsel ölçütler yaz (ör. \"stüdyo yumuşak yan ışığı, mat gri zemin, 3/4 üst açı, tek odak nesne\")."
    ],
+   "karsilastir": {
+    "baslik": "Bulanık istem (prompt) vs. Tasarım ilkeli istem",
+    "solBaslik": "Bulanık istem",
+    "sol": "\"Çok güzel, harika ve modern bir masa lambası afişi yap.\"",
+    "sagBaslik": "Görsel ilkelerle kurulmuş istem",
+    "sag": "\"Mat gri sade arka plan, 3/4 üst açı, tek odak noktası fırçalanmış alüminyum masa lambası, sol üstten yumuşak stüdyo ışığı, metinsiz kompozisyon.\""
+   },
+   "sina": [
+    {
+     "soru": "Aynı görsel istemi iki farklı yapay zekâ aracına verdiğinde gelen çıktıları hangi ölçütle seçmelisin?",
+     "secenekler": [
+      {
+       "metin": "2–3. haftada kurduğun görsel tasarım ilkeleriyle (hiyerarşi, zıtlık, sade odak, fiziksel tutarlılık)",
+       "dogru": true,
+       "aciklama": "Doğru. Araç üretir ama tasarımcı ölçütlü değerlendirmeyle seçer ve gerekçelendirir."
+      },
+      {
+       "metin": "En hızlı üretilen görseli doğrudan seçerek",
+       "dogru": false,
+       "aciklama": "Hız tasarım kalitesi ölçütü değildir."
+      },
+      {
+       "metin": "İçinde en çok karışık ayrıntı olanı seçerek",
+       "dogru": false,
+       "aciklama": "Aşırı kalabalık görseller genellikle odak ve okunabilirliği bozar."
+      }
+     ]
+    },
+    {
+     "soru": "Yapay zekâ görsellerinde Türkçe metinler sıkça bozuluyorsa en doğru atölye yaklaşımı nedir?",
+     "secenekler": [
+      {
+       "metin": "Görseli metinsiz sade üretip başlık ve metinleri kendi dijital tasarım aracında (hizalı ve okunaklı) eklemek",
+       "dogru": true,
+       "aciklama": "Doğru. Hem tipografi kontrolü sende kalır hem de 4. haftadaki bileşen yapısını korursun."
+      },
+      {
+       "metin": "Bozuk yazıları olduğu gibi bırakmak",
+       "dogru": false,
+       "aciklama": "Okunaksız metin temel tasarım ilkelerini ihlal eder."
+      },
+      {
+       "metin": "Yazıları İngilizce bırakmak",
+       "dogru": false,
+       "aciklama": "Hedef kitleye uygun doğru dilde tipografiyi kendin yerleştirmek çok daha temizdir."
+      }
+     ]
+    }
+   ],
    "hazir": true
   },
   {
@@ -1832,6 +3068,58 @@ window.DERSLER['oyg'] = {
     "Uygulamaları marka adlarına (Canva, Midjourney vb.) göre değil, yaptıkları işin türüne ve teknik çıktısına göre ayır; markalar değişir ama kategoriler kalır.",
     "\"Ücretli / ücretsiz\" teknik bir ayrıştırma değişkeni değildir; girdi, çıktı, fiziksel kısıt ve düzenlenebilirlik gibi işlevsel değişkenlere odaklan."
    ],
+   "inceleme": {
+    "baslik": "Ayrıştırılacak 5 tasarım/üretim yapay zekâ uygulama türü",
+    "maddeler": [
+     "1. Metinden görsele araçlar (girdi: metin → çıktı: 2B piksel görsel; fiziksel kısıt yok).",
+     "2. Metinden/fotoğraftan 3B mesh üreticiler (girdi: metin/görsel → çıktı: üçgen ağ/STL; mühendislik yük hesabı yok).",
+     "3. CAD Üretken Tasarım (girdi: korunacak/engel hacim, kuvvet, malzeme → çıktı: yük hesaplı katı CAD).",
+     "4. Üretim hattı / yazıcı kamerası hata algılayıcılar (girdi: kamera görüntüsü → çıktı: kusur/durma uyarısı).",
+     "5. Metin ve kod asistanları (girdi: problem/kod → çıktı: açıklama, hesap veya komut taslağı)."
+    ]
+   },
+   "sina": [
+    {
+     "soru": "Metinden 3B mesh (üçgen ağ) üreten bir araç ile Fusion 360 Üretken Tasarım arasındaki en temel mühendislik farkı nedir?",
+     "secenekler": [
+      {
+       "metin": "Üretken tasarım fiziksel yükleri, sabitlemeyi, malzeme dayanımını ve imalat kısıtını hesaplar; mesh üretici yalnızca dış şekil tahmin eder",
+       "dogru": true,
+       "aciklama": "Doğru. Bir duvar braketi yük taşıyacaksa estetik bir mesh değil, fiziksel hesaplı üretken tasarım gerekir."
+      },
+      {
+       "metin": "Mesh üreticiler yalnızca siyah-beyaz çalışır",
+       "dogru": false,
+       "aciklama": "Ayrım renk değil, fiziksel mühendislik kısıtlarını hesaplayıp hesaplamamasıdır."
+      },
+      {
+       "metin": "İkisi tamamen aynı işi yapar",
+       "dogru": false,
+       "aciklama": "Girdileri, hesaplama biçimleri ve üretime uygunlukları tamamen farklıdır."
+      }
+     ]
+    },
+    {
+     "soru": "Yapay zekâ uygulamalarını ayrıştırırken \"ücretli / ücretsiz\" yerine hangi tür değişkenler daha öğreticidir?",
+     "secenekler": [
+      {
+       "metin": "Girdi türü, çıktı türü, fiziksel kısıt hesabı yapıp yapmaması ve sonradan düzenlenebilirlik",
+       "dogru": true,
+       "aciklama": "Doğru. Fiyat değişebilir ama teknik işlev ve çıktı özellikleri kalıcı ayrıştırma değişkenleridir."
+      },
+      {
+       "metin": "Şirketin logosunun rengi",
+       "dogru": false,
+       "aciklama": "Tasarım işleviyle ilgisiz bir özelliktir."
+      },
+      {
+       "metin": "Uygulamanın alfabetik sırası",
+       "dogru": false,
+       "aciklama": "Alfabetik sıra teknik özellikleri ayrıştırmaz."
+      }
+     ]
+    }
+   ],
    "hazir": true
   },
   {
@@ -1897,6 +3185,48 @@ window.DERSLER['oyg'] = {
    "tikanma": [
     "Bir uygulama aynı anda iki sınıfa birden giriyorsa sınıflarının sınırları bulanık demektir; sınıfları ayıracak net bir evet/hayır sorusu ekle.",
     "Etiketlerin hepsi aynı kelimelerle bitiyorsa ayırt ediciliği düşüktür; etikette o aracı diğerlerinden ayıran özelliği öne çıkar."
+   ],
+   "sina": [
+    {
+     "soru": "Kurduğun tasnif sisteminde yeni çıkan bir araç aynı anda iki zıt sınıfa birden giriyorsa bu neyi gösterir?",
+     "secenekler": [
+      {
+       "metin": "Sınıfların sınırları bulanık kalmış; ikisini ayıracak daha net bir ölçüt sorusu eklemelisin",
+       "dogru": true,
+       "aciklama": "Doğru. Sağlam bir tasnif sistemi yeni örnekleri net biçimde yerleştirebilmelidir."
+      },
+      {
+       "metin": "Yeni aracı görmezden gelmelisin",
+       "dogru": false,
+       "aciklama": "Yeni ve sınırda örnekler tasnif sistemini geliştirmenin en iyi sınamasıdır."
+      },
+      {
+       "metin": "Tüm araçları tek bir sınıfta toplamalısın",
+       "dogru": false,
+       "aciklama": "Tek sınıf ayrıştırma yapmaz."
+      }
+     ]
+    },
+    {
+     "soru": "Bir uygulamaya takılan \"öz nitelik etiketi\" nasıl olmalıdır?",
+     "secenekler": [
+      {
+       "metin": "O uygulamayı diğer sınıflardan ayıran 2–3 temel teknik niteliği kısa ve net taşımalı",
+       "dogru": true,
+       "aciklama": "Doğru. Örneğin: Üretken Tasarım · Kısıt-temelli · Yük hesaplı · Katı CAD."
+      },
+      {
+       "metin": "Bir paragraf uzunluğunda reklam metni olmalı",
+       "dogru": false,
+       "aciklama": "Etiket uzun açıklama değil, hızlı tanıma sağlayan ayırt edici özdür."
+      },
+      {
+       "metin": "Bütün uygulamalar için aynı kelimelerden oluşmalı",
+       "dogru": false,
+       "aciklama": "Aynı etiketler ayırt edicilik sağlamaz."
+      }
+     ]
+    }
    ],
    "hazir": true
   },
@@ -1970,6 +3300,49 @@ window.DERSLER['oyg'] = {
     "Yük yönünü ters koyduysan kuvvet okuna bak; yerçekimi veya çekme yönü yanlışsa eksi işaretiyle ya da Flip Direction ile düzelt.",
     "Bulut hesaplaması 10–30 dakika sürebilir; bu yüzden kurulumu temiz yapıp çözümü dersler arasına bırakmak en doğru yoldur."
    ],
+   "gorsel": "oyg_h28_uretken",
+   "sina": [
+    {
+     "soru": "Duvara vidayla bağlanan bir braket için üretken tasarımda vida geçiş yolunu Engel (Obstacle — kırmızı) tanımlamayı unutursan ne olur?",
+     "secenekler": [
+      {
+       "metin": "Yazılım vida başının ve tornavidanın gireceği boşluğu malzemeyle kapatabilir; parçayı duvara vidalayamazsın",
+       "dogru": true,
+       "aciklama": "Doğru. Engel geometriler yalnızca duvarı değil, montaj aletlerinin ve vidaların geçiş yolunu da korur."
+      },
+      {
+       "metin": "Yazılım vidayı kendisi çizer",
+       "dogru": false,
+       "aciklama": "Yazılım yasak alan söylenmedikçe o hacmi kullanmakta serbesttir."
+      },
+      {
+       "metin": "Hiçbir şey olmaz",
+       "dogru": false,
+       "aciklama": "Montaj edilemeyen bir parça sahada kullanılamaz."
+      }
+     ]
+    },
+    {
+     "soru": "Üretken tasarımda Güvenlik Katsayısı (Safety Factor) hedefini 1.0 yerine 2.0 seçmek ne anlama gelir?",
+     "secenekler": [
+      {
+       "metin": "Parçanın üzerine binen tasarım yükünün iki katına kadar kırılmadan dayanacak biçimde hesaplanması",
+       "dogru": true,
+       "aciklama": "Doğru. Güvenlik payı artar; karşılığında parça 1.0 hedefine göre biraz daha fazla kütle taşıyabilir."
+      },
+      {
+       "metin": "Parçanın iki kopya olarak üretilmesi",
+       "dogru": false,
+       "aciklama": "Adetle değil mekanik dayanım payıyla ilgilidir."
+      },
+      {
+       "metin": "Baskı süresinin yarıya inmesi",
+       "dogru": false,
+       "aciklama": "Baskı süresinden değil yük taşıma emniyetinden söz eder."
+      }
+     ]
+    }
+   ],
    "hazir": true
   },
   {
@@ -2011,8 +3384,16 @@ window.DERSLER['oyg'] = {
    ],
    "yaprak": [
     {
-     "tip": "uzun",
-     "soru": "Karşılaştırdığın üç farklı üretken tasarım sonucunun malzeme, imalat yöntemi, kütle (g), güvenlik katsayısı ve maksimum yer değiştirme (mm) değerlerini yaz."
+     "tip": "tablo",
+     "soru": "Karşılaştırdığın üç farklı üretken tasarım sonucunun malzeme, imalat yöntemi, kütle (g), güvenlik katsayısı ve maksimum yer değiştirme (mm) değerlerini yaz.",
+     "sutunlar": [
+      "Aday / Malzeme",
+      "İmalat yöntemi",
+      "Kütle (g)",
+      "Güvenlik kats.",
+      "Yer değiştirme (mm)"
+     ],
+     "satirlar": 3
     },
     {
      "tip": "uzun",
@@ -2039,6 +3420,48 @@ window.DERSLER['oyg'] = {
    "tikanma": [
     "Bazı sonuçlar \"Failed\" veya hedefin altında güvenlik katsayısı gösteriyorsa o malzeme/imalat kombinasyonu bu yükü taşıyamamış demektir; bunu da önemli bir bulgu olarak kaydet.",
     "Sonuçlar birbirine çok benziyorsa yalnızca aynı malzemenin yinelemelerine bakıyor olabilirsin; sol paneldeki filtrelerden farklı imalat yöntemlerini işaretle."
+   ],
+   "sina": [
+    {
+     "soru": "Aynı yük ve sabitleme altında 3-eksen CNC kısıtlı sonuç ile Eklemeli (3B baskı) kısıtlı sonuç neden farklı biçimlerde çıkar?",
+     "secenekler": [
+      {
+       "metin": "CNC kesici takımın ulaşamayacağı kapalı iç boşlukları açamayacağı için daha düz/açık; 3B baskı ise organik dallı biçimler üretebilir",
+       "dogru": true,
+       "aciklama": "Doğru. İmalat yöntemi kısıtı, geometrinin doğrudan üretilebilir biçimini belirler."
+      },
+      {
+       "metin": "Yazılım her çalıştırmada rastgele şekil çizdiği için",
+       "dogru": false,
+       "aciklama": "Biçim farkı rastgele değil, her imalat yönteminin geometrik kurallarından doğar."
+      },
+      {
+       "metin": "CNC daha hafif malzeme kullandığı için",
+       "dogru": false,
+       "aciklama": "Aynı malzemede bile imalat kısıtı şekli belirgin biçimde değiştirir."
+      }
+     ]
+    },
+    {
+     "soru": "Dağılım grafiğinde (Scatter Plot) en hafif (en az kütleli) sonucu görmek tek başına seçim için neden yetmez?",
+     "secenekler": [
+      {
+       "metin": "En hafif çözüm fazla esneyebilir (yüksek yer değiştirme) veya atölyemizdeki makinede üretilmesi zor/pahalı olabilir",
+       "dogru": true,
+       "aciklama": "Doğru. Kütle, güvenlik katsayısı, yer değiştirme ve üretilebilirlik birlikte okunmalıdır."
+      },
+      {
+       "metin": "En hafif parça her zaman en pahalıdır",
+       "dogru": false,
+       "aciklama": "Her zaman öyle değildir; ödünleşim (trade-off) veriden okunmalıdır."
+      },
+      {
+       "metin": "Grafikler yalnızca renkleri gösterdiği için",
+       "dogru": false,
+       "aciklama": "Scatter Plot iki sayısal mühendislik ölçütünü eksenlerde doğrudan kıyaslar."
+      }
+     ]
+    }
    ],
    "hazir": true
   },
@@ -2106,6 +3529,54 @@ window.DERSLER['oyg'] = {
     "Dışa aktarılan üretken tasarım gövdesi çok karmaşık ve ağır açılıyorsa bunu arka plan referansı (opacity %30) yapıp ana yük kollarını Loft/Extrude ile temizce yeniden modellemek hem daha hafif hem 3B baskıya daha uygundur.",
     "İki modeli kıyaslarken ikisine de mutlaka aynı Fiziksel Malzemeyi atadığından emin ol; yoksa kütle kıyaslaması geçersiz olur."
    ],
+   "ozdenetim": [
+    "Seçtiğim üretken tasarım sonucunu temiz katı modele (veya düzenlenmiş dışa aktarıma) dönüştürdüm.",
+    "Aynı bağlantı noktaları için kendi klasik braket tasarımımı da modeledim.",
+    "İki modele de aynı Fiziksel Malzemeyi atayarak kütle, hacim ve dilimleyici destek/süre verilerini kaydettim.",
+    "Modül D karşılaştırma raporumda nihai seçimimi sayısal verilere (kütle farkı %, süre, üretilebilirlik) dayandırdım."
+   ],
+   "sina": [
+    {
+     "soru": "Klasik braketin 40 g, üretken tasarım braketinin 28 g geldiğini gördün. İkisini 3B yazıcıda kıyaslarken hangi veriye daha mutlaka bakmalısın?",
+     "secenekler": [
+      {
+       "metin": "Dilimleyicideki destek (support) malzemesi miktarına ve toplam baskı süresine",
+       "dogru": true,
+       "aciklama": "Doğru. Organik şekil bazen çok destek istediği için net kütle düşük olsa bile toplam filament ve temizleme zahmeti yüksek çıkabilir."
+      },
+      {
+       "metin": "Yalnızca dosyanın kilobayt boyutuna",
+       "dogru": false,
+       "aciklama": "Dosya boyutu üretim maliyetini göstermez."
+      },
+      {
+       "metin": "Render arka plan rengine",
+       "dogru": false,
+       "aciklama": "Üretim kararında fiziksel ve baskı verileri esastır."
+      }
+     ]
+    },
+    {
+     "soru": "Klasik ve üretken modeli karşılaştırırken ikisine farklı Fiziksel Malzeme atanmışsa ne olur?",
+     "secenekler": [
+      {
+       "metin": "Kütle karşılaştırması geçersiz olur; adil kıyas için iki modelde de aynı malzeme atanmalıdır",
+       "dogru": true,
+       "aciklama": "Doğru. Kontrol değişkeni (malzeme) sabit tutulmazsa farkın biçimden mi yoğunluktan mı geldiği bilinemez."
+      },
+      {
+       "metin": "Yazılım farkı kendiliğinden düzeltir",
+       "dogru": false,
+       "aciklama": "Özellikler penceresi her modelin kendi atalı malzemesine göre kütle verir."
+      },
+      {
+       "metin": "Sadece hacim değişir",
+       "dogru": false,
+       "aciklama": "Malzeme hacmi değil, yoğunluk üzerinden kütleyi değiştirir."
+      }
+     ]
+    }
+   ],
    "hazir": true
   },
   {
@@ -2172,6 +3643,55 @@ window.DERSLER['oyg'] = {
    "tikanma": [
     "Çok büyük (ör. 25 cm'lik) bir ürün seçersen baskı süresi ders takvimine sığmaz; atölye yazıcısında 2–4 saatte basılabilecek kompakt, akıllı çözümler seç.",
     "Çözümden değil sorundan başla: \"telefon standı yapacağım\" yerine \"ders çalışırken kameramın eğimi sabit kalmıyor\" dersen tasarımın özgünleşir."
+   ],
+   "karsilastir": {
+    "baslik": "Ürün adı söylemek vs. Tasarım problemi tanımlamak",
+    "solBaslik": "Çözümle başlamak (dar ve sıradan)",
+    "sol": "\"Bir kablo tutucu yapacağım.\"",
+    "sagBaslik": "Somut problemle başlamak (özgün)",
+    "sag": "\"28 mm kalınlıktaki çalışma masamın kenarında 4,5 mm çaplı üç şarj kablosu çıkarıldığında yere düşüyor; tek elle takılıp çıkarılabilen bir tutucu gerekiyor.\""
+   },
+   "sina": [
+    {
+     "soru": "Modül E özgün ürünü için 31. haftada gerçek ortamdan kumpasla ölçü almadan hemen Fusion'da çizime başlarsan ne risk doğar?",
+     "secenekler": [
+      {
+       "metin": "Basılan ürün gerçek masaya, kabloya veya kapağa oturmaz; baştan yeniden ölçüp basman gerekir",
+       "dogru": true,
+       "aciklama": "Doğru. Gerçek ortam ölçümleri ve tolerans payı özgün ürünün temel girdisidir."
+      },
+      {
+       "metin": "Fusion 360 dosyayı açmaz",
+       "dogru": false,
+       "aciklama": "Yazılım açılır ama gerçek dünyayla uyumsuz bir parça üretirsin."
+      },
+      {
+       "metin": "Render alınamaz",
+       "dogru": false,
+       "aciklama": "Sorun render değil fiziksel uyumdur."
+      }
+     ]
+    },
+    {
+     "soru": "35. haftada test edeceğin \"üç başarı ölçütünü\" neden daha tasarımın başında (31. haftada) yazıyoruz?",
+     "secenekler": [
+      {
+       "metin": "Ürünün neyi başarması gerektiğini baştan bilerek tasarlamak ve sonunda nesnel biçimde sınayabilmek için",
+       "dogru": true,
+       "aciklama": "Doğru. Ölçütü sonradan uydurmak yerine baştan kurmak dürüst mühendislik değerlendirmesidir."
+      },
+      {
+       "metin": "Modelleme haftasını atlamak için",
+       "dogru": false,
+       "aciklama": "Ölçütler modelleme kararlarına doğrudan yön verir."
+      },
+      {
+       "metin": "Malzeme seçimine gerek kalmasın diye",
+       "dogru": false,
+       "aciklama": "Malzeme seçimi bu ölçütlerin ve fiziksel koşulların sonucudur."
+      }
+     ]
+    }
    ],
    "hazir": true
   },
@@ -2246,6 +3766,48 @@ window.DERSLER['oyg'] = {
     "Tasarımın fazla karmaşıklaşıp seni kilitlediyse önce temel işlevi çözen en sade biçimi (çalışan çekirdek) bitir, estetik ayrıntıları en sona bırak.",
     "Eskizler karmaşıklaştıkça yavaşlıyor veya mavi kalıyorsa her özelliği tek dev eskizde toplamak yerine küçük, temiz eskizlere böl."
    ],
+   "sina": [
+    {
+     "soru": "Özgün ürününü modellemeye başlamadan önce ilk iş olarak gerçek ölçüleri Kullanıcı Parametrelerine girmek 35. haftada sana ne kazandırır?",
+     "secenekler": [
+      {
+       "metin": "İlk baskıda bir geçme 0,3 mm sıkı çıkarsa tek bir parametreyi değiştirerek tüm modeli bozmadan saniyeler içinde v2'ye güncellersin",
+       "dogru": true,
+       "aciklama": "Doğru. Parametrik kurgu revizyon maliyetini neredeyse sıfıra indirir."
+      },
+      {
+       "metin": "3B yazıcı daha hızlı ısınır",
+       "dogru": false,
+       "aciklama": "Parametreler tasarım düzenleme hızını artırır."
+      },
+      {
+       "metin": "Eskizlerin otomatik renklenir",
+       "dogru": false,
+       "aciklama": "Parametreler ölçüleri merkezi yönetir."
+      }
+     ]
+    },
+    {
+     "soru": "Özgün ürününün duvar kalınlığını 0,6 mm çizdiysen 3B baskıda hangi sorunla karşılaşman olasıdır?",
+     "secenekler": [
+      {
+       "metin": "Duvar tek geçişlik çok ince ve kırılgan çıkar; işlevsel parçalarda genelde en az 1,6–2,0 mm duvar kalınlığı gerekir",
+       "dogru": true,
+       "aciklama": "Doğru. 0,4 mm nozulla 0,6 mm duvar yeterli dayanım vermez."
+      },
+      {
+       "metin": "Parça aşırı ağırlaşır",
+       "dogru": false,
+       "aciklama": "Aksine yetersiz malzeme nedeniyle kolay kırılır."
+      },
+      {
+       "metin": "Fillet komutu hiç çalışmaz",
+       "dogru": false,
+       "aciklama": "Sorun fiziksel üretim dayanımıdır."
+      }
+     ]
+    }
+   ],
    "hazir": true
   },
   {
@@ -2311,6 +3873,48 @@ window.DERSLER['oyg'] = {
    "tikanma": [
     "Çok parçalı ürünün teknik resminde hem montaj görünüşünü (parça listesiyle) hem de kritik parçaların ayrı ölçülü görünüşlerini ikinci bir sayfada gösterebilirsin.",
     "Son anda modelde bir ölçü değiştirirsen teknik resimdeki sarı güncelleme (Get Latest) simgesine tıklamayı unutma; ölçüler otomatik güncellenir."
+   ],
+   "sina": [
+    {
+     "soru": "Modelde son anda bir ölçüyü 2 mm büyüttüğünde daha önce hazırladığın Fusion 360 Teknik Resim (Drawing) sayfasını ne yapmalısın?",
+     "secenekler": [
+      {
+       "metin": "Modeli kaydettikten sonra teknik resimdeki sarı güncelle (Get Latest) düğmesine tıklayıp tüm görünüş ve ölçülerin güncellenmesini sağlamalısın",
+       "dogru": true,
+       "aciklama": "Doğru. Teknik resim 3B modele bağlıdır; sıfırdan çizmeye gerek kalmadan tek tıkla güncellenir."
+      },
+      {
+       "metin": "Teknik resmi silip tamamen sıfırdan yeniden oluşturmalısın",
+       "dogru": false,
+       "aciklama": "Get Latest bağlantısı bunu otomatik çözer."
+      },
+      {
+       "metin": "PDF üzerinde sayıyı elle karalayıp düzeltmelisin",
+       "dogru": false,
+       "aciklama": "Bu model ile teknik resim arasında tehlikeli uyumsuzluk yaratır."
+      }
+     ]
+    },
+    {
+     "soru": "5 Haziran Dünya Çevre Günü gözüyle baktığında aşağıdakilerden hangisi daha sürdürülebilir bir tasarım kararıdır?",
+     "secenekler": [
+      {
+       "metin": "Sık aşınan küçük bir klipsi tüm gövdeye yapıştırmak yerine kırılınca tek başına değiştirilebilen geçmeli parça yapmak",
+       "dogru": true,
+       "aciklama": "Doğru. Onarılabilir ve modüler tasarım ürün ömrünü uzatır, atığı azaltır."
+      },
+      {
+       "metin": "Parçayı gereksiz yere %100 dolu ve kalın basmak",
+       "dogru": false,
+       "aciklama": "Gereksiz malzeme ve enerji israfı yaratır."
+      },
+      {
+       "metin": "Baskı yönelimini en çok destek çıkaracak biçimde seçmek",
+       "dogru": false,
+       "aciklama": "Destekler doğrudan plastik atığına dönüşür."
+      }
+     ]
+    }
    ],
    "hazir": true
   },
@@ -2378,6 +3982,48 @@ window.DERSLER['oyg'] = {
     "Çok parçalı bir ürünün tüm parçalarını tek seferde tablaya dizersen bir parça kalktığında hepsi bozulabilir; riskli veya uzun parçaları ayrı baskılar hâlinde planla.",
     "Baskı süresi 4 saati aşıyorsa doluluk oranını düşürmeyi, destek açısını gözden geçirmeyi veya duvar/geometri sadeleştirmeyi dene."
    ],
+   "sina": [
+    {
+     "soru": "Üzerine belirli bir yönden eğilme/çekme yükü binen ince bir kanca veya tutucuyu baskı tablasına nasıl yatırmalısın?",
+     "secenekler": [
+      {
+       "metin": "Katman çizgileri yükü enine kesip ayrılmayacak biçimde, uzun kolları tablaya paralel yatırarak",
+       "dogru": true,
+       "aciklama": "Doğru. 3B baskılar katmanlar arası yapışma yönünde daha zayıftır; yatay katmanlar çok daha yüksek eğilme dayanımı verir."
+      },
+      {
+       "metin": "En dik ve en ince ucunun üzerinde duracak biçimde",
+       "dogru": false,
+       "aciklama": "Hem tablaya tutunması zayıflar hem de katmanlar yük altında kolayca ayrılır."
+      },
+      {
+       "metin": "Yönelim mekanik dayanımı hiç etkilemez",
+       "dogru": false,
+       "aciklama": "Katmanlı yapıda baskı yönelimi (anizotropi) dayanımı çok büyük ölçüde değiştirir."
+      }
+     ]
+    },
+    {
+     "soru": "Üç parçalı bir ürünü aynı anda tek tablaya dizip 7 saatlik tek baskı almak yerine ayrı baskılara bölmek neden akıllıca olabilir?",
+     "secenekler": [
+      {
+       "metin": "Parçalardan biri tabladan kalkarsa diğer ikisi de bozulmaz; risk ve sınıf baskı sırası daha kolay yönetilir",
+       "dogru": true,
+       "aciklama": "Doğru. Özellikle atölye kuyruğunda küçük, yönetilebilir baskılar başarısızlık riskini düşürür."
+      },
+      {
+       "metin": "Ayrı basınca parçalar daha parlak olur",
+       "dogru": false,
+       "aciklama": "Parlaklık malzeme ve sıcaklığa bağlıdır."
+      },
+      {
+       "metin": "Dilimleyici birden fazla parça alamaz",
+       "dogru": false,
+       "aciklama": "Alabilir ama tek hata tüm tablayı yakabilir."
+      }
+     ]
+    }
+   ],
    "hazir": true
   },
   {
@@ -2419,8 +4065,14 @@ window.DERSLER['oyg'] = {
    ],
    "yaprak": [
     {
-     "tip": "uzun",
-     "soru": "31. haftada belirlediğin üç başarı ölçütünün her birini gerçek test sonucunla karşılaştır (Ölçüt | Test sonucu | Geçti/Kısmen/Kaldı)."
+     "tip": "tablo",
+     "soru": "31. haftada belirlediğin üç başarı ölçütünün her birini gerçek test sonucunla karşılaştır (Ölçüt | Test sonucu | Geçti/Kısmen/Kaldı).",
+     "sutunlar": [
+      "Başarı ölçütü (31. hafta)",
+      "Gerçek test ve ölçüm sonucu",
+      "Durum (Geçti / Kısmen / Kaldı)"
+     ],
+     "satirlar": 3
     },
     {
      "tip": "uzun",
@@ -2443,6 +4095,48 @@ window.DERSLER['oyg'] = {
    "tikanma": [
     "İlk baskı tam oturmadıysa parçayı çöpe atıp sıfırdan çizme; önce hatanın kaç mm olduğunu ölç, sonra parametre tablosundan o tek sayıyı güncelle.",
     "\"Her şey harika oldu, hiç sorun yok\" yazmak yerine en az bir sayısal ölçüm ve bir kullanım gözlemiyle iddianı kanıtla."
+   ],
+   "sina": [
+    {
+     "soru": "Özgün ürünün ilk baskısı (v1) gerçek testte masanın kenarına 0,4 mm dar geldi. En doğru mühendislik tepkisi nedir?",
+     "secenekler": [
+      {
+       "metin": "Kumpasla gerçek boşluğu ölçmek, parametrik modelde ilgili ölçüyü güncelleyip v2 revizyonunu ve gerekçesini kaydetmek",
+       "dogru": true,
+       "aciklama": "Doğru. İlk prototipin işlevi tam olarak bu farkları yakalayıp veriye dayalı revizyon yapmaktır."
+      },
+      {
+       "metin": "Kusuru gizleyip ölçüt listesinde \"geçti\" işaretlemek",
+       "dogru": false,
+       "aciklama": "Bu hem dürüstlüğe aykırıdır hem de öğrenme fırsatını yok eder."
+      },
+      {
+       "metin": "Parçayı zımparalayıp dijital modeli hiç güncellememek",
+       "dogru": false,
+       "aciklama": "Dijital dosya güncellenmezse ikinci kez basıldığında aynı hata tekrarlanır."
+      }
+     ]
+    },
+    {
+     "soru": "Test sırasında çıkan bir sorunu teşhis ederken \"üretim sapması\" ile \"tasarım hatası\" ayrımını nasıl yaparsın?",
+     "secenekler": [
+      {
+       "metin": "Parça kumpasla tasarım ölçüsünden farklı çıktıysa üretim sapması; tasarım ölçüsüyle birebir aynı çıktığı hâlde işe yaramıyorsa tasarım hatasıdır",
+       "dogru": true,
+       "aciklama": "Doğru. Bu ayrım, yazıcı ayarını mı yoksa CAD modelini mi düzelteceğini netleştirir."
+      },
+      {
+       "metin": "İkisi arasında fark yoktur",
+       "dogru": false,
+       "aciklama": "İkisinin çözümü farklı yerdedir."
+      },
+      {
+       "metin": "Filament rengi soluksa tasarım hatasıdır",
+       "dogru": false,
+       "aciklama": "Renk geometrik işlevle ilgisizdir."
+      }
+     ]
+    }
    ],
    "hazir": true
   },
@@ -2509,6 +4203,54 @@ window.DERSLER['oyg'] = {
    "tikanma": [
     "Sunumda yalnızca \"şunu çizdim, sonra Extrude yaptım\" diye komut sayma; hangi problemi çözdüğünü, hangi testte ne gördüğünü ve neyi değiştirdiğini anlat.",
     "Portfolyo klasöründe dağınık veya Untitled adlı dosyalar kaldıysa yıl kapanmadan anlamlı adlarla düzenle."
+   ],
+   "ozdenetim": [
+    "Modül E klasörümde v2 son model, PDF teknik resim, iki render görseli ve montaj/kullanım animasyonu eksiksiz.",
+    "Fiziksel ürünüm (veya baskı kaydım) ile v1 → v2 revizyon günlüğüm sunuma hazır.",
+    "1. haftadaki başlangıç çalışması sorusunu yıl sonu kavramlarımla yeniden yanıtlayıp karşılaştırdım.",
+    "E-portfolyomdaki tüm dosyalar Modül A–E klasörlerinde temiz ve anlaşılır adlarla düzenlendi."
+   ],
+   "sina": [
+    {
+     "soru": "Yıl sonu sunumunda 3–4 dakikayı en etkili nasıl kullanırsın?",
+     "secenekler": [
+      {
+       "metin": "Çözdüğün somut problemi, malzeme/tasarım kararlarını, v1 testinde ne bulup v2'de neyi düzelttiğini kanıtlarla anlatarak",
+       "dogru": true,
+       "aciklama": "Doğru. Dinleyici hangi menüye tıkladığını değil, nasıl düşündüğünü ve kararlarının gerekçesini duymak ister."
+      },
+      {
+       "metin": "Tıkladığın tüm Fusion 360 komutlarını baştan sona sırayla okuyarak",
+       "dogru": false,
+       "aciklama": "Komut listesi tasarım düşüncesini göstermez ve dinleyiciyi koparır."
+      },
+      {
+       "metin": "Yalnızca render fotoğrafını gösterip susarak",
+       "dogru": false,
+       "aciklama": "Ölçüm, test ve revizyon hikâyesi olmadan tasarım süreci görünmez."
+      }
+     ]
+    },
+    {
+     "soru": "Bu yıl kazandığın hangi dört temel yetkinlik ÖYG 2. yıl modüllerinin (akıllı sistem muhafazası, tersine mühendislik, maliyet analizi) doğrudan ön koşuludur?",
+     "secenekler": [
+      {
+       "metin": "Kapalı/parametrik eskizle katı modelleme, çok parçalı montaj, teknik resim üretme ve 3B baskıya hazırlama",
+       "dogru": true,
+       "aciklama": "Doğru. Bu dört temel oturunca 2. yılda sensör kutusu, prototip ve maliyet analizlerini rahatça kuracaksın."
+      },
+      {
+       "metin": "Yalnızca arka plan rengini değiştirmek",
+       "dogru": false,
+       "aciklama": "İkinci yıl ileri prototipleme ve mühendislik verisi üzerine kuruludur."
+      },
+      {
+       "metin": "Hazır modelleri internetten indirmek",
+       "dogru": false,
+       "aciklama": "Özgün tasarım ve üretim yetkinliği kendi modelleme becerine dayanır."
+      }
+     ]
+    }
    ],
    "hazir": true
   }
