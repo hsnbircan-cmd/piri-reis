@@ -680,13 +680,13 @@
       ]),
       el("div", { class: "hafta-gezinti-dugmeler" }, [
         onceki ? el("a", {
-          class: "dugme ikincil kucuk-dugme",
+          class: "dugme ikincil",
           href: "#/" + ders + "/" + onceki.no,
           title: onceki.no + ". hafta · " + onceki.baslik,
           metin: "← " + onceki.no + ". hafta"
         }) : null,
         sonraki ? el("a", {
-          class: "dugme kucuk-dugme",
+          class: "dugme",
           href: "#/" + ders + "/" + sonraki.no,
           title: sonraki.no + ". hafta · " + sonraki.baslik,
           metin: sonraki.no + ". hafta →"

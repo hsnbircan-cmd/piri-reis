@@ -3,7 +3,7 @@
 // sonraki acilislarda internet olmasa bile GitHub Pages adresinden calisir.
 // Internet varken once agdan guncel surumu ceker ve onbellegi tazeler.
 
-var ONBELLEK = "prdta-v1";
+var ONBELLEK = "prdta-v2";
 var DOSYALAR = [
   "./",
   "./index.html",
@@ -51,7 +51,7 @@ self.addEventListener("fetch", function (olay) {
   if (url.origin !== self.location.origin) return;
 
   olay.respondWith(
-    fetch(istek).then(function (yanit) {
+    fetch(istek, { cache: "no-cache" }).then(function (yanit) {
       if (yanit && yanit.status === 200 && yanit.type === "basic") {
         var kopya = yanit.clone();
         caches.open(ONBELLEK).then(function (depo) {
