@@ -667,10 +667,31 @@
     var p = el("div");
     var kip = calismaKipiAl();
 
-    p.appendChild(el("div", { class: "yol" }, [
-      el("a", { href: "#/", metin: "Ana sayfa" }),
-      document.createTextNode(" · "),
-      el("a", { href: "#/" + ders, metin: veri.ad })
+    var hs = haftalar(ders);
+    var sira = hs.map(function (x) { return x.no; }).indexOf(no);
+    var onceki = sira > 0 ? hs[sira - 1] : null;
+    var sonraki = sira >= 0 && sira < hs.length - 1 ? hs[sira + 1] : null;
+
+    p.appendChild(el("div", { class: "hafta-ust-gezinti" }, [
+      el("div", { class: "yol" }, [
+        el("a", { href: "#/", metin: "Ana sayfa" }),
+        document.createTextNode(" · "),
+        el("a", { href: "#/" + ders, metin: veri.ad })
+      ]),
+      el("div", { class: "hafta-gezinti-dugmeler" }, [
+        onceki ? el("a", {
+          class: "dugme ikincil kucuk-dugme",
+          href: "#/" + ders + "/" + onceki.no,
+          title: onceki.no + ". hafta · " + onceki.baslik,
+          metin: "← " + onceki.no + ". hafta"
+        }) : null,
+        sonraki ? el("a", {
+          class: "dugme kucuk-dugme",
+          href: "#/" + ders + "/" + sonraki.no,
+          title: sonraki.no + ". hafta · " + sonraki.baslik,
+          metin: sonraki.no + ". hafta →"
+        }) : null
+      ])
     ]));
 
     var rozetler = el("div", {});
@@ -1117,11 +1138,6 @@
     }
 
     // ayak
-    var hs = haftalar(ders);
-    var sira = hs.map(function (x) { return x.no; }).indexOf(no);
-    var onceki = sira > 0 ? hs[sira - 1] : null;
-    var sonraki = sira >= 0 && sira < hs.length - 1 ? hs[sira + 1] : null;
-
     var kutu = el("input", { type: "checkbox", id: "tamam" });
     kutu.checked = bittiMi(ders, no);
     kutu.addEventListener("change", function () { bittiYaz(ders, no, kutu.checked); });

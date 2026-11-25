@@ -157,6 +157,12 @@ main{max-width:1000px;margin:0 auto;padding:28px 24px 60px}
 .tatil-satir::before{content:"";flex:0 0 42px;height:1px;background:var(--cizgi)}
 
 /* ---------- hafta sayfasi ---------- */
+.hafta-ust-gezinti{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:12px;flex-wrap:wrap;margin-bottom:12px;
+}
+.hafta-ust-gezinti .yol{margin-bottom:0}
+.hafta-gezinti-dugmeler{display:flex;gap:8px;flex-wrap:wrap}
 .yol{font-size:14px;color:var(--soluk);margin-bottom:10px}
 .yol a{text-decoration:none}
 .hafta-bas h1{font-size:30px;line-height:1.2;margin:6px 0 10px}
@@ -362,7 +368,7 @@ details.ders-katla{border:1px solid var(--cizgi);border-radius:10px;padding:12px
   .yazdir-dugme,.giris-bas,.ders-kart-liste,.bu-hafta,.gelemedim,.taslak-uyari,
   .kimlik,.gonder-satir,.gonderim-durum,.kip-cubuk,.ogrenme-destek,.arac-kutu,
   .sina-kutu,.ozdenetim-kutu,.ilgili-kavramlar,.devam-kutu,.yedek-kutu,
-  .yoklama-katla,.tekrar-kutu,.onbilgi-kutu{display:none !important}
+  .yoklama-katla,.tekrar-kutu,.onbilgi-kutu,.hafta-ust-gezinti{display:none !important}
   main{max-width:none;padding:0}
   .hafta-bas h1{font-size:19pt}
   .ad-satir{display:block;margin:10px 0 16px;font-size:11pt;color:#000}
