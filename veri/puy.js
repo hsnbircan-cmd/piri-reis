@@ -1827,19 +1827,19 @@ window.DERSLER['puy'] = {
      "soru": "İş zaman çizelgesinde \"kritik yol / bağımlılık\" ne demektir?",
      "secenekler": [
       {
-       "metin": "Bir iş paketi bitmeden sıradakinin başlayamaması; dolayısıyla oradaki 1 haftalık gecikmenin tüm proje bitişini kaydırmasıdır",
+       "metin": "Önceki iş paketi bitmeden sonrakinin başlayamamasıdır",
        "dogru": true,
-       "aciklama": "Doğru. Örneğin izin belgesi veya malzeme gecikirse veri toplama başlayamaz; bu yüzden buralara tampon süre konur."
+       "aciklama": "Doğru. Bu zincir üzerindeki bir haftalık gecikme proje bitişini bir hafta kaydırır; bu yüzden kritik yola tampon süre konur."
       },
       {
-       "metin": "En ucuz iş paketidir",
+       "metin": "En çok emek ve bütçe isteyen iş paketidir",
        "dogru": false,
-       "aciklama": "Maliyetle değil zamansal bağımlılıkla ilgilidir."
+       "aciklama": "Maliyet ayrı bir ölçüt. Kritik yol zamansal bağımlılıkla ilgilidir; ucuz bir iş paketi de kritik yolda olabilir."
       },
       {
-       "metin": "En son yapılacak sunumdur",
+       "metin": "Projede en uzun süren tek iş paketidir",
        "dogru": false,
-       "aciklama": "Bağımlılık zinciri projenin başından sonuna uzanır."
+       "aciklama": "En uzun iş paketi kritik yolda olmayabilir. Belirleyici olan süre değil, hangi işin hangisini beklettiğidir."
       }
      ]
     },
@@ -2982,19 +2982,19 @@ window.DERSLER['puy'] = {
      "soru": "Ankette \"Bu ürün hem hızlı hem de ucuz mudur? (Evet/Hayır)\" maddesi neden kusurlu bir sorudur?",
      "secenekler": [
       {
-       "metin": "Tek cümlede iki ayrı özellik sorduğu (çift namlulu soru olduğu) için ürünü hızlı ama pahalı bulan kişi ne işaretleyeceğini bilemez",
+       "metin": "Tek maddede iki ayrı özellik sorulduğu için",
        "dogru": true,
-       "aciklama": "Doğru. Her anket veya görüşme maddesi yalnızca tek bir ölçütü sormalıdır."
+       "aciklama": "Doğru. Buna çift namlulu soru denir: ürünü hızlı ama pahalı bulan kişi ne işaretleyeceğini bilemez. Her madde tek bir ölçütü sormalıdır."
       },
       {
-       "metin": "Çok kısa olduğu için",
+       "metin": "Evet/Hayır yerine beşli ölçek kullanılmadığı için",
        "dogru": false,
-       "aciklama": "Sorun kısalık değil iki farklı sorunun tek maddeye sıkıştırılmasıdır."
+       "aciklama": "Ölçek türü ayrı bir tercih. Buradaki kusur beşli ölçekle sorulsa da sürerdi: iki ayrı özellik aynı cümlede duruyor."
       },
       {
-       "metin": "Türkçe olduğu için",
+       "metin": "Ürün hakkında olumlu bir beklenti yarattığı için",
        "dogru": false,
-       "aciklama": "Anlaşılır dil iyidir; yeter ki tek bir kavrama odaklansın."
+       "aciklama": "Yönlendirici soru gerçek bir kusurdur, ancak bu maddede asıl sorun yönlendirme değil, iki ölçütün birleştirilmesi."
       }
      ]
     }
@@ -3214,19 +3214,19 @@ window.DERSLER['puy'] = {
      "soru": "Ankette 1=Ahşap, 2=Plastik, 3=Metal diye kodlanan kategorik sütunun \"ortalaması 1,8 çıktı\" demek neden yanlıştır?",
      "secenekler": [
       {
-       "metin": "Bu sayılar miktar değil yalnızca sınıf etiketidir; kategorik veride ortalama değil sayı (frekans) ve yüzde (%) hesaplanır",
+       "metin": "Sayılar miktar değil, yalnızca sınıf etiketidir",
        "dogru": true,
-       "aciklama": "Doğru. 1,8 malzeme diye bir şey yoktur!"
+       "aciklama": "Doğru. 1,8 diye bir malzeme yoktur. Kategorik veride ortalama değil frekans ve yüzde hesaplanır."
       },
       {
-       "metin": "Ondalık sayı çıktığı için",
+       "metin": "Örneklem bu hesabı yapmak için fazla küçüktür",
        "dogru": false,
-       "aciklama": "Sorun ondalık olması değil, kategorik veride ortalama işleminin anlamsız olmasıdır."
+       "aciklama": "Örneklem ne kadar büyürse büyüsün kategorik kodların ortalaması anlamlı olmaz. Sorun büyüklük değil ölçek türüdür."
       },
       {
-       "metin": "Metal 3 ile kodlandığı için",
+       "metin": "Kategoriler eşit aralıklarla kodlanmamıştır",
        "dogru": false,
-       "aciklama": "Hangi sayı verilirse verilsin kategorik kodların ortalaması alınmaz."
+       "aciklama": "Kodları 10, 20, 30 yapsan da durum değişmez. Bu kodlar sıra ya da miktar bildirmez, yalnızca ad bildirir."
       }
      ]
     }

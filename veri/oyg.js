@@ -627,19 +627,19 @@ window.DERSLER['oyg'] = {
      "soru": "Bir aracın modeli mi yoksa yalnızca bakışını mı değiştirdiğini en kesin nasıl sınarsın?",
      "secenekler": [
       {
-       "metin": "Aracı uyguladıktan sonra zaman çizelgesinde (Timeline) yeni adım eklenip eklenmediğine ve ölçünün/kütlenin değişip değişmediğine bakarak",
+       "metin": "Zaman çizelgesine yeni bir adım eklenip eklenmediğine bakarak",
        "dogru": true,
-       "aciklama": "Doğru. Modeli değiştiren araç geometriyi veya zaman çizelgesini kalıcı etkiler."
+       "aciklama": "Doğru. Modeli değiştiren araç zaman çizelgesinde kalıcı bir adım bırakır. İstersen ölçü ya da kütle değerinin değişip değişmediğiyle doğrulayabilirsin."
       },
       {
-       "metin": "Simgesinin rengine bakarak",
+       "metin": "Tarayıcı'da yeni bir öğe görünüp görünmediğine bakarak",
        "dogru": false,
-       "aciklama": "Simge rengi güvenilir bir ölçüt değildir."
+       "aciklama": "Yakın ama yetmez: kesit çözümlemesi de Tarayıcı'da Çözümleme başlığı altında bir öğe oluşturur, oysa modele dokunmaz."
       },
       {
-       "metin": "Ekran görüntüsü alarak",
+       "metin": "Ekrandaki görüntünün değişip değişmediğine bakarak",
        "dogru": false,
-       "aciklama": "Ekran görüntüsü yalnızca bakış açısını yakalar."
+       "aciklama": "Görüntü her iki durumda da değişir; döndürmek de kesmek de ekranı değiştirir. Bu yüzden ayırt edici bir ölçüt değildir."
       }
      ]
     }
@@ -3768,22 +3768,22 @@ window.DERSLER['oyg'] = {
    ],
    "sina": [
     {
-     "soru": "Özgün ürününü modellemeye başlamadan önce ilk iş olarak gerçek ölçüleri Kullanıcı Parametrelerine girmek 35. haftada sana ne kazandırır?",
+     "soru": "Özgün ürününü modellemeye başlamadan önce gerçek ölçüleri Kullanıcı Parametrelerine girmek 35. haftada sana ne kazandırır?",
      "secenekler": [
       {
-       "metin": "İlk baskıda bir geçme 0,3 mm sıkı çıkarsa tek bir parametreyi değiştirerek tüm modeli bozmadan saniyeler içinde v2'ye güncellersin",
+       "metin": "Düzeltmeyi tek bir değeri değiştirerek yapabilirsin",
        "dogru": true,
-       "aciklama": "Doğru. Parametrik kurgu revizyon maliyetini neredeyse sıfıra indirir."
+       "aciklama": "Doğru. Geçme 0,3 mm sıkı çıkarsa modeli bozmadan tek parametreyi güncelleyip v2'yi saniyeler içinde üretirsin."
       },
       {
-       "metin": "3B yazıcı daha hızlı ısınır",
+       "metin": "Baskı süresi kısalır ve daha az filament harcanır",
        "dogru": false,
-       "aciklama": "Parametreler tasarım düzenleme hızını artırır."
+       "aciklama": "Baskı süresi dilimleme ayarlarına ve geometriye bağlıdır; parametre tanımlamak onu değiştirmez. Kazanç üretimde değil revizyondadır."
       },
       {
-       "metin": "Eskizlerin otomatik renklenir",
+       "metin": "Ölçüler teknik resme kendiliğinden yazılır",
        "dogru": false,
-       "aciklama": "Parametreler ölçüleri merkezi yönetir."
+       "aciklama": "Teknik resimdeki ölçülendirmeyi yine sen eklersin. Parametre, ölçüleri tek yerden yönetmeni sağlar."
       }
      ]
     },
