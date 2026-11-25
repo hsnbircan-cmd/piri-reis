@@ -841,6 +841,40 @@
       });
       p.appendChild(t);
     } else {
+      // Kipe duyarli kisa on bilgi kutusu
+      function onbilgiKutusu() {
+        var ob = k.onbilgi;
+        if (!ob) return null;
+        var baslikMetin;
+        var acikOlsun = false;
+        if (ob.kesif) {
+          baslikMetin = kip === "evde"
+            ? "Kısa ön bilgi · Önce 1 dakika haftanın sorusunu düşün, sonra aç"
+            : "Kısa ön bilgi (keşif sonrası özet için)";
+        } else {
+          baslikMetin = "Başlamadan önce: Kısa ön bilgi (1 dk)";
+          acikOlsun = (kip === "evde");
+        }
+        var detay = el("details", { class: "onbilgi-kutu" });
+        if (acikOlsun) detay.setAttribute("open", "");
+        detay.appendChild(el("summary", { metin: baslikMetin }));
+        var ic = el("div", { class: "onbilgi-ic" });
+        if (ob.baglam) ic.appendChild(el("p", { class: "onbilgi-baglam", metin: ob.baglam }));
+        if (ob.maddeler && ob.maddeler.length) {
+          var oul = el("ul", { class: "liste" });
+          ob.maddeler.forEach(function (m) { oul.appendChild(el("li", { metin: m })); });
+          ic.appendChild(oul);
+        }
+        if (ob.dikkat) {
+          ic.appendChild(el("p", { class: "onbilgi-dikkat" }, [
+            el("strong", { metin: "Sık karıştırılan nokta: " }),
+            document.createTextNode(ob.dikkat)
+          ]));
+        }
+        detay.appendChild(ic);
+        return detay;
+      }
+
       // Telafi bolumu yardimcisi
       function telafiKutusu() {
         if (!k.telafi || !k.telafi.length) return null;
@@ -910,7 +944,9 @@
         return kap.childNodes.length ? kap : null;
       }
 
+      var obKutu = onbilgiKutusu();
       if (kip === "evde") {
+        if (obKutu) p.appendChild(obKutu);
         var tk = telafiKutusu();
         if (tk) p.appendChild(tk);
         var od = ogrenmeDestekleri();
@@ -923,6 +959,7 @@
           ]));
         }
       } else {
+        if (obKutu) p.appendChild(obKutu);
         var dk2 = dersIkiliKutusu();
         if (dk2) p.appendChild(dk2);
         var od2 = ogrenmeDestekleri();

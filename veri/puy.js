@@ -122,6 +122,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": true,
+    "baglam": "Bu yıl boyunca kendi bilimsel projeni yürüterek bilgi üreteceksin. İlk hafta \"bilgi\" sözcüğünün tek bir şey olmadığını ve bilimin toplumun hangi katmanlarında nasıl üretildiğini sorguluyoruz.",
+    "maddeler": [
+     "Günlük yaşamda kullandığımız cümleler farklı bilgi türlerinden gelir: gözlem ve deneyle sınanabilen bilimsel bilgi, kişisel beğeni, gündelik deneyim, değer yargısı, pratik/teknik bilgi ve tanımsal bilgi.",
+     "Bilim yalnızca üniversitelerde değil; devlet kurumlarında, özel sektör Ar-Ge birimlerinde ve sivil toplum kuruluşlarında farklı amaç ve finansman kaynaklarıyla üretilir.",
+     "Bir raporun güvenilirliğini değerlendirirken yalnızca kimin yazdığına değil, yöntemin ve verinin bağımsız denetime açık olup olmadığına bakılır."
+    ],
+    "dikkat": "Bir ifadenin bilimsel bilgi sınıfına girmemesi onun önemsiz ya da yanlış olduğu anlamına gelmez; yalnızca farklı bir bilinme biçimine sahip olduğunu gösterir."
+   },
    "hazir": true
   },
   {
@@ -247,6 +257,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": true,
+    "baglam": "Geçen hafta bilgi türlerini ayırırken sorduğumuz \"yanlış olduğu nasıl gösterilir?\" sorusu bu haftanın merkezidir. Bu ölçüt, 14. haftadaki konu kararının da kavramsal temelidir.",
+    "maddeler": [
+     "Popper'a göre bir iddianın bilimsel olabilmesi için hangi gözlem veya deney sonucunun onu çürüteceği (yanlışlayacağı) önceden söylenebilmelidir.",
+     "Çok sayıda destekleyici örnek bir genel iddiayı kesin kanıtlamaz ama güvenilirliğini artırır; tek bir tekrarlanabilir karşı örnek ise iddiayı düşürebilir.",
+     "Kuhn'a göre bilim insanları ortak bir kavramsal çerçeve (paradigma) içinde çalışır; tekrarlanan aykırı gözlemler birikince eskiyi de açıklayan yeni bir çerçeveye geçilir."
+    ],
+    "dikkat": "Deney beklenmedik sonuç verdiğinde sonradan uydurulan \"kurtarma mazereti\" bilimsel açıklama değildir; meşru bir ek açıklama yeni ve bağımsız bir tahmin üretmelidir."
+   },
    "hazir": true
   },
   {
@@ -369,6 +389,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": true,
+    "baglam": "Araştırma etiği soyut bir ahlak dersi değil, yıl boyunca anket uygularken, kaynak okurken ve veri analiz ederken her hafta önüne çıkacak mesleki kararların rehberidir.",
+    "maddeler": [
+     "Temel etik ihlaller veri uydurma, veri/grafik çarpıtma, intihal (başkasının sözünü veya fikrini kaynak vermeden kullanma) ve haksız yazarlıktır.",
+     "Saydamlık ölçütü yol göstericidir: yaptığın bir işlemi (veri eleme, eksen kesme, yapay zekâ kullanımı) raporda açıkça yazmaya çekiniyorsan orada etik bir sorun vardır.",
+     "Ön kayıt alışkanlığı gereği hipotez, başarı ölçütü ve hatalı veri eleme kuralı veriye bakmadan önce proje defterine yazılır."
+    ],
+    "dikkat": "Başkasının fikrini tamamen kendi cümlelerinle yeniden yazıp kaynak göstermemek de intihaldir; ayrıca anket uygulamak da insanlarla araştırma kapsamına girer ve izin gerektirir."
+   },
    "hazir": true
   },
   {
@@ -496,6 +526,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": true,
+    "baglam": "Bu hafta yıl boyunca senden tam olarak ne beklendiğini, derleme ödevi ile gerçek bir araştırma projesi arasındaki farkı ve altı ara teslimlik yıllık yol haritamızı netleştiriyoruz.",
+    "maddeler": [
+     "Derleme ödevinde cevap zaten bilinmektedir ve öğrenci bilineni toplar; proje tabanlı öğrenmede ise cevabı önceden bilinmeyen bir soru için öğrenci veri üretir ve çözümler.",
+     "PÜY'de konu ve yöntem kararı öğrencinindir, öğretmen rehberlik eder; altı ara teslim (14, 16, 19, 24, 30, 33. haftalar) işin son haftalara yığılmasını önler.",
+     "Bilimsel dürüstlük gereği proje tabanlı öğrenmenin faydaları kadar sınırlılıkları (yetersiz rehberlik riski, sorusuz süslü sunum tuzağı) da kanıtla sorgulanır."
+    ],
+    "dikkat": "Hipotezin veriyle desteklenmemesi projenin başarısız olduğu anlamına gelmez; değerlendirme sonucun beklentine uymasına değil, süreç kararlarının sağlamlığına bakar."
+   },
    "hazir": true
   },
   {
@@ -604,6 +644,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "4. haftadaki \"projenin çıktısından kim yararlanacak?\" sorusunu bu hafta girişimcilikle bağlıyoruz. Amacımız proje becerileri ile gerçek dünyada değer üretme arasındaki bağı görmek.",
+    "maddeler": [
+     "Girişimcilik yalnızca ticari şirket kurmak değildir; gerçek bir sorunu fark edip kısıtlı kaynakla denenebilir çözüm geliştirmek ve kullanıcı geri bildirimiyle onu iyileştirmektir.",
+     "Sosyal girişimcilik kâr maksimizasyonu yerine toplumsal veya çevresel bir soruna sürdürülebilir çözüm üretmeyi hedefler.",
+     "Proje tabanlı öğrenmedeki belirsizlik yönetimi, zaman-bütçe planlama ve yineleme alışkanlıkları girişimcilik becerilerini doğrudan besler."
+    ],
+    "dikkat": "Her bilimsel araştırma projesi ticari bir ürüne dönüşmek zorunda değildir (temel bilim projeleri gibi); ancak fayda sahibini somut tanımlamak her projeyi netleştirir."
+   },
    "hazir": true
   },
   {
@@ -723,6 +773,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Yıl sonunda üreteceğin proje çıktısının yasal olarak nasıl korunacağını şimdiden bilmek, özellikle yarışma veya kamuya açık paylaşım öncesinde geri dönülmez hak kayıplarını önler.",
+    "maddeler": [
+     "6769 sayılı Sınai Mülkiyet Kanunu tescil başvurusuyla doğan hakları düzenler: Patent (20 yıl, uzatılmaz), Faydalı Model (10 yıl), Tescilli Tasarım (5–25 yıl) / Tescilsiz Tasarım (3 yıl), Marka (10 yıl, süresiz yenilenir).",
+     "5846 sayılı Fikir ve Sanat Eserleri Kanunu (FSEK) ise yazılım, rapor, müzik ve sanat gibi eserlerde eser meydana geldiği anda kendiliğinden doğan telif haklarını korur (mali haklar yaşam + 70 yıl).",
+     "Eser üzerindeki manevi haklar (adın belirtilmesi, eserin bütünlüğünün korunması) süreyle sınırlı değildir ve devredilemez."
+    ],
+    "dikkat": "Marka ürünün tekniğini değil adını ve işaretini korur; patent/faydalı model başvurusu yapılmadan önce buluşu kamuya açık paylaşmak yenilik şartını bozabilir."
+   },
    "hazir": true
   },
   {
@@ -831,6 +891,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": true,
+    "baglam": "Proje türleri temasına bilimsel araştırma projelerinin kendi içindeki çeşitlerini ve hepsinde ortak olan bilimsel omurgayı inceleyerek başlıyoruz.",
+    "maddeler": [
+     "Bilimsel araştırma projeleri amacına göre temel araştırma (ilkeleri anlama), uygulamalı araştırma (somut sorunu çözme) ve geliştirme/Ar-Ge olarak ayrılabilir.",
+     "Veri toplama ve yöntemine göre deneysel, betimsel/tarama, gözlemsel veya kuramsal/modelleme biçiminde çeşitlenir.",
+     "Konuları ne kadar farklı olursa olsun (fizik, biyoloji, eğitim, tasarım) tüm bilimsel araştırma projeleri araştırma sorusu, açık yöntem, sistematik veri ve kanıta dayalı sonuç omurgasını paylaşır."
+    ],
+    "dikkat": "Projeleri yalnızca okul ders adlarına göre (Fizik, Matematik vb.) ayırmak yüzeysel kalır; amaç, yöntem ve veri kaynağı gibi yapısal ölçütler kullan."
+   },
    "hazir": true
   },
   {
@@ -945,6 +1015,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Her proje bilimsel araştırma projesi değildir. Bu hafta tasarım, sosyal sorumluluk, Avrupa Birliği (Erasmus+) ve Kalkınma Ajansı projelerini bilimsel araştırma projeleriyle karşılaştırıyoruz.",
+    "maddeler": [
+     "Bilimsel araştırma projesi cevabı bilinmeyen bir araştırma sorusuyla başlar ve sistematik veri çözümlemesiyle yeni, doğrulanabilir bilgi üretir.",
+     "Tasarım/mühendislik projeleri belirli bir ihtiyacı çözen işlevsel prototip/sistem geliştirir ve performansını sınar.",
+     "Sosyal sorumluluk, AB ve Kalkınma Ajansı projeleri ise hedef bir toplulukta farkındalık, eğitim, ortaklık veya yerel kalkınma etkisi yaratmayı amaçlar."
+    ],
+    "dikkat": "Tasarım veya sosyal sorumluluk projesi bilimsel araştırmadan daha değersiz değildir; yalnızca başlangıç sorusu ve başarı ölçütü farklıdır."
+   },
    "hazir": true
   },
   {
@@ -1053,6 +1133,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "7 ve 8. haftalarda incelediğin tüm proje türlerini artık ezber bir liste olmaktan çıkarıp elindeki herhangi bir fikri doğru sınıfa yerleştirebilen tek bir karar şemasında birleştiriyoruz.",
+    "maddeler": [
+     "Sentez, iki listeyi alt alta kopyalamak değil; onları birbirine bağlayan işlevsel bir karar anahtarı (akış şeması) kurmaktır.",
+     "İyi bir karar ağacında her düğüm net ayrım yaptıran bir soru sorar (ör. \"Ana çıktı yeni doğrulanabilir bilgi mi, çalışan bir ürün mü, toplumsal etki mi?\").",
+     "Teknoloji ve tasarım alanında birçok güçlü proje hibrit yapıdadır: hem yeni bir prototip geliştirir hem de bunu kontrollü deneyle eskisiyle kıyaslar."
+    ],
+    "dikkat": "Karar ağacındaki düğüm soruları ucu açık olursa aynı fikir iki farklı dala birden düşer; her soruyu net seçeneklerle sınırla."
+   },
    "hazir": true
   },
   {
@@ -1175,6 +1265,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Proje türlerini tanıdıktan sonra gerçek ulusal yarışmaların (TÜBİTAK ve TEKNOFEST) şartnamelerini ve takvimlerini inceliyoruz; çünkü başvuru tarihleri iş takvimimizi doğrudan etkiler.",
+    "maddeler": [
+     "TÜBİTAK 2204 yarışmaları bilimsel araştırma yöntemi, literatür taraması, özgünlük ve veri analizine; TEKNOFEST ise çalışan prototip, sistem mimarisi ve teknik tasarım raporuna ağırlık verir.",
+     "Her şartnamede zorunlu başlıklar, sayfa/kelime sınırları, takım üyesi kuralları ve yasaklı/izin gerektiren konular (insan/hayvan çalışmaları, güvenlik) açıkça yazar.",
+     "Yıllık planımız Haziran'da biter; hedeflediğin yarışmanın başvurusu daha erkense (ör. Ocak–Mart) 16. haftadaki iş zaman çizelgeni öne çekmen gerekir."
+    ],
+    "dikkat": "Şartnameyi son hafta okumak en yaygın elenme nedenidir; özellikle etik, izin ve güvenlik maddelerini konu kararından önce kontrol et."
+   },
    "hazir": true
   },
   {
@@ -1283,6 +1383,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": true,
+    "baglam": "Artık kendi proje konuna doğru ilk adımı atıyorsun. Burada sana konu dayatılmaz; teknoloji ve tasarım alanındaki geçmiş ve güncel sorunları bileşenlerine ayırarak kendi merak alanını keşfedersin.",
+    "maddeler": [
+     "Geçmişte geliştirilen her teknoloji çözümü bir sorunu çözerken çoğu zaman yeni bileşenler ve yeni sorunlar (ör. plastik ambalaj → hijyen sağladı ama atık sorunu doğurdu) yaratmıştır.",
+     "Güncel bir sorunu dört bileşene ayırmak (teknik, insani/kullanıcı, çevresel, ekonomik) müdahale edebileceğin en somut noktayı bulmanı kolaylaştırır.",
+     "İyi bir başlangıç sorunu \"dünyadaki enerji krizi\" gibi dev değil; okulda, evde veya yerel ortamda gözlemleyip ölçebileceğin kadar somuttur."
+    ],
+    "dikkat": "Sırf \"havalı\" göründüğü için ilgini çekmeyen bir konu seçersen yıl ortasında tıkanırsın; gerçekten gözlemleyebileceğin ve merak ettiğin bir soruna yönel."
+   },
    "hazir": true
   },
   {
@@ -1398,6 +1508,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Geçmiş ve bugünün ardından geleceğin olası teknoloji/tasarım sorunlarına bakıyoruz. Ancak bilimsel öngörü kuru sezgiye değil, mevcut sayısal verilere ve açık varsayımlara dayanır.",
+    "maddeler": [
+     "Veriye dayalı projeksiyon, güvenilir birincil kaynaklardaki (TÜİK, BM, OECD, IEA) son 5–10 yıllık eğilimi basit hesaplamayla ileriye taşımaktır.",
+     "Her projeksiyonun altında bir varsayım yatar (ör. artış hızının sabit kalması); yeni bir yasa veya teknoloji eğriyi kırabileceğinden varsayım açıkça belirtilir.",
+     "Argümantasyon sürecinde bir tahminin mantıksal çelişkilerini ve olası karşı kanıtlarını görmek tahmini zayıflatmaz, olgunlaştırır."
+    ],
+    "dikkat": "\"Bence ileride çok artacak\" bir gelecek tahmini değildir; mutlaka kaynaklı mevcut veri, hesaplama adımı ve koşul varsayımı içermelidir."
+   },
    "hazir": true
   },
   {
@@ -1513,6 +1633,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Konuna kesin karar vermeden önce bilim dünyasının o alanda şimdiye kadar neleri araştırdığını görmen gerekir. Literatür taraması tekerleği yeniden icat etmeni önler ve özgünlük boşluğunu açığa çıkarır.",
+    "maddeler": [
+     "Standart arama motoru sonuçları yerine akademik veri tabanları kullanılır: Google Scholar, DergiPark, TR Dizin ve YÖK Ulusal Tez Merkezi.",
+     "Tırnak işareti (\"tam ifade\"), AND/OR operatörleri, İngilizce anahtar kelimeler ve yıl filtresi alakasız sonuçları eleyerek doğru makalelere ulaşmanı sağlar.",
+     "Her güvenilir kaynak 3. haftadaki etik kurallara uygun olarak fişlenir: Yazar, Yıl, Yöntem, Ana Bulgu ve Eksik Bıraktığı Nokta (boşluk) kendi cümlelerinle not edilir."
+    ],
+    "dikkat": "Literatür taramasının amacı \"bakın kimse bunu yapmamış\" demek değil, \"şimdiye kadar şunlar bulunmuş ama şu noktada bir boşluk veya çelişki kalmış\" diyebilmektir."
+   },
    "hazir": true
   },
   {
@@ -1628,6 +1758,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Yılın ilk büyük kontrol durağına (Ara Teslim 1) geldin. Literatür taramana ve 2. haftadaki yanlışlanabilirlik ölçütüne dayanarak bu yıl yürüteceğin özgün proje konusuna kesin karar veriyorsun.",
+    "maddeler": [
+     "Bilimsel özgünlük \"dünyada hiç duyulmamış icat\" değildir; mevcut literatüre yeni bir değişken, yöntem, malzeme, tasarım iyileştirmesi veya yerel bağlam/örneklem eklemek de özgünlüktür.",
+     "Karar verirken 2–3 aday fikri beş ölçütle tart: literatür farkı, yanlışlanabilirlik, veri/araç erişimi, süre/bütçe gerçekçiliği ve etik/izin uygunluğu.",
+     "Ara Teslim 1, sonraki tüm aşamaların (planlama, giriş, yöntem, veri toplama) ön koşuludur; konu netleşmeden sonraki haftaya geçilmez."
+    ],
+    "dikkat": "\"Bu konuda ülkemizde yeterli çalışma yok\" tek başına özgünlük gerekçesi değildir; okuduğun literatürden tam olarak hangi değişken veya yöntemle ayrıştığını somutça yaz."
+   },
    "hazir": true
   },
   {
@@ -1743,6 +1883,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Proje konun kesinleşti. Şimdi projenin yalnızca kâğıt üzerinde değil, gerçek insan ve kurumlarla nasıl temas edeceğini (paydaşlar, ortaklar, faydalanıcılar ve olası riskler) çözümlüyoruz.",
+    "maddeler": [
+     "Üç rolü ayır: Faydalanıcı sonuçtan doğrudan yarar gören kitle, Ortak projeye uzmanlık/mekân/kaynak sağlayan taraf, Paydaş ise projeden etkilenen veya projeyi etkileyen herkesi kapsar.",
+     "Anket/gözlem izni verecek okul yönetimi, veliler veya danışılacak uzmanlar kritik paydaşlardır; şimdiden listelenmeleri 25. haftadaki izin sürecini kolaylaştırır.",
+     "Projenin beklenen faydaları yanında doğurabileceği beklenmedik yan etkileri, maliyetleri veya erişim engellerini sorgulamak projeyi gerçekçi kılar."
+    ],
+    "dikkat": "Faydalanıcı olarak \"tüm insanlık\" veya \"herkes\" yazmak yerine sonuçtan ilk ve doğrudan yarar görecek dar, ulaşılabilir hedef kitleyi tanımla."
+   },
    "hazir": true
   },
   {
@@ -1864,6 +2014,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Ara Teslim 2'de projeni Haziran'a (veya hedeflediğin yarışma tarihine) kadar son haftalara yığmadan yönetebilmek için iş paketlerine bölüyor, zaman çizelgesi ve gerekiyorsa bütçe kuruyorsun.",
+    "maddeler": [
+     "Proje 6–8 somut iş paketine (İP) bölünür; her iş paketinin başlangıç–bitiş haftası ve tamamlandığını kanıtlayan somut bir çıktısı bulunur.",
+     "Kritik yol (bağımlılık), biri geciktiğinde tüm proje takvimini kaydıran işler zinciridir (ör. izin belgesi gecikirse veri toplama başlayamaz); bu noktalara 1–2 hafta tampon süre konur.",
+     "Bütçe gerekiyorsa her harcama kalemi için önce atölye imkânları ve ücretsiz açık kaynak alternatifler mantıksal denetlemeden geçirilir."
+    ],
+    "dikkat": "Veri toplama ve deney aşamalarına \"1–2 gün\" gibi aşırı iyimser süreler yazma; anket toplama, izin bekleme ve tekrar ölçüm her zaman planlanandan uzun sürer."
+   },
    "hazir": true
   },
   {
@@ -1980,6 +2140,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Proje raporunun ilk ana bölümü olan Giriş'i yazmaya başlıyoruz. Giriş bölümü, okuyucuyu 13. haftadaki literatürden alıp adım adım senin problem cümlene taşır.",
+    "maddeler": [
+     "Çerçeve programın alt başlık sırası izlenir: Problem Durumu (literatür atıflı), Araştırmanın Amacı, Problem Cümlesi ve Alt Problemler, Varsayımlar, Sınırlılıklar, Tanımlar.",
+     "Problem Durumu huni mantığıyla (bağlam → literatür → boşluk → amaç) daralarak ilerler; alt problemler ana problemin gerçek parçaları olmalıdır.",
+     "Varsayım doğruluğu kesin test edilemeyen ama doğru kabul edilen temel koşuldur; sınırlılık ise araştırmanın yer, zaman, örneklem ve araç bakımından bilinçli kapsam sınırıdır."
+    ],
+    "dikkat": "\"Zaman yetmezse bitiremem\" bir sınırlılık değildir; sınırlılık kişisel mazeret değil, araştırmanın kapsadığı sınırın nesnel bildirimidir."
+   },
    "hazir": true
   },
   {
@@ -2095,6 +2265,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Birinci dönemi hipotez yapılandırma ve dönem sonu proje dosyası denetimiyle kapatıyoruz. Bu hafta araştırma probleminden sınanabilir önermeler türetmeyi öğreneceksin.",
+    "maddeler": [
+     "Hipotez, literatüre ve ön bilgilere dayanarak bağımsız değişken (etken) ile bağımlı değişken (ölçülen sonuç) arasındaki beklenen farkı veya ilişkiyi belirten yanlışlanabilir önermedir.",
+     "Sıfır hipotezi (H₀) gruplar veya değişkenler arasında anlamlı bir fark/ilişki olmadığını, araştırma hipotezi (H₁) ise beklenen yönü/farkı ifade eder.",
+     "Nicel ve deneysel projelerde hipotez esastır; keşifsel nitel çalışmalarda açık araştırma sorusu, saf tasarım projelerinde ölçülebilir performans hedefi tercih edilebilir."
+    ],
+    "dikkat": "Hipotez asla soru işaretiyle bitmez ve \"kanıtlayacağım\" ifadesini içermez; bilimde hipotezler toplanan verilerle desteklenir veya reddedilir."
+   },
    "hazir": true
   },
   {
@@ -2208,6 +2388,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "İkinci döneme Ara Teslim 3 (Giriş bölümü) ile başlıyoruz. 17 ve 18. haftalardaki tüm parçaları tek bir tutarlı bütün hâlinde birleştirip akran okumasından geçireceksin.",
+    "maddeler": [
+     "İç tutarlılık denetiminde dört eşleşme aranır: Amaç ile Problem Cümlesi örtüşüyor mu, her alt problem ana probleme bağlı mı, hipotezdeki değişkenler metinde tanımlı mı?",
+     "Metin içinde geçen her (Yazar, Yıl) atfının Kaynakça taslağında eksiksiz karşılığı bulunmalı, metinde atıf yapılmayan kaynak da kaynakçaya yazılmamalıdır.",
+     "Akran okuması yazar körlüğünü kırar: yalnızca Giriş bölümünü okuyan arkadaşın projenin neyi, neden araştırdığını tek cümlede doğru özetleyebilmelidir."
+    ],
+    "dikkat": "Giriş bölümüne \"İnsanlık tarihinden beri teknoloji önemlidir\" gibi klişe cümlelerle başlama ve henüz yapmadığın veri analizinin sonuçlarını bu bölüme yazma."
+   },
    "hazir": true
   },
   {
@@ -2315,6 +2505,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Artık \"neyi araştıracağım?\" sorusundan \"bunu nasıl güvenilir biçimde araştıracağım?\" sorusuna geçiyoruz. İlk olarak yöntemin bilimsel işlevini ve nicel araştırma türlerini inceliyoruz.",
+    "maddeler": [
+     "Yöntem bölümü raporun tekrarlanabilirlik garantisidir: desen, örneklem/ortam, veri toplama aracı, uygulama adımları ve analiz planını başka bir araştırmacının aynen tekrarlayabileceği açıklıkta verir.",
+     "Nicel araştırmalar olguları sayısallaştırarak ölçer, karşılaştırır veya istatistiksel ilişki arar.",
+     "Dört temel nicel tür vardır: Tarama/Betimsel (mevcut durum), İlişkisel/Korelasyonel (birlikte değişim), Nedensel Karşılaştırma (var olan gruplar arası fark) ve Deneysel (müdahale etkisi)."
+    ],
+    "dikkat": "İki değişken arasında güçlü bir ilişki (korelasyon) bulunması birinin diğerine sebep olduğunu kanıtlamaz; üçüncü bir gizli değişken ikisini birlikte etkiliyor olabilir."
+   },
    "hazir": true
   },
   {
@@ -2430,6 +2630,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Teknoloji ve tasarım projelerinde bir tasarım değişikliğinin veya malzemenin etkisini sınamak için en sık kullanılan nicel yöntem deneysel yöntemdir. Gücü, değişken kontrolünden gelir.",
+    "maddeler": [
+     "Kontrollü deneyde üç değişken türü ayrılır: Bağımsız değişken (kasıtlı değiştirdiğin tek etken), Bağımlı değişken (ölçtüğün çıktı) ve Kontrol değişkenleri (kesinlikle sabit tutulan diğer tüm koşullar).",
+     "Aynı anda iki değişkeni birden değiştirirsen sonuçtaki farkın hangisinden kaynaklandığını bilemezsin (karıştırıcı değişken hatası).",
+     "Karşılaştırma için bir kontrol grubu/taban ölçüm kurmak ve her koşulu en az 3–5 kez tekrarlayıp ortalama almak tek seferlik rastgele ölçüm hatalarını azaltır."
+    ],
+    "dikkat": "Bağımlı değişkeni \"verimlilik\" gibi soyut bırakma; neyle ve hangi birimde ölçeceğini (ör. 30 dakikada sıcaklık düşüşü, °C veya üretilen güç, mW) netleştir."
+   },
    "hazir": true
   },
   {
@@ -2545,6 +2755,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Sayılar bize \"kaç kişi?\" ve \"ne kadar?\" sorularını yanıtlar ama \"neden zorlandılar?\" ve \"nasıl deneyimlediler?\" sorularında yetersiz kalabilir. Nitel araştırmalar bu derinliği açığa çıkarır.",
+    "maddeler": [
+     "Başlıca nitel desenler Durum Çalışması (tek bir durumu/kullanımı çoklu veriyle derin inceleme), Olgubilim (ortak deneyimi anlama) ve Eylem Araştırmasıdır (döngüsel iyileştirme).",
+     "Veriler yarı yapılandırılmış görüşme, yapılandırılmış gözlem ve doküman incelemesiyle toplanır; metinlerden kod → kategori → tema çıkarılır (içerik çözümlemesi).",
+     "Nitel araştırmada inandırıcılık, veri çeşitlemesi (görüşme + gözlem + belge), şeffaf kodlama kaydı ve katılımcıların doğrudan alıntılarıyla sağlanır."
+    ],
+    "dikkat": "Nitel görüşmede \"Yeni tasarım çok kullanışlı değil mi?\" gibi yönlendirici sorular veriyi bozar; \"Kullanırken nerede duraksadınız?\" gibi tarafsız ve açık uçlu sorular kur."
+   },
    "hazir": true
   },
   {
@@ -2660,6 +2880,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Bazı araştırma soruları hem sayısal ölçüm hem de deneyim açıklaması gerektirir. Bu hafta nicel ve nitel verinin tek bir projede planlı biçimde nasıl bütünleştirildiğini inceliyoruz.",
+    "maddeler": [
+     "Karma yöntem, yalnızca \"hem anket hem sohbet yapmak\" değil; nicel ve nitel veriyi tek bir soruyu daha güçlü yanıtlamak için belirli bir sırayla bütünleştirmektir.",
+     "Üç ana karma desen vardır: Açımlayıcı sıralı (NİCEL → nitel açıklama), Keşfedici sıralı (NİTEL keşif → nicel sınama) ve Yakınsayan paralel (ikisi eşzamanlı toplanıp kıyaslanır).",
+     "Nicel ve nitel bulgular birbirini destekleyebileceği gibi çelişebilir de; çelişkiyi gizlemek yerine nedenini incelemek projenin en öğretici bulgusunu verebilir."
+    ],
+    "dikkat": "Karma yöntem her zaman tek yöntemden üstün değildir; ek zaman ve iki ayrı analiz becerisi ister. Tek bir yöntem soruna temiz yanıt veriyorsa projeyi gereksiz yere karmaşıklaştırma."
+   },
    "hazir": true
   },
   {
@@ -2775,6 +3005,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Ara Teslim 4'te artık kendi projenin araştırma desenine kesin karar veriyorsun. Çerçeve program gereği bu karar danışmana değil, gerekçesiyle birlikte öğrenciye aittir.",
+    "maddeler": [
+     "Desen kararı popülerliğe göre değil, 19. haftadaki problem cümlesinin ve her bir alt problemin hangi tür kanıt istediğine göre verilir.",
+     "Karar sürecinde en az 2–3 alternatif desen (ör. deneysel nicel, durum çalışması, açımlayıcı karma) süre, geçerlik, uygulanabilirlik ve izin ölçütleriyle denetlenir.",
+     "Her desenin güçlü bir yönü kadar doğal bir sınırlılığı vardır; seçtiğin desenle neleri iddia edebileceğini ve neleri genelleyemeyeceğini baştan bilmelisin."
+    ],
+    "dikkat": "Alt problemlerinden biri seçtiğin desenle hiç çözülemiyorsa o kopukluğu bugün gider; ya deseni genişlet ya da alt problemi projenin kapsamına göre düzenle."
+   },
    "hazir": true
   },
   {
@@ -2890,6 +3130,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Desen kesinleştiğine göre artık veriyi tam olarak kimden, hangi ortamdan veya hangi veri kaynağından toplayacağını belirliyorsun. İnsanlarla çalışıyorsan izin takvimi tam bu haftada başlar.",
+    "maddeler": [
+     "Evren sonuçların hakkında konuşmak istediği tüm grup/durum, Örneklem veya Çalışma Grubu ise fiilen veri topladığın alt kümedir (insansız deneylerde numune/veri kaynağı tanımlanır).",
+     "Seçkisiz (rastgele/tabakalı) örnekleme temsil gücünü artırır; amaçlı veya uygun/kolayda örnekleme ise daha erişilebilirdir ama genelleme sınırını daraltır.",
+     "Anket, ölçek, görüşme veya gözlem yoluyla insanlardan veri toplanacaksa okul yönetimi onayı ile katılımcı/veli onam formu 25. haftada başlatılmazsa 27. haftadaki veri toplama aksar."
+    ],
+    "dikkat": "Sınıfındaki 15 arkadaştan veri toplayıp \"Türkiye'deki tüm öğrenciler\" hakkında genelleme yapma; çalışma grubunu dürüstçe tanımla ve katılımcı adlarını anonim tut."
+   },
    "hazir": true
   },
   {
@@ -2999,6 +3249,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Yanlış veya belirsiz bir ölçüm aracıyla toplanan veriyi sonradan hiçbir istatistik kurtaramaz. Bu hafta veri toplama aracının geçerliğini ve güvenirliğini güvenceye alıyoruz.",
+    "maddeler": [
+     "Araç seçimi desene bağlıdır: standart ölçek, anket, yarı yapılandırılmış görüşme formu, gözlem çizelgesi veya kalibre edilmiş deneysel ölçüm cihazı/sensör.",
+     "Geçerlik aracın gerçekten ölçmek istediği özelliği ölçmesi, güvenirlik ise tekrarlanan ölçümlerde tutarlı sonuç vermesidir (hep 2 kg fazla gösteren terazi güvenilirdir ama geçersizdir).",
+     "Aracındaki her madde 19. haftadaki bir alt probleme bağlanmalı; uygulama öncesi uzman görüşü alınmalı ve 2–3 kişilik küçük bir pilot deneme (veya cihaz kalibrasyonu) yapılmalıdır."
+    ],
+    "dikkat": "Literatürden hazır bir ölçek kullanıyorsan yazarından izin almak ve kaynak göstermek zorunludur; kendi sorularında ise tek cümlede iki şeyi birden soran çift sorulardan kaçın."
+   },
    "hazir": true
   },
   {
@@ -3114,6 +3374,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Veri toplama ders dışına taşan gerçek saha/deney çalışmasıdır; bu haftadaki atölye oturumunda sürecin gidişini denetliyor ve ham veriyi bozmadan analize hazırlıyoruz.",
+    "maddeler": [
+     "Altın kural: Orijinal ham veri dosyasına (ham_veri_ORIJINAL) asla üzerine yazarak dokunma; tüm temizlik ve düzenlemeleri ayrı bir kopya dosyada (temiz_veri_v1) yap.",
+     "Düzenli (tidy) elektronik tabloda her satır tek bir gözlemi/katılımcıyı, her sütun tek bir değişkeni tutar; birimler sütun başlığına yazılır, sayısal hücrelere yalnızca saf sayı girilir.",
+     "Eksik yanıtlar veya kanıtlanabilir cihaz kopmaları 3. haftadaki ön kayıt ilkesine uygun olarak temizlik günlüğüne \"kaç kayıt, hangi nesnel kurala göre çıkarıldı\" diye kaydedilir."
+    ],
+    "dikkat": "Elektronik tabloda sayılar hücrenin soluna yaslandıysa yazılım onları metin sanıyor demektir (hücrede birim yazması veya nokta/virgül farkı); düzeltmeden hesaplama yapma."
+   },
    "hazir": true
   },
   {
@@ -3231,6 +3501,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Temiz veri elinde hazır. Şimdi rastgele bir yazılım ya da hesaplama seçmek yerine, verinin ölçüm düzeyine göre doğru analiz aracını ve özet ölçüsünü eşleştiriyoruz.",
+    "maddeler": [
+     "Kategorik veride (sınıf, malzeme türü) yalnızca frekans (sayı) ve yüzde (%) kullanılır; sayısal veride ortalama, medyan (uç değerlerden etkilenmez) ve standart sapma (yayılım) birlikte okunur.",
+     "Araç ailesi çeşitlidir: elektronik tablolar (Excel, Google E-Tablolar, Calc), ücretsiz istatistik yazılımları (Jamovi, JASP), kod araçları (Python) ve nitel kodlama matrisleri.",
+     "En iyi analiz aracı en karmaşık görünen değil, verinin türüne uygun olan ve çıktısını gerçekten anlayarak yorumlayabileceğin araçtır."
+    ],
+    "dikkat": "Kategorik kodlara (1=Ahşap, 2=Plastik, 3=Metal) asla ortalama alma; ayrıca birkaç aşırı uç değerin bulunduğu veride yalnızca ortalama vermek dağılımı gizler."
+   },
    "hazir": true
   },
   {
@@ -3339,6 +3619,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Geçen hafta denediğin analiz aracını artık tüm temiz veri setin üzerinde çalıştırıyor, bulguları ham çıktı yığını olmaktan çıkarıp alt problemlere göre sınıflandırıyorsun.",
+    "maddeler": [
+     "Nicel çözümlemede her alt grup ve değişken için N (gözlem sayısı), ortalama, medyan, standart sapma, yüzde ve planlanan karşılaştırmalar çıkarılır; nitelde tüm dökümler kodlanıp 3–5 ana temada birleştirilir.",
+     "Çözümlenen veriler alt problemlerin sırasına göre açık etiketlerle sınıflandırılır; toplam gözlem sayısı (N) ve birimler tüm tablolarda tutarlı olmalıdır.",
+     "Beklentine veya hipotezine ters düşen aykırı bulgular hesap hatası değilse gizlenmeden kaydedilir; bunlar Tartışma bölümünün en güçlü malzemesidir."
+    ],
+    "dikkat": "Yazılımın ürettiği onlarca gereksiz sütunlu ekran görüntüsünü rapora olduğu gibi yapıştırma; yalnızca alt problemini yanıtlayan temiz değerleri seçip sınıflandır."
+   },
    "hazir": true
   },
   {
@@ -3463,6 +3753,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Ara Teslim 5'te çözümlediğin verileri bir okuyucunun birkaç saniyede hatasız okuyabileceği temiz tablolara, dürüst grafiklere ve nesnel Bulgular metnine dönüştürüyorsun.",
+    "maddeler": [
+     "Grafik türü veriye göre seçilir: kategori karşılaştırması için sütun/çubuk, zaman serisi için çizgi, iki sürekli değişken ilişkisi için dağılım (scatter), çok sütunlu kesin sayılar için tablo.",
+     "Her tablo ve grafiğin numarası (Tablo 1., Şekil 1.), açıklayıcı başlığı, eksen adları ve birimleri eksiksiz olmalı; 3. haftadaki kural gereği kesik eksenle yanıltma yapılmamalıdır.",
+     "Bulgular metni her tablo ve şekle atıf yapar ama tüm hücreleri tek tek saymaz; yalnızca en çarpıcı örüntüyü, farkı ve nitelde doğrudan alıntıları öne çıkarır."
+    ],
+    "dikkat": "3 boyutlu eğik grafiklerden ve çok dilimli pasta grafiklerinden kaçın; ayrıca Bulgular bölümüne kişisel neden tahminlerini karıştırma, yorum 31. haftanın işidir."
+   },
    "hazir": true
   },
   {
@@ -3583,6 +3883,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Bilimsel yazımın en kritik disiplinlerinden biri, verinin doğrudan söylediği \"bulgu\" ile bizim o bulgudan çıkardığımız \"yorum\" arasına net bir çizgi çekmektir.",
+    "maddeler": [
+     "Bulgu, tablo veya grafiğe bakan herkesin aynı biçimde okuyacağı ham veridir; yorum ise o bulgunun projenin amacı ve hipotezi açısından ne anlama geldiğini nesnel dille açıklamaktır.",
+     "Bilimsel yorumda \"kesin kanıtlanmıştır\" yerine \"elde edilen veriler ... hipotezini desteklemektedir\" veya \"bu çalışma grubunda ... eğilimi gözlenmiştir\" gibi kanıta sadık bir dil kullanılır.",
+     "Tek bir küçük çalışma grubundan tüm ülke adına konuşmak (aşırı genelleme) veya ilişkisel veriden kesin neden-sonuç çıkarmak en yaygın yorum hatalarıdır."
+    ],
+    "dikkat": "Hipotezin desteklenmediyse bunu \"başarısızlık\" diye geçiştirme; hangi fiziksel, ortamsal veya yöntemsel koşul nedeniyle beklenen etkinin oluşmadığını kanıtla yorumla."
+   },
    "hazir": true
   },
   {
@@ -3703,6 +4013,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Tartışma bölümünde kendi sonuçlarını yalnız bırakmıyor, 13. haftada taradığın bilimsel literatürdeki diğer çalışmalarla yan yana koyarak bilim dünyasıyla diyalog kuruyorsun.",
+    "maddeler": [
+     "Kendi bulguların önceki çalışmalarla iki biçimde ilişkilendirilir: hangi çalışmalarla örtüştüğü (desteklediği) ve hangilerinden ayrıştığı (farklılaştığı).",
+     "Başka bir çalışmayla aranda fark çıktığında \"onlar yanlış\" demek yerine örneklem/yaş grubu, ortam, ölçüm aracı ve yöntem farkları üzerinden olası nedenler değerlendirilir.",
+     "Ardından gelen Sonuç bölümü yeni veri veya yeni literatür eklemeden tüm araştırmanın problem ve alt problemlere verdiği 3–4 nihai yanıtı özetler."
+    ],
+    "dikkat": "Tartışma bölümü mutlaka (Yazar, Yıl) atıflarıyla literatüre bağlanmalıdır; Sonuç bölümüne ise Bulgular'da geçmeyen yeni bir sayı ya da tablo eklenmez."
+   },
    "hazir": true
   },
   {
@@ -3817,6 +4137,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Ara Teslim 6'da tüm yılın emeği tek bir eksiksiz proje raporuna dönüşüyor. Paydaşlara yönelik önerileri ve Özet'i yazıp raporu son okuma ve benzerlik denetiminden geçiriyorsun.",
+    "maddeler": [
+     "Öneriler havada kalan genel dilekler değil, doğrudan kendi bulgularına dayanan ve farklı paydaşlara (kullanıcılar, kurum/karar vericiler, gelecek araştırmacılar) ayrılmış somut adımlardır.",
+     "Raporun en başında yer alan Özet (Abstract) yazım sırası olarak en sonda yazılır; 150–250 kelimede amaç, yöntem, temel bulgu ve sonucu geçmiş zamanla verir.",
+     "Son denetimde başlık/tablo numaraları, metin içi atıf–kaynakça birebir eşleşmesi, Ekler (izin belgeleri, ölçek, yapay zekâ beyanı) ve benzerlik (intihal) kontrolü tamamlanır."
+    ],
+    "dikkat": "\"Herkes daha bilinçli olmalıdır\" gibi bulguyla bağı olmayan soyut öneriler yerine \"kimin, neyi, hangi bulguya dayanarak yapması\" gerektiğini somutça yaz."
+   },
    "hazir": true
   },
   {
@@ -3931,6 +4261,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Aylarca süren bir araştırmayı 5–7 dakikalık bir sözlü sunuma sığdırmak, raporun tamamını okumak değil; en güçlü kanıtları net bir akışla dinleyiciye aktarmaktır.",
+    "maddeler": [
+     "5–7 dakikalık sunum için en fazla 8–10 sade slayt yeterlidir: Problem ve Amaç, Özgünlük, Yöntem, En Kritik 2–3 Bulgu Grafiği, Sonuç ve Öneriler.",
+     "Slaytlar okunacak metin yığını değil görsel destekçidir (slayt başına ~25–30 kelime, büyük yazı boyutu, net grafikler); hikâyeyi sen dinleyiciyle göz teması kurarak anlatırsın.",
+     "Kronometreyle prova yapmak ve jüriden gelebilecek en zor 3 soruya (özgünlük, örneklem/sınırlılık, bulgu nedeni) veriye dayalı kısa yanıt hazırlamak sunumu güvenceye alır."
+    ],
+    "dikkat": "Jüri çalışmanda ölçmediğin bir değişkeni sorarsa asla sayı uydurma; kapsam sınırını dürüstçe söyleyip gelecek çalışma önerisi olarak bağla."
+   },
    "hazir": true
   },
   {
@@ -4039,6 +4379,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Bilimsel bilgi paylaşıldıkça ve başkalarının denetimine açıldıkça büyür. Bu hafta proje sonuçlarını sergi, kongre veya yayın platformlarına uygun bilimsel poster/bildiri biçimine dönüştürüyorsun.",
+    "maddeler": [
+     "Hedef kitlene göre farklı yaygınlaştırma yolları vardır: okul içi proje sergisi (bilimsel poster + canlı demo), öğrenci kongre/sempozyumları (bildiri özeti), bülten ve açık arşivler.",
+     "İyi bir bilimsel poster 1–1,5 metreden okunabilmeli, 2–3 sütunlu net bir göz akışına sahip olmalı ve alanının en az %40'ı grafik, diyagram, fotoğraf ve ferah boşluktan oluşmalıdır.",
+     "Sergi standında ziyaretçiye 2 dakikada sorun → ne yaptın → ne buldun → neden önemli akışıyla konuşma (asansör konuşması) hazırlamak etkiyi katlar."
+    ],
+    "dikkat": "Proje çıktında patent veya faydalı model başvurusu düşündüğün teknik bir buluş varsa 6. haftadaki yenilik kuralını hatırla; başvuru öncesi teknik sırrı kamuya açık ayrıntıyla ifşa etme."
+   },
    "hazir": true
   },
   {
@@ -4155,6 +4505,16 @@ window.DERSLER['puy'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Yılın kapanışında projenin somut çıktısına gerçek dünya gözüyle bakıyoruz: nasıl ürüne/hizmete dönüşebilir, ekonomik/toplumsal potansiyeli nedir ve 6. haftadaki mevzuata göre nasıl korunmalıdır?",
+    "maddeler": [
+     "Ürüne dönüştürme tek sıçrayış değil aşamalı bir yoldur: mevcut olgunluk düzeyi → iyileştirilmiş prototip → pilot kullanıcı testi → küçük ölçekli üretim veya kurumsal yayılım.",
+     "Basit fayda-maliyet hesabında geliştirme/üretim ve olası tescil maliyetleri ile beklenen ekonomik ya da toplumsal fayda veriye dayalı tartılır.",
+     "Koruma kararı çıktının niteliğine göre verilir: teknik buluşsa Patent/Faydalı Model (önce TÜRKPATENT / Google Patents ön araştırması!), dış biçimse Tasarım, ad/logo ise Marka, yazılım/rapor/yöntemse FSEK Telif veya Açık Kaynak lisansı."
+    ],
+    "dikkat": "Her proje çıktısı için zorla patent aramak doğru değildir; bir analiz raporu, eğitim yöntemi veya açık yazılım için telif / açık kaynak lisansı çok daha bilinçli bir karardır."
+   },
    "hazir": true
   }
  ]

@@ -193,6 +193,20 @@ main{max-width:1000px;margin:0 auto;padding:28px 24px 60px}
 .tekrar-etiket a{text-decoration:none;color:var(--soluk);font-weight:600}
 .tekrar-etiket a:hover{color:var(--vurgu);text-decoration:underline}
 
+/* kipe duyarli kisa on bilgi */
+.onbilgi-kutu{
+  border:1px solid var(--cizgi);border-left:4px solid var(--yesil);border-radius:10px;
+  padding:12px 16px;background:var(--panel);margin:18px 0 20px;
+}
+.onbilgi-kutu summary{cursor:pointer;font-weight:700;font-size:15.5px;color:var(--yesil)}
+.onbilgi-ic{margin-top:12px}
+.onbilgi-baglam{margin-bottom:10px;color:var(--metin)}
+.onbilgi-dikkat{
+  margin-top:10px;padding:10px 12px;border-radius:8px;
+  background:#fff;border-left:3px solid var(--vurgu);font-size:15px;
+}
+.onbilgi-dikkat strong{color:var(--vurgu)}
+
 .bolum{margin:26px 0}
 .bolum>h2,.bolum-bas-satir h2{
   font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
@@ -348,7 +362,7 @@ details.ders-katla{border:1px solid var(--cizgi);border-radius:10px;padding:12px
   .yazdir-dugme,.giris-bas,.ders-kart-liste,.bu-hafta,.gelemedim,.taslak-uyari,
   .kimlik,.gonder-satir,.gonderim-durum,.kip-cubuk,.ogrenme-destek,.arac-kutu,
   .sina-kutu,.ozdenetim-kutu,.ilgili-kavramlar,.devam-kutu,.yedek-kutu,
-  .yoklama-katla,.tekrar-kutu{display:none !important}
+  .yoklama-katla,.tekrar-kutu,.onbilgi-kutu{display:none !important}
   main{max-width:none;padding:0}
   .hafta-bas h1{font-size:19pt}
   .ad-satir{display:block;margin:10px 0 16px;font-size:11pt;color:#000}

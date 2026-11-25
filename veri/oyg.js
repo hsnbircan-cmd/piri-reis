@@ -129,6 +129,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Bu yıl Autodesk Fusion 360 ile beş somut tasarım teslimi üreteceksin. İlk hafta komut ezberlemek yerine çalışma düzenini, bulut arşivini ve yıl sonuyla kıyaslayacağımız başlangıç noktanı kuruyoruz.",
+    "maddeler": [
+     "Üç boyutlu CAD (Bilgisayar Destekli Tasarım) yazılımlarında model, kâğıt çizimden farklı olarak sayısal ve düzenlenebilir bir geometri olarak saklanır.",
+     "E-portfolyo klasör düzeni (Modül A–E) yıl boyunca ürettiğin dosyaların kaybolmamasını ve gelişiminin izlenmesini sağlar.",
+     "Yapay zekâ bu derste yasak değil; ancak hangi araca ne yaptırdığını beyan etmek ve tasarım kararının gerekçesini kendin yazmak zorunludur."
+    ],
+    "dikkat": "Başlangıç çalışması not vermek için değildir; bilmediğin soruyu boş bırakmak yerine tahmin etmen yıl sonundaki gelişimini görmemiz için değerlidir."
+   },
    "hazir": true
   },
   {
@@ -259,6 +269,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": true,
+    "baglam": "Üç boyutlu modellemeye geçmeden önce bir tasarıma nasıl bakacağımızı kuruyoruz. Bu haftanın amacı hazır ilke listesi ezberlemek değil, kendi gözlenebilir ölçütlerini üretmektir.",
+    "maddeler": [
+     "Görsel tasarım, yalnızca süsleme değil; bilginin izleyici tarafından hızlı ve hatasız okunmasını sağlayan düzenleme işidir.",
+     "Bir yargının ölçüt sayılabilmesi için öznel beğeniden çıkıp ekranda parmakla gösterilebilir ve başkalarınca da sınanabilir olması gerekir.",
+     "Literatürde bu ölçütler genellikle hiyerarşi, hizalama, yakınlık, zıtlık (kontrast), denge ve boşluk gibi başlıklar altında toplanır."
+    ],
+    "dikkat": "\"Daha güzel\" veya \"daha şık\" ifadeleri kişiden kişiye değiştiği için ölçüt sayılmaz; neye bakarak öyle dediğini görünür kılmalısın."
+   },
    "hazir": true
   },
   {
@@ -388,6 +408,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": true,
+    "baglam": "Geçen hafta tek tek tasarımlar için çıkardığın ölçütleri bu hafta genel ilkelere dönüştürüp sınayacağız. Her genelleme ancak sınırları bilindiğinde işe yarar.",
+    "maddeler": [
+     "Dar bir kural tek bir durumu tarif eder; genel bir ilke ise farklı tasarım türlerine uyarlanabilen temel mekanizmayı anlatır.",
+     "İki farklı tasarım türünde (ör. 5 metreden okunan afiş ile yakından incelenen ders kitabı) aynı özellik farklı sonuç verebilir; çünkü tasarımların kullanım amacı değişmiştir.",
+     "Kapsam koşulu eklenmiş bir önerme, her tasarımda geçerli olduğunu iddia eden genel bir kuraldan çok daha sağlamdır."
+    ],
+    "dikkat": "Bir önermeye karşı örnek bulunması yenilgi değildir; önermeyi çöpe atmak yerine kapsam koşulunu daraltarak güçlendirmeni sağlar."
+   },
    "hazir": true
   },
   {
@@ -511,6 +541,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Önümüzdeki hafta Fusion 360'ın bileşen ağacına geçmeden önce, daha basit bir 2B dijital araçta parçalar arasında gerçek yapı kurma mantığını öğreniyoruz.",
+    "maddeler": [
+     "Tasarım bileşeni üç şartı sağlar: birden çok parçadan oluşur, başka yerlerde tekrar kullanılabilir ve diğer yerleri bozmadan kendi içinde değiştirilebilir.",
+     "Ara düğüm (ör. üst şerit, gövde, eylem alanı), birlikte hareket etmesi gereken parçaları tek bir tutamak altında gruplar.",
+     "İki parça ekranda yan yana durduğu için bağlıymış gibi görünebilir (sahte bağ); gerçek bağ olup olmadığını ancak bir parçayı değiştirip tepkisini ölçerek (kırma sınaması) anlarsın."
+    ],
+    "dikkat": "Bu haftada estetik süsleme değil yapısal düzen ölçülür; kırma sınamasında elle düzeltme sayısının yüksek çıkması kötü not değil, onarılacak sahte bağları bulduğun anlamına gelir."
+   },
    "hazir": true
   },
   {
@@ -644,6 +684,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": true,
+    "baglam": "Fusion 360'a ilk kez sıfırdan çizerek değil, hazır bir çok parçalı modeli (sensör kutusunu) inceleyerek giriyoruz. Önce arayüzün mantığını ve 4. haftadaki ağaç yapısının 3B karşılığını okuyacağız.",
+    "maddeler": [
+     "Sol taraftaki Tarayıcı (Browser) paneli modelin kimliğidir: bileşenler, bunların içindeki katı gövdeler ve gövdeleri oluşturan eskizler burada hiyerarşik olarak dizilir.",
+     "Alt şeritteki Zaman Çizelgesi (Timeline) modelin yapım geçmişini adım adım tutar; yapılan geometrik değişiklikler buraya eklenir.",
+     "Bazı araçlar yalnızca kamerayı veya görünümü değiştirir (yörünge, yakınlaş, göz simgesi, kesit, ölç); bazıları ise model dosyasının kendisini değiştirir (taşı, kes, uzat)."
+    ],
+    "dikkat": "Göz simgesini kapatmak veya Kesit Çözümlemesi almak modelden parça silmez; yalnızca ekrandaki görüntüyü gizler ya da geçici olarak kesit gösterir."
+   },
    "hazir": true
   },
   {
@@ -759,6 +809,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Fusion 360'ta neredeyse her üç boyutlu katı parça, iki boyutlu bir eskiz (Sketch) ile başlar. Sağlam bir 3B modelin sırrı, hatasız ve kilitli bir 2B eskiz kurmaktır.",
+    "maddeler": [
+     "Katı hacim (Extrude) yalnızca sınırları tamamen kapalı bir profil alanından üretilebilir; köşede milimetreden küçük bir açıklık bile profilin kapanmasını engeller.",
+     "Geometrik kısıtlar (Constraints) çizgiler arasında diklik, paralellik, teğetlik, eşitlik ve eş merkezlilik gibi kalıcı kurallar koyar.",
+     "Eskizde mavi çizgi konumu veya boyutu hâlâ serbest (belirlenmemiş) demektir; orijine, kısıtlara ve ölçülere kilitlenen çizgiler siyaha (tam belirlenmiş) döner."
+    ],
+    "dikkat": "Tüm kenar uzunluklarını yazdığın hâlde çizgiler hâlâ maviyse eskiz uzayda kayabiliyor demektir; şeklin bir noktasını orijine (0,0) bağla."
+   },
    "hazir": true
   },
   {
@@ -880,6 +940,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Geçen hafta çizdiğin anahtarlığı sabit sayılar yerine değişkenler ve formüllerle kurduğunda, tek bir temel ölçüyü değiştirerek tüm ürünü saniyeler içinde yeniden ölçekleyebilirsin.",
+    "maddeler": [
+     "Parametrik modellemede ölçüler doğrudan sayı (60, 24, 6) olarak değil, Parametreleri Değiştir penceresinde tanımlanan adlarla (boy, en, delik_capi) girilir.",
+     "Bağımlı parametreler formülle kurulur (ör. en = boy * 0.4); böylece ana ölçü değiştiğinde ona bağlı tüm ölçüler orantılı güncellenir.",
+     "Birim tutarlılığı şarttır: uzunluk parametresi zaten mm olduğu için çarpım katsayısı birimsiz yazılır (boy * 0.4)."
+    ],
+    "dikkat": "Parametre adlarında boşluk, tire veya Türkçe karakter yerine delik_capi gibi sade alt çizgili adlar kullanmak ifade hatalarını önler."
+   },
    "hazir": true
   },
   {
@@ -995,6 +1065,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Şimdiye kadar yalnızca düz uzatma (Extrude) kullandık; ancak günlük ürünlerin çoğu dönel, kıvrımlı veya kesiti değişen formlardadır. Bu hafta şeklin geometrisine göre doğru katılaştırma aracını seçiyoruz.",
+    "maddeler": [
+     "Revolve (Döndürme), kapalı bir yarım kesiti bir dönme ekseni etrafında döndürerek bardak, satranç taşı veya makara gibi dairesel simetrili gövdeler oluşturur.",
+     "Sweep (Süpürme), bir kesit profilini başka bir düzlemdeki kıvrımlı kılavuz yol boyunca sürükleyerek kulp, boru veya kablo formu üretir.",
+     "Loft (Kesitler arası geçiş), farklı düzlemlerdeki iki ya da daha fazla farklı biçimli profili (ör. kareden daireye) yumuşak yüzeyle birleştirir."
+    ],
+    "dikkat": "Revolve profili merkez eksenini geçip öbür tarafa taşarsa kendi içine çöker ve hata verir; Sweep'te ise kesit ile yol aynı düzlemde değil, birbirine dik düzlemlerde çizilir."
+   },
    "hazir": true
   },
   {
@@ -1110,6 +1190,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Gerçek ürünler hem malzeme tasarrufu hem hafiflik hem de güvenli tutuş için içi boşaltılmış (sabit et kalınlıklı) ve kenarları işlenmiş biçimde tasarlanır.",
+    "maddeler": [
+     "Shell (Kabuk) aracı dolu bir gövdenin seçilen yüzünü açarak içini her yerde eşit duvar kalınlığında boşaltır.",
+     "Fillet keskin bir kenarı yayla yuvarlatır (el ergonomisi ve köşe gerilmesini azaltma); Chamfer ise kenarı eğik düzlemle pahlayarak kırar (özellikle 3B baskı tabanlarında temiz geçiş sağlar).",
+     "Zaman çizelgesindeki işlem sırası iç geometriyi doğrudan değiştirir: dış köşeyi önce Fillet ile yuvarlatıp sonra Shell yaparsan iç köşe de otomatik yuvarlatılır ve duvar kalınlığı sabit kalır."
+    ],
+    "dikkat": "Kenara verilebilecek Fillet yarıçapı duvar kalınlığından veya komşu kenarın mesafesinden büyükse geometri kendi içine çöker ve araç hata verir."
+   },
    "hazir": true
   },
   {
@@ -1233,6 +1323,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Modül A'nın kapanışında şimdiye kadar kurduğun parametrik modelleme becerisini 2–3. haftadaki görsel tasarım ilkeleriyle birleştirip ilk dönem ürününü teslim ediyorsun.",
+    "maddeler": [
+     "Render (Görselleştirme) çalışma alanı modele gerçekçi yüzey malzemesi, ortam ışığı ve kamera açısı uygulayarak sunum görseli üretir.",
+     "İki farklı kamera açısı (genel 3/4 görünüş ve işlevi gösteren yakın ayrıntı) tek bir açıdan görünmeyen tasarım kararlarını izleyiciye anlatır.",
+     "Bu teslimde yalnızca görselin şıklığı değil; eskizlerin tam belirlenmiş olması, parametrelerin stres sınamasından geçmesi ve tasarım gerekçesi birlikte değerlendirilir."
+    ],
+    "dikkat": "İnternet yoksa veya bulut kredisi beklemek istemiyorsan Yerel Render (In-Canvas Render) kullanıp Görüntü Yakala ile yüksek çözünürlüklü PNG kaydedebilirsin."
+   },
    "hazir": true
   },
   {
@@ -1349,6 +1449,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": true,
+    "baglam": "Modül B'de tasarımlarımıza gerçek dünya fiziği ekliyoruz. İlk adım, malzemeleri hazır kitaptan ezberlemek yerine kendi gözlenebilir ölçütlerinle sınıflandırmak.",
+    "maddeler": [
+     "Malzemeler kabaca metaller, polimerler (plastikler), seramikler/camlar, ahşap ve kompozitler gibi ana ailelere ayrılır; ama tasarımcı için asıl önemli olan kullanım sırasındaki davranışlarıdır.",
+     "Renk veya yüzey boyası gibi geçici dış özellikler yerine yoğunluk, esneklik, kırılganlık, manyetik tepki ve ışık geçirgenliği gibi malzemenin öz özellikleri kalıcı ölçüt verir.",
+     "Aynı nesne farklı büyüklükte olabileceğinden \"ağır\" nesneye ait bir gözlemken, \"yoğun\" (birim hacimdeki kütle) malzemenin kendi ayırt edici özelliğidir."
+    ],
+    "dikkat": "\"Dayanıklı\" kelimesi tek başına bulanıktır: cam çizilmeye çok dayanıklıdır ama darbeye karşı kırılgandır; neye karşı dayanıklılık kastettiğini mutlaka ayır."
+   },
    "hazir": true
   },
   {
@@ -1471,6 +1581,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Bir 3B modelin kütlesi, yalnızca biçimine (hacmine) değil hangi malzemeden üretildiğine bağlıdır. Bu hafta Fusion 360 malzeme kütüphanesiyle Fen Bilimleri'ndeki yoğunluk bağıntısını birleştiriyoruz.",
+    "maddeler": [
+     "Aynı 3B modelin hacmi (cm³) malzeme değiştikçe sabit kalır; ancak kütlesi yoğunlukla doğru orantılı değişir: kütle = yoğunluk × hacim.",
+     "Örneğin 20 cm³ hacimli bir parça ABS plastikte (~1,05 g/cm³) ~21 g gelirken, alüminyumda (~2,70 g/cm³) ~54 g, çelikte (~7,85 g/cm³) ~157 g olur.",
+     "Fusion 360'ta gövdeye sağ tıklayıp Özellikler (Properties) penceresinden hacim, yüzey alanı, yoğunluk ve kütleyi anında okuyabilirsin."
+    ],
+    "dikkat": "Görünüm (Appearance) yalnızca dış boyayı/dokuyu değiştirir ve kütleyi etkilemez; kütleyi değiştirmek için mutlaka Fiziksel Malzeme (Physical Material) atamalısın."
+   },
    "hazir": true
   },
   {
@@ -1600,6 +1720,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Yoğunluk tek başına malzeme seçmeye yetmez. Gerçek ürünlerde ısıya, elektriğe, ışığa ve manyetik alana verilen tepki tasarımı doğrudan sınırlar.",
+    "maddeler": [
+     "Termal özellikler iki ayrı boyuttur: ısıyı ne kadar hızlı ilettiği (iletkenlik) ve kaç °C'de yumuşadığı veya eridiği (sıcaklık dayanımı).",
+     "Optik olarak malzemeler saydam (cam, akrilik), yarı saydam ve opak (metaller, ahşap) olarak ayrılır; elektriksel olarak iletkenler ve yalıtkanlar diye gruplanır.",
+     "Tek bir malzemede tüm iyi özellikler bir arada bulunmaz; hafiflik, dayanım, ısı direnci ve maliyet arasında her zaman bir ödünleşim (trade-off) vardır."
+    ],
+    "dikkat": "Her metal mıknatısa çekilmez (alüminyum ve bakır manyetik değildir); ayrıca \"ısıyı iyi ileten\" (bakır) ile \"ısıya dayanıklı yalıtkan\" (seramik) birbirine karıştırılmamalıdır."
+   },
    "hazir": true
   },
   {
@@ -1715,6 +1845,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Geçen üç haftada topladığın yoğunluk ve teknik özellik verilerini artık gerçek ürün kararlarına dönüştürüyoruz: hangi parça hangi malzemeden yapılmalı ve neden?",
+    "maddeler": [
+     "Doğru malzeme seçimi ürünün adından değil, parçanın maruz kalacağı koşullardan (ısı, mekanik yük, el teması, nem, elektrik, ışık) başlar.",
+     "Çok parçalı ürünlerde (ör. çelik gövdeli, bakalit saplı tencere) her parça farklı bir koşulla karşılaştığı için farklı malzeme seçilir.",
+     "Öz nitelik etiketi, bir malzemenin uzun tanımını değil, o kullanım alanında karar verdiren 2–3 ayırt edici özelliğini özetler."
+    ],
+    "dikkat": "Bir malzemeyi seçerken hangi adayı hangi teknik veriyle elediğini de yazmak, seçiminin tesadüf değil mühendislik kararı olduğunu gösterir."
+   },
    "hazir": true
   },
   {
@@ -1832,6 +1972,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Tek gövdeli modellerden gerçek ürünlere geçiyoruz. Çoğu ürün hareket etmek, bakım görmek, farklı malzeme kullanmak veya üretilebilmek için birden çok parçadan oluşur.",
+    "maddeler": [
+     "Fusion 360'ta Gövde (Body) yalnızca bir geometri şeklidir; Bileşen (Component) ise kendi orijini, eskizleri, zaman çizelgesi olan ve montaj eklemi alabilen bağımsız parçadır.",
+     "Çok parçalı tasarımda \"Kural 1\" uygulanır: önce Yeni Bileşen oluştur, yanındaki düğmeden etkinleştir (Activate), sonra o parçanın eskizini ve gövdesini çiz.",
+     "Parçalar arasındaki ayrım çizgisi rastgele değil; montaj kolaylığı, içe erişim ve 3B baskıda destek azaltma gerekçeleriyle belirlenir."
+    ],
+    "dikkat": "Yeni bir parçayı çizerken Extrude penceresinde işlem türünün Birleştir (Join) değil Yeni Gövde (New Body) olduğundan emin ol; yoksa iki parça tek blok hâlinde kaynaşır."
+   },
    "hazir": true
   },
   {
@@ -1947,6 +2097,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "İki ayrı bileşeni ekranda yan yana getirmek montaj değildir. Gerçek hayatta parçaların hangi yönde hareket edeceğini (eklem) ve birbirine rahat oturması için gereken boşluğu (tolerans) tanımlamamız gerekir.",
+    "maddeler": [
+     "Montajda en az bir ana gövde Sabitle (Ground) ile kilitlenir; aksi hâlde eklem verdiğinde tüm model uzayda birlikte kayar.",
+     "Eklem (Joint) türleri serbestlik derecesini belirler: Rigid sabit (0), Revolute tek eksen dönme (1), Slider tek eksen kayma (1); hareket aralıkları Joint Limits ile sınırlanır.",
+     "3B yazıcıda 0 mm boşlukla çizilen kapak ve kutu termal büzülme ve nozul genişliği yüzünden birbirine geçmez; geçme kenarlarında genellikle 0,2–0,4 mm tolerans (boşluk payı) bırakılır."
+    ],
+    "dikkat": "Çakışma Çözümlemesi (Interference) çalıştırmadan montajı bitmiş sayma; gözle düzgün görünen iki parça içten birbirinin hacmine giriyor olabilir."
+   },
    "hazir": true
   },
   {
@@ -2068,6 +2228,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Üç boyutlu tasarımını atölyedeki başka birine ya da bir üreticiye 3B dosyanı açtırmadan eksiksiz anlatmanın uluslararası dili teknik resimdir.",
+    "maddeler": [
+     "Teknik resim (Drawing), parçanın temel ve izdüşüm görünüşlerini (ön, üst, yan), genel fikri veren izometrik görünüşü ve gerekirse iç ayrıntıları açan Kesit Görünüşünü (Section View) içerir.",
+     "Her kritik ölçü (dış boyutlar, duvar kalınlığı, delik çapı ve merkez mesafesi) en anlaşılır olduğu tek bir görünüşte, tekrarsız verilmelidir.",
+     "Sağ alttaki antet bloğu (ad, tarih, standart ISO, birim mm, ölçek) olmadan teknik resim eksik sayılır."
+    ],
+    "dikkat": "Aynı ölçüyü iki ayrı görünüşte tekrarlamak (aşırı ölçülendirme) yardımcı değil hatalıdır; tasarım güncellenirse iki sayı çelişip üreticiyi yanıltabilir."
+   },
    "hazir": true
   },
   {
@@ -2185,6 +2355,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Birinci dönemi Modül B teslimiyle kapatıyoruz. Bu hafta çok parçalı ürününün nasıl birleştiğini sözcük kullanmadan anlatan bir patlatılmış görünüm animasyonu üretiyoruz.",
+    "maddeler": [
+     "Fusion 360 Animasyon (Animation) çalışma alanı, Tasarım (Design) alanındaki gerçek montajını bozmadan ayrı bir zaman çizelgesi (Storyboard) üzerinde sunum hareketleri kurmanı sağlar.",
+     "Patlatılmış görünümde parçalar gerçek söküm/montaj sırasıyla ve birbirinin içinden geçmeden kendi eksenleri boyunca ayrılıp tekrar birleşir.",
+     "Modül B paketi üç parçanın uyumunu ölçer: çalışan montajlı model + ISO PDF teknik resim + montaj sırasını gösteren animasyon."
+    ],
+    "dikkat": "Kamera her hareket ettiğinde istemeden kayıt alıyorsa zaman çizelgesindeki Kamera Kaydı (View) düğmesini kapatıp yalnızca gerekli anlarda aç."
+   },
    "hazir": true
   },
   {
@@ -2302,6 +2482,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": true,
+    "baglam": "İkinci döneme bilgisayardaki modelin gerçek fiziksel parçaya dönüşme yollarını inceleyerek başlıyoruz. 3B yazıcı elimizdeki tek araç olsa da endüstrideki yerini diğer yöntemlerle kıyaslayarak anlayabiliriz.",
+    "maddeler": [
+     "Üç ana imalat ailesi vardır: Döküm/Kalıplama (erimiş malzemeyi kalıpta biçimlendirme), Talaşlı İmalat (CNC/torna ile bloktan parça kesme) ve Eklemeli İmalat (3B yazıcıyla katman ekleme).",
+     "\"En iyi yöntem\" tek değildir; üretilecek adet (1 prototip vs. 100.000 seri üretim), geometri karmaşıklığı, hassasiyet ve malzeme seçimi belirler.",
+     "Bilimsel gözlem \"iyi çıktı mı?\" diye izlemek değil, önceden belirlenmiş ölçülebilir ölçütlerle (süre, sapma, atık, yüzey) kayıt tutmaktır."
+    ],
+    "dikkat": "3B yazıcı kalıp gerektirmediği ve iç boşluk basabildiği için prototipte rakipsizdir; ama on binlerce standart parçada kalıplı üretime göre çok yavaş ve pahalı kalır."
+   },
    "hazir": true
   },
   {
@@ -2410,6 +2600,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Haftaya parçanı 3B yazıcıya göndereceğiz. Baskı sonrası \"neden tam oturmadı?\" sorusunu yanıtlayabilmek için neyi, hangi cihazla ve hangi düzende ölçeceğini baskıdan önce planlaman gerekir.",
+    "maddeler": [
+     "Tasarımındaki hedef ölçülere nominal değer denir; baskı öncesinde en az beş kritik boyut (dış ölçü, delik çapı, duvar kalınlığı, geçme payı) nominal veri olarak kaydedilir.",
+     "Standart cetvel yalnızca 1 mm hassasiyet verir; 0,2–0,4 mm toleransları ve iç delik çaplarını doğru okumak için 0,05–0,1 mm hassasiyetli kumpas kullanılır.",
+     "İyi bir kayıt formu hem baskı öncesi ayarları (katman, doluluk, sıcaklık) hem de baskı sonrası ölçüm ve gözlemleri birimleriyle yan yana tutar."
+    ],
+    "dikkat": "Dijital kumpasla ölçüme başlamadan önce çeneleri tam kapatıp ZERO düğmesine bas; sıfırlanmamış kumpas tüm verilerine sabit bir hata ekler."
+   },
    "hazir": true
   },
   {
@@ -2531,6 +2731,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "3B yazıcı \"kutu\" ya da \"delik\" kavramlarını bilmez; yalnızca hangi sıcaklığa çıkıp hangi X-Y-Z koordinatına ne kadar filament iteceğini söyleyen kodları anlar. Dilimleme bu köprüyü kurar.",
+    "maddeler": [
+     "STL/3MF dosyası yalnızca dış yüzey geometrisini taşır; dilimleyici (slicer) bunu ince katmanlara bölüp yazıcının çalıştıracağı G-code (geometrik kod) komutlarına çevirir.",
+     "Baskı yönelimi (Orientation) en kritik karardır: destek (Support) miktarını, tabla tutunmasını ve yük altında katmanların dayanımını doğrudan belirler.",
+     "Dayanım için doluluğu %100 yapmak yerine duvar sayısını (perimeter) 3–4 yapmak çoğu zaman çok daha az filament ve sürede benzer sağlamlık verir."
+    ],
+    "dikkat": "Katman önizlemesini (Preview) baştan sona kaydırmadan G-code kaydetme; nozul genişliğinden (0,4 mm) ince duvarlar veya havada kalan bölgeler burada hemen yakalanır."
+   },
    "hazir": true
   },
   {
@@ -2649,6 +2859,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "G-code dosyası artık fiziksel makinede canlanıyor. Bu hafta hem atölye güvenliğini uygulayacak hem de baskıyı 20. haftada hazırladığın kayıt formuyla sistematik biçimde gözlemleyeceksin.",
+    "maddeler": [
+     "3B yazıcı nozulu (~200 °C) ve ısıtmalı tablası (~60 °C) yanık riski taşır; makine çalışırken hareketli eksenlere ve sıcak uçlara kesinlikle dokunulmaz.",
+     "Başarısız baskıların büyük bölümü ilk 2–3 katmanın tablaya tutunmamasından doğar; ilk katmanları izlemek olası filament israfını anında önler.",
+     "Dilimleyicinin tahmini süresi ve gramajı ile makinede gerçekleşen süre ve gerçek tartım arasındaki fark, önemli bir üretim gözlem verisidir."
+    ],
+    "dikkat": "Baskı biter bitmez sıcak parçayı zorlayarak sökmeye çalışma; hem sıcak plastik eğilir hem tabla zarar görür. Oda sıcaklığına inince parça kendiliğinden gevşer."
+   },
    "hazir": true
   },
   {
@@ -2772,6 +2992,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Bilgisayarda tam 20,0 mm çizdiğin bir kenar gerçek dünyada hiçbir zaman tam 20,000 mm çıkmaz. Mühendislik, tasarım ile fiziksel gerçeklik arasındaki bu sapmayı ölçüp yönetme işidir.",
+    "maddeler": [
+     "Mutlak sapma her zaman işaretli hesaplanır: Sapma = Ölçülen − Hedef. Eksi işaret hedeften küçük, artı işaret hedeften büyük çıktığını gösterir.",
+     "Erimiş plastik soğurken büzüldüğü ve nozul dairesel yolda plastiği içeri çektiği için iç delikler dış ölçülere göre genellikle 0,1–0,3 mm daha dar çıkar.",
+     "Yatay (X-Y) eksen hassasiyeti nozul/kayış mekaniğine, dikey (Z) eksen hassasiyeti ise katman yüksekliğine bağlıdır."
+    ],
+    "dikkat": "Ölçümü tablanın en alt kenarındaki hafif yayılma (fil ayağı) bölgesinden değil, parçanın orta yüksekliğinden ve kumpası plastiğe bastırmadan al."
+   },
    "hazir": true
   },
   {
@@ -2886,6 +3116,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Modül C tesliminde 20–23. haftalarda topladığın gerçek baskı ve sapma verilerini düzenli bir karşılaştırma raporuna ve sürdürülebilirlik analizine dönüştürüyorsun.",
+    "maddeler": [
+     "Ham veriler üç grupta anlam kazanır: girdi ayarları (katman, doluluk, sıcaklık), süreç çıktıları (süre, net kütle, destek/atık kütlesi) ve kalite verisi (sapmalar, geçme sonucu).",
+     "Atık oranı, destek + brim + başarısız baskı kütlesinin toplam harcanan filamente bölünmesiyle hesaplanır; akıllı baskı yönelimi bu oranı ciddi biçimde düşürür.",
+     "Kendi 3B baskı verin, bu parçanın 1 adet, 50 adet ve 10.000 adet üretiminde hangi imalat yönteminin neden seçileceğine sayısal kanıt sağlar."
+    ],
+    "dikkat": "Karşılaştırma raporunda \"3B yazıcı daha iyidir\" gibi mutlak yargılar yerine adet, hassasiyet ve atık koşullarına bağlı gerekçeli yargılar kur."
+   },
    "hazir": true
   },
   {
@@ -3002,6 +3242,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Modül D'de tasarımda yapay zekâ kullanımına geçiyoruz. İlk adımda görsel tasarım araçlarını 2–3. haftadaki görsel tasarım ilkeleri ve 1. haftadaki beyan kuralıyla birlikte kullanacağız.",
+    "maddeler": [
+     "Aynı istem (prompt) farklı yapay zekâ modellerinde eğitim verisi ve stil eğilimleri nedeniyle farklı kompozisyon, ışık ve ayrıntı tutarlılığı üretir.",
+     "\"Çok güzel, harika\" gibi öznel sıfatlar yerine somut görsel ölçütler (kamera açısı, ışık yönü, mat arka plan, yüksek kontrast, tek odak) istemin kalitesini belirgin biçimde artırır.",
+     "Yapay zekâ seçenek üretir; ancak hangi çıktının neden seçildiğini tasarım ilkeleriyle gerekçelendirmek ve araç/istem beyanını yazmak tasarımcının sorumluluğudur."
+    ],
+    "dikkat": "Yapay zekâ görsel araçları küçük Türkçe metinleri sıkça bozar; görseli metinsiz sade üretip başlıkları kendi dijital tasarım aracında hizalayarak eklemek çok daha temiz sonuç verir."
+   },
    "hazir": true
   },
   {
@@ -3120,6 +3370,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": true,
+    "baglam": "Tasarım ve üretim dünyasında \"yapay zekâ\" tek bir araç değildir. Bu hafta farklı yapay zekâ uygulamalarını popüler marka adlarıyla değil, teknik işlev ve kısıt değişkenleriyle ayrıştırıyoruz.",
+    "maddeler": [
+     "Tasarım/üretim yapay zekâları girdi türü (metin, görsel, mekanik yük), çıktı türü (2B piksel, 3B üçgen ağ, katı CAD, hata uyarısı) ve süreç aşamasına göre ayrılır.",
+     "En kritik mühendislik sınırı şudur: araç yalnızca görsel/şekil tahmini mi yapıyor, yoksa kuvvet, malzeme dayanımı ve imalat kısıtı gibi fiziksel yasaları mı hesaplıyor?",
+     "Üretim hattındaki kamera tabanlı kusur/spagetti algılayıcılar bir \"tasarım üretici\" değil, \"kalite kontrol\" yapay zekâsıdır."
+    ],
+    "dikkat": "\"Ücretli / ücretsiz\" gibi ticari özellikler teknik ayrıştırma değişkeni değildir; her zaman girdi, çıktı, fiziksel kısıt ve düzenlenebilirlik eksenlerine bak."
+   },
    "hazir": true
   },
   {
@@ -3228,6 +3488,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Geçen hafta çıkardığın değişkenleri bu hafta yeni bir araç çıktığında bile yerini şaşmadan bulabileceğin tutarlı bir tasnif sistemine ve öz nitelik etiketlerine dönüştürüyorsun.",
+    "maddeler": [
+     "Sağlam bir tasnif sisteminde her sınıfın net bir giriş koşulu vardır; bir uygulama aynı anda iki zıt sınıfa birden düşmez.",
+     "Öz nitelik etiketi, bir uygulamanın uzun tanıtımı değil, onu diğerlerinden ayıran 2–3 teknik niteliğin kısa özüdür.",
+     "Tasnif sisteminin gerçek sınavı, daha önce listede olmayan yeni ve sınırda bir uygulamayı (ör. sesle CAD komutu veren eklenti) sistemine yerleştirmeyi denemektir."
+    ],
+    "dikkat": "Yeni bir örnek iki sınıf arasında kararsız kalırsa örneği görmezden gelme; sınıfları ayıran ölçüt sorusunu keskinleştir."
+   },
    "hazir": true
   },
   {
@@ -3343,6 +3613,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Artık klasik modellemenin tersine dönüyoruz: Fusion 360 Üretken Tasarım (Generative Design) alanında parçanın gövdesini sen çizmeyeceksin; yalnızca fiziksel problemi ve sınırları kuracaksın.",
+    "maddeler": [
+     "Dört temel girdi tanımlanır: Korunacak Geometri (yeşil — mutlaka var olacak bağlantı halkaları), Engel Geometri (kırmızı — duvar ve vida/alet yolu), Sabitleme (Fixed Constraint) ve Yük (Force, N).",
+     "Hedef (ör. kütle azaltma), Güvenlik Katsayısı (ör. 2.0: parça tasarım yükünün iki katına dayanır), aday malzemeler ve imalat yöntemleri (eklemeli, 3-eksen CNC vb.) kısıt olarak verilir.",
+     "Ön Denetim (Pre-check) yeşil olmadan bulut çözümü başlatılmaz; hesaplama bulutta sürdüğü için çalıştırma dersler arasına bırakılır."
+    ],
+    "dikkat": "Vida başının ve tornavidanın gireceği boşluğu Engel (kırmızı) tanımlamayı unutursan yazılım o boşluğu malzemeyle doldurur ve parçayı duvara vidalayamazsın."
+   },
    "hazir": true
   },
   {
@@ -3463,6 +3743,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Buluttan gelen onlarca üretken tasarım sonucu arasından göz kararı seçmek yerine, mühendislik verileri ve imalat kısıtlarıyla sistematik eleme yapıyoruz.",
+    "maddeler": [
+     "Aynı yük altında imalat yöntemi kısıtı değiştikçe biçim kökten değişir: 3-eksen CNC kesici takım erişimi için daha düz ve açık, 3B baskı ise organik ve dallı formlar üretir.",
+     "Dağılım Grafiği (Scatter Plot), kütle ile yer değiştirme (esneme) gibi iki ölçütü aynı anda görerek en dengeli sınır çözümlerini seçmeni sağlar.",
+     "Gerilme görünümü (Stress View) yükün hangi kollardan aktığını renk haritasıyla gösterir; malzeme tam da yükün yoğunlaştığı hatlarda kalın kalır."
+    ],
+    "dikkat": "En hafif (en az kütleli) sonuç her zaman en iyi seçim değildir; aşırı esniyorsa (yüksek yer değiştirme) veya atölyemizdeki yazıcıda aşırı destek gerektiriyorsa elenmelidir."
+   },
    "hazir": true
   },
   {
@@ -3577,6 +3867,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Modül D tesliminde üretken tasarım sonucunu kendi klasik braket tasarımınla adil koşullarda karşılaştırıp sayısal veriye dayalı bir mühendislik kararı veriyorsun.",
+    "maddeler": [
+     "Adil karşılaştırma için iki modelde de aynı bağlantı noktaları, aynı yük koşulu ve aynı Fiziksel Malzeme atanmalıdır.",
+     "Üretken tasarım çıktısı bazen pürüzlü veya çok destek isteyen organik yüzeyler taşır; bu akışı referans alıp temiz katı modelle yeniden inşa etmek üretilebilirliği artırabilir.",
+     "Karşılaştırma yalnızca parça kütlesine değil; dilimleyicideki toplam baskı süresi, destek firesi ve temizleme kolaylığına da bakmalıdır."
+    ],
+    "dikkat": "İki modele farklı Fiziksel Malzeme atanmışsa kütle kıyaslaması geçersiz olur; kontrol değişkeni olarak malzemeyi mutlaka eşitle."
+   },
    "hazir": true
   },
   {
@@ -3693,6 +3993,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Yılın son ve en kapsamlı modülü olan Modül E'de (Özgün Ürün) tüm yıl edindiğin becerileri günlük yaşamda gerçekten çözülmemiş küçük bir sorunu çözmek için birleştiriyorsun.",
+    "maddeler": [
+     "İyi bir özgün ürün \"telefon standı yapacağım\" diye çözümden değil, \"kim, nerede, ne yaparken hangi fiziksel engelle karşılaşıyor?\" diye somut sorundan başlar.",
+     "Ürünün oturacağı gerçek nesneden (masa kalınlığı, kablo çapı, kapak ölçüsü) kumpas/cetvelle ölçü almak ve tolerans payını baştan belirlemek şarttır.",
+     "35. haftada basılan ürünü nesnel sınayabilmek için üç ölçülebilir başarı ölçütü daha tasarım başlamadan bu haftada yazılır."
+    ],
+    "dikkat": "Atölye yazıcısında 2–4 saatte basılabilecek kompakt, akıllı çözümler seç; çok büyük ürünler baskı takvimine sığmaz ve revizyon şansını azaltır."
+   },
    "hazir": true
   },
   {
@@ -3808,6 +4118,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "31. haftadaki gerçek ortam ölçümlerini artık Fusion 360'ta sağlam, temiz ve sonradan tek sayıyla güncellenebilecek parametrik bir katı modele dönüştürüyorsun.",
+    "maddeler": [
+     "İlk iş olarak kumpasla aldığın gerçek ölçüleri ve tolerans payını Kullanıcı Parametrelerine gir; böylece 35. haftada revizyon gerektiğinde modeli baştan çizmezsin.",
+     "Çok parçalı ürünse önce bileşenleri açıp etkinleştir (Kural 1); tek parça karmaşıkysa büyük tek eskiz yerine küçük, tam belirlenmiş (siyah) eskizlere böl.",
+     "İşlevsel 3B baskı parçalarında duvar kalınlığını genellikle en az 1,6–2,0 mm tutmak ve baskı yönelimini şimdiden gözetmek kırılmayı ve destek israfını önler."
+    ],
+    "dikkat": "Tasarımı gereksiz estetik süslemelerle karmaşıklaştırıp kilitlenme; önce temel sorunu çözen çalışan çekirdek geometriyi eksiksiz bitir."
+   },
    "hazir": true
   },
   {
@@ -3916,6 +4236,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Özgün ürünün modellemesini tamamlayıp montaj, çakışma, teknik resim ve 5 Haziran Dünya Çevre Günü bağlamında sürdürülebilirlik denetiminden geçiriyoruz.",
+    "maddeler": [
+     "Son teknik denetimde Çakışma Çözümlemesi (Interference), Kesit Çözümlemesi ve el teması kenarlarının ergonomisi (Fillet/Chamfer) birlikte kontrol edilir.",
+     "ISO A4 teknik resim, 3B dosyan açılmadan başka birinin ürünü üretebilmesi için eksiksiz, tekrarsız ölçüler ve antet içerir.",
+     "Sürdürülebilir tasarım yalnızca geri dönüştürülebilir malzeme seçmek değil; gereksiz hacmi azaltmak ve kırılan küçük parçayı tek başına değiştirilebilir (onarılabilir) tasarlamaktır."
+    ],
+    "dikkat": "Son anda modelde bir ölçü değiştirdiysen teknik resimdeki sarı güncelle (Get Latest) simgesine tıklamayı unutma; yoksa 3B model ile teknik resim çelişir."
+   },
    "hazir": true
   },
   {
@@ -4024,6 +4354,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Özgün ürününü atölye yazıcısında üretmek için 21–24. haftalardaki tüm dilimleme ve yönelim deneyimlerini uyguluyoruz.",
+    "maddeler": [
+     "Katmanlı üretimde parça, katmanların birbirine yapıştığı yönde (Z ekseni boyunca) daha zayıftır; eğilme veya çekme yükü taşıyan kolları baskı tablasına paralel yatırmak dayanımı katlar.",
+     "Baskı yönelimi seçerken hem yük yönünü hem de en az destek firesi verecek düz taban yüzeyini birlikte tart.",
+     "Dosyaları AdSoyad_UrunAdi_v1.gcode gibi açık bir adla kaydetmek ve çok parçalı baskılarda riskli parçaları ayrı bölmek sınıf baskı sırasını korur."
+    ],
+    "dikkat": "Dilimleme önizlemesinde tahmini baskı süresi 4 saati aşıyorsa doluluk oranını düşürmeyi, yönelimi değiştirmeyi veya geometriyi sadeleştirmeyi değerlendir."
+   },
    "hazir": true
   },
   {
@@ -4138,6 +4478,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Mühendislikte ilk prototip (v1) bitiş çizgisi değil, gerçek dünya geribildiriminin başlangıcıdır. Bu hafta ürününü 31. haftadaki başarı ölçütleriyle sınayıp veriye dayalı revizyon (v2) yapıyoruz.",
+    "maddeler": [
+     "Önce kumpasla beş kritik ölçüyü alıp tasarım ölçüsünden sapmaları kaydet; ardından ürünü gerçek kullanım ortamında 31. haftadaki üç başarı ölçütüyle test et.",
+     "Aksaklık çıktığında nedenini ayır: kumpas ölçüsü tasarımdan farklıysa üretim sapması, tasarım ölçüsüyle aynı çıktığı hâlde işe yaramıyorsa tasarım kararı hatasıdır.",
+     "Sürüm günlüğü (v1 → v2), hangi parametrenin hangi somut test kanıtına dayanarak değiştirildiğini belgeler."
+    ],
+    "dikkat": "İlk baskı tam oturmadıysa parçayı zımparalayıp dijital modeli güncellememek en sık yapılan hatadır; düzeltmeyi mutlaka parametrik Fusion dosyasına işle."
+   },
    "hazir": true
   },
   {
@@ -4252,6 +4602,16 @@ window.DERSLER['oyg'] = {
      ]
     }
    ],
+   "onbilgi": {
+    "kesif": false,
+    "baglam": "Yıl sonu kapanışında Modül E ürününü tüm teknik belgeleriyle sunuyor, 1. haftadaki başlangıç çalışmasıyla gelişimini karşılaştırıyor ve ÖYG 2. yıl temalarına köprü kuruyoruz.",
+    "maddeler": [
+     "Tam bir tasarım sunumu tıklanan menüleri saymaz; 3–4 dakikada problemi, malzeme/üretim kararlarını, v1 test bulgusunu ve v2 revizyonunu kanıtlarla anlatır.",
+     "E-portfolyodaki ilk bileşen ağacı ve ilk anahtarlık ile son özgün ürünü yan yana koymak yıl boyu kazanılan düşünme biçimini görünür kılar.",
+     "Bu yıl edindiğin dört çekirdek beceri (parametrik modelleme, montaj, teknik resim, 3B baskı hazırlığı) 2. yıldaki akıllı sistem, tersine mühendislik ve maliyet analizi modüllerinin doğrudan temelidir."
+    ],
+    "dikkat": "1. haftadaki başlangıç sorusunu yıl sonunda yeniden yanıtlarken artık genel ifadeler yerine yıl içinde deneyimlediğin somut kavramları (parametre, kısıt, tolerans, G-code) kullan."
+   },
    "hazir": true
   }
  ]
